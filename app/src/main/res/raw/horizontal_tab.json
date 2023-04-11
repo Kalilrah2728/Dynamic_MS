@@ -1,0 +1,45 @@
+[
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "NEW CASES",
+    "id": "1"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "REATTENDANCES",
+    "id": "2"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "FAMILY PLANNING",
+    "id": "3"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "ANTENATAL",
+    "id": "4"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "DELIVERIES",
+    "id": "5"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "CHILD HEALTH",
+    "id": "6"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "SCHOOL HEALTH",
+    "id": "7"
+  }
+]
+
