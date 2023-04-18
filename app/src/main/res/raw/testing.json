@@ -1,0 +1,307 @@
+[
+  {
+    "type": "header",
+    "subtype": "h1",
+    "label": "INPATIENTS"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Diphtheria",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Neonatal Tetanus",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Acute flaccid paralysis (AFP) ",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Measles (suspected)",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Pertussis ",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Pneumonia < 1 yr",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Pneumonia 1-4 yr",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Pneumonia 5 yrs +",
+    "valueH": "{\"discharge\": \"m\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Chr. Obst. Pulmon. Dis.",
+    "valueH": "{\"discharge\": \"f\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Asthma",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"m\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Other Respiratory Diseases",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"f\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Diarrhoea < 1 yr",
+    "valueH": "{\"discharge\": \"m\", \"deaths\": \"m\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Diarrhoea 1-4 yr",
+    "valueH": "{\"discharge\": \"f\", \"deaths\": \"f\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Diarrhoea 5 yrs +",
+    "valueH": "{\"discharge\": \"m\", \"deaths\": \"f\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "label": "Malaria Clinical Diagnosis",
+    "placeholder": "0-4 yrs",
+    "valueH": "{\"discharge\": \"f\", \"deaths\": \"m\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "5-14 yrs",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "15 yrs +",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Pregnant",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "label": "Malaria cases confirmed by RDT or Microscopy",
+    "placeholder": "0-4 yrs",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "5-14 yrs",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "15 yrs +",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Pregnant",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Fever of unknown cause",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Anaemia",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "label": "Malnutrition",
+    "placeholder": "< 6 mths",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "6 - 59 mths",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "5 - 14 Yrs",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "label": "Sexual Violence",
+    "placeholder": "0 - 4 yrs",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "5 - 16 yrs",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "17 yrs +",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "label": "Physical Violence",
+    "placeholder": "0 - 4 yrs",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "5 - 16 yrs",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "17 yrs +",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Motor V. Accident injuries",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Other accidents & injuries",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Genital ulcers",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Urethral discharge",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Vaginal discharge",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Pelvic Inflam. Disease",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Genital warts",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Latent syphilis (blood test)",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Other STI",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Pulmonary TB Suspect",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Leprosy",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Yaws",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Other skin disease",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Ear Infections",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"n\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "Eye Infections",
+    "valueH": "{\"discharge\": \"n\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "All other new cases",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  }
+]

@@ -40,6 +40,12 @@
     "subtype": "h3",
     "label": "SCHOOL HEALTH",
     "id": "7"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "INPATIENTS",
+    "id": "8"
   }
 ]
 

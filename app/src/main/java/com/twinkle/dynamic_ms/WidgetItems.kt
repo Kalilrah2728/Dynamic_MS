@@ -21,5 +21,5 @@ enum class WidgetItems(val label: String) {
     MALE("male"),
     TAB("tab"),
     TABLETITLE("tabletitle"),
-    NUMBERHEALTH("numberhealth")
+    NUMINPATIENT("numinpatient")
 }

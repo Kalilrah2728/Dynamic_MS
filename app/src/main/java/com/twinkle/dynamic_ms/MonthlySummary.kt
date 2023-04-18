@@ -13,9 +13,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.widget.LinearLayoutCompat
+import androidx.constraintlayout.widget.ConstraintLayout
 import com.google.gson.Gson
+import com.google.gson.JsonObject
+import com.google.gson.JsonParser
 import com.google.gson.reflect.TypeToken
 import com.twinkle.dynamic_ms.Utils.Companion.setMerginToviews
 import com.twinkle.dynamic_ms.databinding.ActivityMonthlySummaryBinding
@@ -31,6 +33,7 @@ class MonthlySummary : AppCompatActivity() {
     lateinit var newCasesTvM: TextView
     lateinit var newCasesTvF: TextView
     lateinit var headingName: TextView
+    lateinit var tableTitleLay: ConstraintLayout
 
     var countingNumM: Int = 0
     var countingNumF: Int = 0
@@ -43,6 +46,8 @@ class MonthlySummary : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMonthlySummaryBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        tableTitleLay = findViewById(R.id.table_title)
 
         val json = intent.getStringExtra("tabValue")
 
@@ -126,11 +131,322 @@ class MonthlySummary : AppCompatActivity() {
                     WidgetItems.FEMALE.label -> createFemale(component)
                     WidgetItems.MALE.label -> createMale(component)
                     WidgetItems.NUMBERONE.label -> createNumberOne(component)
+                    WidgetItems.NUMINPATIENT.label -> createNumInpatient(component)
                 }
             }
         }
 
         // save button
+
+
+    }
+
+    private fun createNumInpatient(component: FormComponentItem) {
+
+        isLabelNull(component)
+        //Parent layout
+        val numberViewContainer = LinearLayout(this)
+        numberViewContainer.orientation = LinearLayout.HORIZONTAL
+        val layoutParams = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        layoutParams.setMargins(20, 0, 20, 0)
+        numberViewContainer.setBackgroundResource(R.drawable.black_box)
+        numberViewContainer.layoutParams = layoutParams
+
+
+        //First - TextView container
+        val numberViewContainer4 = LinearLayout(this)
+        val layoutParams4 = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        numberViewContainer4.setPadding(5, 5, 5, 5)
+        numberViewContainer4.layoutParams = layoutParams4
+        layoutParams4.weight = 1.5f
+
+        component.placeholder?.let { labelString ->
+            val textView = TextView(this)
+            textView.textSize = 15f
+            textView.gravity = Gravity.CENTER
+            textView.setTextColor(Color.BLACK)
+            textView.setPadding(5, 5, 5, 5)
+            textView.text = createStringForViewLabel(false, labelString)
+            numberViewContainer4.addView(textView)
+        }
+
+        numberViewContainer.addView(numberViewContainer4)
+        numberViewContainer4.gravity = Gravity.CENTER
+
+        val editTextParam = LinearLayout.LayoutParams(
+            80,
+            50
+        )
+
+        //Second - container
+        val numberViewContainer1 = LinearLayout(this)
+        numberViewContainer1.orientation = LinearLayout.VERTICAL
+        val layoutParams1 = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        numberViewContainer1.setPadding(5, 5, 5, 5)
+        numberViewContainer1.setBackgroundResource(R.drawable.black_box)
+        numberViewContainer1.layoutParams = layoutParams1
+        layoutParams1.weight = 0.5f
+
+        //Third - container
+        val numberViewContainer2 = LinearLayout(this)
+        numberViewContainer2.orientation = LinearLayout.VERTICAL
+        val layoutParams2 = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        numberViewContainer2.setPadding(5, 5, 5, 5)
+        numberViewContainer2.setBackgroundResource(R.drawable.black_box)
+        numberViewContainer2.layoutParams = layoutParams2
+        layoutParams2.weight = 0.5f
+
+        //Fourth - container
+        val numContrDeathMale = LinearLayout(this)
+        numContrDeathMale.orientation = LinearLayout.VERTICAL
+        val layParamsDeathMale = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        numContrDeathMale.setPadding(5, 5, 5, 5)
+        numContrDeathMale.setBackgroundResource(R.drawable.black_box)
+        numContrDeathMale.layoutParams = layParamsDeathMale
+        layParamsDeathMale.weight = 0.5f
+
+        //Fifth - container
+        val numContrDeathFemale = LinearLayout(this)
+        numContrDeathFemale.orientation = LinearLayout.VERTICAL
+        val layParamsDeathFemale = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        numContrDeathFemale.setPadding(5, 5, 5, 5)
+        numContrDeathFemale.setBackgroundResource(R.drawable.black_box)
+        numContrDeathFemale.layoutParams = layParamsDeathFemale
+        layParamsDeathFemale.weight = 0.5f
+
+        //======================================================================================================================================================================
+        val resp: JsonObject = JsonParser().parse(component.valueH).asJsonObject
+        val dischargeValue = resp.get("discharge").asString
+        val deathValue = resp.get("deaths").asString
+
+
+        if (dischargeValue.toString().trim().toLowerCase() == "b"){
+            dischargeMaleMethod(component, numberViewContainer, editTextParam, numberViewContainer1)
+            dischargeFemaleMethod(component, numberViewContainer, editTextParam, numberViewContainer2)
+
+            if (deathValue.toString().trim().toLowerCase() == "b"){
+                deathsMaleMethod(component, numberViewContainer, editTextParam, numContrDeathMale)
+                deathsFemaleMethod(component, numberViewContainer, editTextParam, numContrDeathFemale)
+            }else if (deathValue.toString().trim().toLowerCase() == "m"){
+                deathsMaleMethod(component, numberViewContainer, editTextParam, numContrDeathMale)
+
+            }else if (deathValue.toString().trim().toLowerCase() == "f"){
+                deathsFemaleMethod(component, numberViewContainer, editTextParam, numContrDeathFemale)
+
+            }else if (deathValue.toString().trim().toLowerCase() == "n"){
+
+            }
+
+        }else if (dischargeValue.toString().trim().toLowerCase() == "m"){
+            dischargeMaleMethod(component, numberViewContainer, editTextParam, numberViewContainer1)
+
+            if (deathValue.toString().trim().toLowerCase() == "b"){
+                deathsMaleMethod(component, numberViewContainer, editTextParam, numContrDeathMale)
+                deathsFemaleMethod(component, numberViewContainer, editTextParam, numContrDeathFemale)
+            }else if (deathValue.toString().trim().toLowerCase() == "m"){
+                deathsMaleMethod(component, numberViewContainer, editTextParam, numContrDeathMale)
+
+            }else if (deathValue.toString().trim().toLowerCase() == "f"){
+                deathsFemaleMethod(component, numberViewContainer, editTextParam, numContrDeathFemale)
+
+            }else if (deathValue.toString().trim().toLowerCase() == "n"){
+
+            }
+
+        }else if (dischargeValue.toString().trim().toLowerCase() == "f"){
+            dischargeFemaleMethod(component, numberViewContainer, editTextParam, numberViewContainer2)
+
+            if (deathValue.toString().trim().toLowerCase() == "b"){
+                deathsMaleMethod(component, numberViewContainer, editTextParam, numContrDeathMale)
+                deathsFemaleMethod(component, numberViewContainer, editTextParam, numContrDeathFemale)
+            }else if (deathValue.toString().trim().toLowerCase() == "m"){
+                deathsMaleMethod(component, numberViewContainer, editTextParam, numContrDeathMale)
+
+            }else if (deathValue.toString().trim().toLowerCase() == "f"){
+                deathsFemaleMethod(component, numberViewContainer, editTextParam, numContrDeathFemale)
+
+            }else if (deathValue.toString().trim().toLowerCase() == "n"){
+
+            }
+
+        }else if (dischargeValue.toString().trim().toLowerCase() == "n"){
+
+            if (deathValue.toString().trim().toLowerCase() == "b"){
+                deathsMaleMethod(component, numberViewContainer, editTextParam, numContrDeathMale)
+                deathsFemaleMethod(component, numberViewContainer, editTextParam, numContrDeathFemale)
+            }else if (deathValue.toString().trim().toLowerCase() == "m"){
+                deathsMaleMethod(component, numberViewContainer, editTextParam, numContrDeathMale)
+
+            }else if (deathValue.toString().trim().toLowerCase() == "f"){
+                deathsFemaleMethod(component, numberViewContainer, editTextParam, numContrDeathFemale)
+
+            }else if (deathValue.toString().trim().toLowerCase() == "n"){
+
+            }
+
+        }
+
+
+
+
+        numberViewContainer.addView(numberViewContainer1)
+        numberViewContainer.addView(numberViewContainer2)
+        numberViewContainer.addView(numContrDeathMale)
+        numberViewContainer.addView(numContrDeathFemale)
+
+
+        numberViewContainer1.gravity = Gravity.CENTER
+        numberViewContainer2.gravity = Gravity.CENTER
+        numContrDeathMale.gravity = Gravity.CENTER
+        numContrDeathFemale.gravity = Gravity.CENTER
+
+        binding.miniAppFormContainer.addView(numberViewContainer)
+
+    }
+
+    private fun deathsMaleMethod(
+        component: FormComponentItem,
+        numberViewContainer: LinearLayout,
+        editTextParam: LinearLayout.LayoutParams,
+        numContrDeathMale: LinearLayout
+    ) {
+
+
+        //Fourth - Container TextView
+        editTextParam.setMargins(10, 10, 10, 10)
+        val edtTxtDeathMale = TextView(this)
+        edtTxtDeathMale.gravity = Gravity.CENTER
+        edtTxtDeathMale.layoutParams = editTextParam
+        edtTxtDeathMale.setPadding(10, 10, 10, 10)
+        edtTxtDeathMale.inputType = InputType.TYPE_CLASS_NUMBER
+        edtTxtDeathMale.setBackgroundResource(R.drawable.boxcurved)
+        /*component.placeholder?.let {
+            editText.hint = it
+        }*/
+
+        var edtTxtDeathM = 0
+        edtTxtDeathMale.setText(edtTxtDeathM.toString())
+
+        component.maxlength?.let {
+            edtTxtDeathMale.filters = arrayOf<InputFilter>(InputFilter.LengthFilter(it.toInt()))
+        }
+
+        numContrDeathMale.addView(edtTxtDeathMale)
+
+    }
+
+    private fun deathsFemaleMethod(
+        component: FormComponentItem,
+        numberViewContainer: LinearLayout,
+        editTextParam: LinearLayout.LayoutParams,
+        numContrDeathFemale: LinearLayout
+    ) {
+
+
+        //Fifth - Container TextView
+        editTextParam.setMargins(10, 10, 10, 10)
+        val edtTxtDeathFemale = TextView(this)
+        edtTxtDeathFemale.gravity = Gravity.CENTER
+        edtTxtDeathFemale.layoutParams = editTextParam
+        edtTxtDeathFemale.setPadding(10, 10, 10, 10)
+        edtTxtDeathFemale.inputType = InputType.TYPE_CLASS_NUMBER
+        edtTxtDeathFemale.setBackgroundResource(R.drawable.boxcurved)
+        /*component.placeholder?.let {
+            editText.hint = it
+        }*/
+
+        var edtTxtDeathF = 0
+        edtTxtDeathFemale.setText(edtTxtDeathF.toString())
+
+        component.maxlength?.let {
+            edtTxtDeathFemale.filters = arrayOf<InputFilter>(InputFilter.LengthFilter(it.toInt()))
+        }
+
+        numContrDeathFemale.addView(edtTxtDeathFemale)
+
+
+
+    }
+
+    private fun dischargeFemaleMethod(
+        component: FormComponentItem,
+        numberViewContainer: LinearLayout,
+        editTextParam: LinearLayout.LayoutParams,
+        numberViewContainer2: LinearLayout
+    ) {
+
+
+        //Thrid - Container TextView
+        editTextParam.setMargins(10, 10, 10, 10)
+        val editText1 = TextView(this)
+        editText1.gravity = Gravity.CENTER
+        editText1.layoutParams = editTextParam
+        editText1.setPadding(10, 10, 10, 10)
+        editText1.inputType = InputType.TYPE_CLASS_NUMBER
+        editText1.setBackgroundResource(R.drawable.boxcurved)
+        /*component.placeholder?.let {
+            editText.hint = it
+        }*/
+
+        var edtTxtNumF = 0
+        editText1.setText(edtTxtNumF.toString())
+
+        component.maxlength?.let {
+            editText1.filters = arrayOf<InputFilter>(InputFilter.LengthFilter(it.toInt()))
+        }
+
+        numberViewContainer2.addView(editText1)
+
+
+    }
+
+    private fun dischargeMaleMethod(
+        component: FormComponentItem,
+        numberViewContainer: LinearLayout,
+        editTextParam: LinearLayout.LayoutParams,
+        numberViewContainer1: LinearLayout
+    ) {
+
+
+        //Second - container textView
+
+        editTextParam.setMargins(10, 10, 10, 10)
+        val editText = TextView(this)
+        editText.layoutParams = editTextParam
+        editText.gravity = Gravity.CENTER
+        editText.setPadding(10, 10, 10, 10)
+        editText.inputType = InputType.TYPE_CLASS_NUMBER
+        editText.setBackgroundResource(R.drawable.boxcurved)
+        /*component.placeholder?.let {
+            editText.hint = it
+        }*/
+
+        var edtTxtNumM = 0
+        editText.setText(edtTxtNumM.toString())
+
+        component.maxlength?.let {
+            editText.filters = arrayOf<InputFilter>(InputFilter.LengthFilter(it.toInt()))
+        }
+
+        numberViewContainer1.addView(editText)
 
 
     }
@@ -716,6 +1032,11 @@ class MonthlySummary : AppCompatActivity() {
                         binding.miniAppFormContainer.removeAllViews()
                         //headingName.setText(it.tallysheet_name)
 
+                        if (it.tallysheet_name == "INPATIENTS"){
+                            tableTitleLay.visibility = View.VISIBLE
+                        }else{
+                            tableTitleLay.visibility = View.GONE
+                        }
 
                         val text1 = it.json_op
 
