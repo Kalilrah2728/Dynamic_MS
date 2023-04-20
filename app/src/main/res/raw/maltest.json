@@ -1,0 +1,194 @@
+[
+  {
+    "type": "header",
+    "subtype": "h1",
+    "label": "Malaria"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "label": "Microscopy",
+    "labelvalue": "{\"labelheadtype\": \"yrlabel\", \"labelheading\": \"MALE\", \"subone\": \"0-4 yrs\", \"subtwo\": \"5-14 yrs\", \"subthree\": \"15 yrs\"}",
+    "placeholder": "Total Tested",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "P.falciparum",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "P.vivax",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "P.malariae",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "P.oval",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "Mixed",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "Negative",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "labelvalue": "{\"labelheadtype\": \"yrlabel\", \"labelheading\": \"MALE\", \"subone\": \"0-4 yrs\", \"subtwo\": \"5-14 yrs\", \"subthree\": \"15 yrs\"}",
+    "placeholder": "Total Tested",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "P.falciparum",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "P.vivax",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "P.malariae",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "P.oval",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "Mixed",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "Negative",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "label": "RAPID DIAGNOSTIC TEST",
+    "labelvalue": "{\"labelheadtype\": \"yrlabel\", \"labelheading\": \"MALE\", \"subone\": \"0-4 yrs\", \"subtwo\": \"5-14 yrs\", \"subthree\": \"15 yrs\"}",
+    "placeholder": "Total Tested",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "P.falciparum",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "Non PF",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "Mixed",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "Negative",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "Failed",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "labelvalue": "{\"labelheadtype\": \"yrlabel\", \"labelheading\": \"MALE\", \"subone\": \"0-4 yrs\", \"subtwo\": \"5-14 yrs\", \"subthree\": \"15 yrs\"}",
+    "placeholder": "Total Tested",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "P.falciparum",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "Non PF",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "Mixed",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "Negative",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "malyrsbase",
+    "required": false,
+    "placeholder": "Failed",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "maloutinbase",
+    "required": false,
+    "labelvalue": "{\"labelheadtype\": \"inoutlabel\", \"headlabelm\": \"Diagnosis Confirmed by RDT or Microscopy\", \"labelhone\": \"Outpatients\", \"labelhtwo\": \"Inpatients\"}",
+    "placeholder": "0-4 yrs",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "maloutinbase",
+    "required": false,
+    "placeholder": "0-14 yrs",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "maloutinbase",
+    "required": false,
+    "placeholder": "15 yrs+",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "maloutinbase",
+    "required": false,
+    "placeholder": "Pregnant",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  }
+]

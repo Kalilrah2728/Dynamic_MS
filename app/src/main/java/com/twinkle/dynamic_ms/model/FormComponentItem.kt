@@ -5,6 +5,7 @@ data class FormComponentItem(
     val className: String,
     val `inline`: Boolean,//Un Used
     val label: String?,
+    val labelvalue: String?,
     val errorMessage: String?,
     val jsId: String?,
     val jsSubId: String?,
@@ -18,6 +19,7 @@ data class FormComponentItem(
     val rows: String?,
     val other: Boolean?,
     val placeholder: String?,
+    val placeholdervalue: String?,
     val required: Boolean?,
     val style: String?,
     val subtype: String?,
