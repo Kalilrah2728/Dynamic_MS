@@ -1,0 +1,64 @@
+[
+  {
+    "type": "header",
+    "subtype": "h1",
+    "label": "LEPROSY"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "labelvalue": "{\"labelheadtype\": \"headtwosubhead\", \"labelheading\": \" \", \"subone\": \"PB\", \"subtwo\": \"MB\"}",
+    "placeholder": "Total new Cases"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "placeholder": "child < 15 yrs new cases"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "placeholder": "Disability Gr.2 new case"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "placeholder": "Female new cases"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "label": "Finishing treatment this month",
+    "placeholder": "Treatment Completed"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "placeholder": "Lost (includes default)"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "placeholder": "Died"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "placeholder": "Relapse"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "placeholder": "Transferred out"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "placeholder": "Total"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "placeholder": "Total registered cases"
+  }
+]

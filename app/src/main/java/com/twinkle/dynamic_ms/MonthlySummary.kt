@@ -330,6 +330,8 @@ class MonthlySummary : AppCompatActivity() {
                 malHeadingTable(component)
             }else if (labelHeadType == "inoutlabel"){
                 malHtblOutIn(component)
+            }else if (labelHeadType == "headtwosubhead"){
+                headTwoSubHead(component)
             }
         }
         threeZeroViw(component)
@@ -1000,6 +1002,20 @@ class MonthlySummary : AppCompatActivity() {
     private fun createNumberEditText(component: FormComponentItem) {
 
         isLabelNull(component)
+
+        if (component.labelvalue != null){
+            val resp: JsonObject = JsonParser().parse(component.labelvalue).asJsonObject
+            val labelHeadType = resp.get("labelheadtype").asString
+
+            if (labelHeadType == "yrlabel"){
+                malHeadingTable(component)
+            }else if (labelHeadType == "inoutlabel"){
+                malHtblOutIn(component)
+            }else if (labelHeadType == "headtwosubhead"){
+                headTwoSubHead(component)
+            }
+        }
+
         //Parent layout
         val numberViewContainer = LinearLayout(this)
         numberViewContainer.orientation = LinearLayout.HORIZONTAL
@@ -1109,6 +1125,97 @@ class MonthlySummary : AppCompatActivity() {
         numberViewContainer2.gravity = Gravity.CENTER
         numberViewContainer4.gravity = Gravity.CENTER
         binding.miniAppFormContainer.addView(numberViewContainer)
+    }
+
+    private fun headTwoSubHead(component: FormComponentItem) {
+        val resp: JsonObject = JsonParser().parse(component.labelvalue).asJsonObject
+        val headLabelmain = resp.get("labelheading").asString
+        val labelHeadOne = resp.get("subone").asString
+        val labelHeadTwo = resp.get("subtwo").asString
+
+        //Parent layout
+        val numberViewContainer = LinearLayout(this)
+        numberViewContainer.orientation = LinearLayout.HORIZONTAL
+        val layoutParams = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        layoutParams.setMargins(20, 5, 20, 5)
+        numberViewContainer.setBackgroundResource(R.drawable.black_box)
+        numberViewContainer.layoutParams = layoutParams
+
+
+        //First - TextView container
+        val numberViewContainer4 = LinearLayout(this)
+        val layoutParams4 = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        numberViewContainer4.setPadding(5, 5, 5, 5)
+        numberViewContainer4.layoutParams = layoutParams4
+        layoutParams4.weight = 1.5f
+
+        val mainTxtHead = TextView(this)
+        mainTxtHead.textSize = 15f
+        mainTxtHead.gravity = Gravity.CENTER
+        mainTxtHead.setTextColor(Color.BLACK)
+        mainTxtHead.typeface = Typeface.DEFAULT_BOLD
+        mainTxtHead.setPadding(5, 5, 5, 5)
+        mainTxtHead.text = createStringForViewLabel(false, headLabelmain)
+        numberViewContainer4.addView(mainTxtHead)
+
+        //Second - container
+        val numberViewContainer1 = LinearLayout(this)
+        numberViewContainer1.orientation = LinearLayout.VERTICAL
+        val layoutParams1 = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        layoutParams1.gravity = Gravity.CENTER
+        numberViewContainer1.setPadding(5, 5, 5, 5)
+        numberViewContainer1.setBackgroundResource(R.drawable.black_box)
+        numberViewContainer1.layoutParams = layoutParams1
+        layoutParams1.weight = 0.5f
+        val subTxtHeadOne = TextView(this)
+        subTxtHeadOne.textSize = 15f
+        subTxtHeadOne.gravity = Gravity.CENTER
+        subTxtHeadOne.setTextColor(Color.BLACK)
+        subTxtHeadOne.typeface = Typeface.DEFAULT_BOLD
+        subTxtHeadOne.setPadding(5, 5, 5, 5)
+        subTxtHeadOne.text = createStringForViewLabel(false, labelHeadOne)
+        numberViewContainer1.addView(subTxtHeadOne)
+
+
+        //Third - container
+        val numberViewContainer2 = LinearLayout(this)
+        val layoutParams2 = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        layoutParams2.gravity = Gravity.CENTER
+        numberViewContainer2.setPadding(10, 10, 10, 10)
+        numberViewContainer2.layoutParams = layoutParams2
+        layoutParams2.weight = 0.5f
+
+
+        val subTxtHeadTwo = TextView(this)
+        subTxtHeadTwo.textSize = 15f
+        subTxtHeadTwo.gravity = Gravity.CENTER
+        subTxtHeadTwo.setTextColor(Color.BLACK)
+        subTxtHeadTwo.typeface = Typeface.DEFAULT_BOLD
+        subTxtHeadTwo.setPadding(5, 5, 5, 5)
+        subTxtHeadTwo.text = createStringForViewLabel(false, labelHeadTwo)
+        numberViewContainer2.addView(subTxtHeadTwo)
+
+
+        numberViewContainer.addView(numberViewContainer4)
+        numberViewContainer.addView(numberViewContainer1)
+        numberViewContainer.addView(numberViewContainer2)
+        numberViewContainer1.gravity = Gravity.CENTER
+        numberViewContainer2.gravity = Gravity.CENTER
+        numberViewContainer4.gravity = Gravity.CENTER
+        binding.miniAppFormContainer.addView(numberViewContainer)
+
     }
 
     private fun malHeadingTable(component: FormComponentItem) {
