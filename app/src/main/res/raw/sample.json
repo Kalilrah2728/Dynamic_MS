@@ -1,0 +1,9 @@
+{
+  "type": "numtest",
+  "required": false,
+  "placeholder": "Pneumonia",
+  "placeholdervalue": "[\"< 1 yr\", \"1-4 yr\", \"5 yrs +\"]",
+  "min": 0,
+  "max": 99,
+  "step": 1
+}

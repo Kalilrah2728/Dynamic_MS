@@ -136,12 +136,164 @@ class MonthlySummary : AppCompatActivity() {
                     WidgetItems.MALYRSBASE.label -> createMalyrsbase(component)
                     WidgetItems.MALOUTINBASE.label -> createMalOutInBase(component)
                     WidgetItems.NUMTEST.label -> createNumTest(component)
+                    WidgetItems.NUMTEST1.label -> createNumTest1(component)
                 }
             }
         }
 
         // save button
 
+    }
+
+    private fun createNumTest1(component: FormComponentItem) {
+
+        val resp: JsonArray = JsonParser().parse(component.placeholdervalue).asJsonArray
+
+        //numtestParent
+        val parentContainer = LinearLayout(this)
+        parentContainer.orientation = LinearLayout.HORIZONTAL
+        val parentLayParams = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        parentLayParams.setMargins(20, 0, 20, 0)
+        parentContainer.setBackgroundResource(R.drawable.black_box)
+        parentContainer.layoutParams = parentLayParams
+
+
+        //Parent Text container
+        val parentTxtContainer = LinearLayout(this)
+        val parentTxtLay = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        parentTxtContainer.setPadding(5, 5, 5, 5)
+        parentTxtContainer.layoutParams = parentTxtLay
+        parentTxtLay.weight = 0.5f
+
+        component.placeholder?.let { labelString ->
+            val parentTxtV = TextView(this)
+            parentTxtV.textSize = 15f
+            parentTxtV.gravity = Gravity.CENTER
+            parentTxtV.setTextColor(Color.BLACK)
+            parentTxtV.setPadding(5, 5, 5, 5)
+            parentTxtV.text = createStringForViewLabel(false, labelString)
+            parentTxtContainer.addView(parentTxtV)
+        }
+        //====================================================================================================================================
+
+        val parentValueContainer = LinearLayout(this)
+        parentValueContainer.orientation = LinearLayout.VERTICAL
+        val parentValueLayParams = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        //parentValueLayParams.setMargins(20, 0, 20, 0)
+        parentValueContainer.setBackgroundResource(R.drawable.black_box)
+        parentValueContainer.layoutParams = parentValueLayParams
+        parentValueLayParams.weight = 1.0f
+
+
+        resp.iterator().forEach {
+
+            //Parent layout
+            val numberViewContainer = LinearLayout(this)
+            numberViewContainer.orientation = LinearLayout.HORIZONTAL
+            val layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+            //layoutParams.setMargins(20, 0, 20, 0)
+            numberViewContainer.setBackgroundResource(R.drawable.black_box)
+            numberViewContainer.layoutParams = layoutParams
+
+
+            //First - TextView container
+            val numberViewContainer4 = LinearLayout(this)
+            val layoutParams4 = LinearLayout.LayoutParams(
+                0,
+                LinearLayout.LayoutParams.MATCH_PARENT
+            )
+            numberViewContainer4.setPadding(5, 5, 5, 5)
+            numberViewContainer4.layoutParams = layoutParams4
+            layoutParams4.weight = 1.0f
+
+            val subParentTxt = TextView(this)
+            subParentTxt.textSize = 15f
+            subParentTxt.gravity = Gravity.CENTER
+            subParentTxt.setTextColor(Color.BLACK)
+            subParentTxt.setPadding(5, 5, 5, 5)
+            subParentTxt.text = createStringForViewLabel(false, it.asString)
+            numberViewContainer4.addView(subParentTxt)
+
+
+
+            //Second - container
+            val numberViewContainer1 = LinearLayout(this)
+            numberViewContainer1.orientation = LinearLayout.VERTICAL
+            val layoutParams1 = LinearLayout.LayoutParams(
+                0,
+                LinearLayout.LayoutParams.MATCH_PARENT
+            )
+            numberViewContainer1.setPadding(5, 5, 5, 5)
+            numberViewContainer1.setBackgroundResource(R.drawable.black_box)
+            numberViewContainer1.layoutParams = layoutParams1
+            layoutParams1.weight = 0.5f
+
+            //Third - container
+            val numberViewContainer2 = LinearLayout(this)
+            numberViewContainer2.orientation = LinearLayout.VERTICAL
+            val layoutParams2 = LinearLayout.LayoutParams(
+                0,
+                LinearLayout.LayoutParams.MATCH_PARENT
+            )
+            numberViewContainer2.setPadding(5, 5, 5, 5)
+            numberViewContainer2.layoutParams = layoutParams2
+            layoutParams2.weight = 0.5f
+
+            //Second - container textView
+            val editTextParam = LinearLayout.LayoutParams(
+                100,
+                50
+            )
+            editTextParam.setMargins(10, 10, 10, 10)
+            val editText = TextView(this)
+            editText.layoutParams = editTextParam
+            editText.gravity = Gravity.CENTER
+            editText.setPadding(10, 10, 10, 10)
+            editText.inputType = InputType.TYPE_CLASS_NUMBER
+            editText.setBackgroundResource(R.drawable.boxcurved)
+            component.placeholder?.let {
+                editText.hint = it
+            }
+
+            var edtTxtNumM = 0
+            editText.setText(edtTxtNumM.toString())
+
+            component.maxlength?.let {
+                editText.filters = arrayOf<InputFilter>(InputFilter.LengthFilter(it.toInt()))
+            }
+
+            numberViewContainer1.addView(editText)
+
+            numberViewContainer.addView(numberViewContainer4)
+            numberViewContainer.addView(numberViewContainer1)
+            parentValueContainer.addView(numberViewContainer)
+
+            numberViewContainer1.gravity = Gravity.CENTER
+            numberViewContainer2.gravity = Gravity.CENTER
+            numberViewContainer4.gravity = Gravity.CENTER
+
+        }
+
+        // new parent  view add
+        parentContainer.addView(parentTxtContainer)
+        parentContainer.addView(parentValueContainer)
+
+        parentTxtContainer.gravity = Gravity.CENTER
+        parentValueContainer.gravity = Gravity.CENTER
+
+        binding.miniAppFormContainer.addView(parentContainer)
     }
 
     private fun createNumTest(component: FormComponentItem) {

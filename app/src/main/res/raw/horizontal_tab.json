@@ -58,6 +58,12 @@
     "subtype": "h3",
     "label": "LEPROSY",
     "id": "10"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "IMMUNISATION BY HEALTH CENTRE",
+    "id": "11"
   }
 ]
 

@@ -2,7 +2,7 @@
   {
     "type": "header",
     "subtype": "h1",
-    "label": "INPATIENTS"
+    "label": "IMMUNISATION BY HEALTH CENTER"
   },
   {
     "type": "numinpatient",

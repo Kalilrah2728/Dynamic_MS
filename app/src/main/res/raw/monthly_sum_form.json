@@ -60,5 +60,12 @@
     "label_json":true,
     "color_code": "#e1b5ac",
     "json_op": "[\n  {\n    \"type\": \"header\",\n    \"subtype\": \"h1\",\n    \"label\": \"LEPROSY\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"labelvalue\": \"{\\\"labelheadtype\\\": \\\"headtwosubhead\\\", \\\"labelheading\\\": \\\" \\\", \\\"subone\\\": \\\"PB\\\", \\\"subtwo\\\": \\\"MB\\\"}\",\n    \"placeholder\": \"Total new Cases\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"child < 15 yrs new cases\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"Disability Gr.2 new case\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"Female new cases\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"label\": \"Finishing treatment this month\",\n    \"placeholder\": \"Treatment Completed\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"Lost (includes default)\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"Died\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"Relapse\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"Transferred out\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"Total\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"Total registered cases\"\n  }\n]"
+  },
+  {
+    "reg_id": "11",
+    "tallysheet_name": "IMMUNISATION BY HEALTH CENTRE",
+    "label_json":true,
+    "color_code": "#e1b5ac",
+    "json_op": "[\n  {\n    \"type\": \"numtest1\",\n    \"required\": false,\n    \"placeholder\": \"Pneumonia\",\n    \"placeholdervalue\": \"[\\\"< 1 yr\\\", \\\"1-4 yr\\\", \\\"5 yrs +\\\"]\",\n    \"min\": 0,\n    \"max\": 99,\n    \"step\": 1\n  }\n]"
   }
 ]

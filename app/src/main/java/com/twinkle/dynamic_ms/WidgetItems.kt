@@ -24,5 +24,6 @@ enum class WidgetItems(val label: String) {
     NUMINPATIENT("numinpatient"),
     MALOUTINBASE("maloutinbase"),
     NUMTEST("numtest"),
+    NUMTEST1("numtest1"),
     MALYRSBASE("malyrsbase")
 }
