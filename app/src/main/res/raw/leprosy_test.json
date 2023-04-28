@@ -5,9 +5,13 @@
     "label": "LEPROSY"
   },
   {
+    "type": "titlemalefemale",
+    "required": false,
+    "labelvalue": "{\"labelheading\": \"\", \"subone\": \"PB\", \"subtwo\": \"MB\"}"
+  },
+  {
     "type": "number",
     "required": false,
-    "labelvalue": "{\"labelheadtype\": \"headtwosubhead\", \"labelheading\": \" \", \"subone\": \"PB\", \"subtwo\": \"MB\"}",
     "placeholder": "Total new Cases"
   },
   {

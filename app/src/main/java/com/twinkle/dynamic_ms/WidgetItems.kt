@@ -20,10 +20,14 @@ enum class WidgetItems(val label: String) {
     FEMALE("female"),
     MALE("male"),
     TAB("tab"),
-    TABLETITLE("tabletitle"),
-    NUMINPATIENT("numinpatient"),
+    TITLEMALEFEMALE("titlemalefemale"),
+    TITLETHREEBOXVALUE("titlethreeboxvalue"),
+    TITLETWOBOXVALUEMF("titletwoboxvaluemf"),
+    DUALMALEFEMALEZERO("dualmalefemalezero"),
+    TRIPLE_MF_ZERO("triple_mf_zero"),
     MALOUTINBASE("maloutinbase"),
-    NUMTEST("numtest"),
+    SUBTWOZERO("subtwozero"),
+    SUBFOURZERO("subfourzero"),
     NUMTEST1("numtest1"),
-    MALYRSBASE("malyrsbase")
+    THREEVALUEZERO("threevaluezero")
 }

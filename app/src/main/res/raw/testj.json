@@ -1,0 +1,84 @@
+[
+  {
+    "type": "header",
+    "subtype": "h1",
+    "label": "HIV SUMMARY"
+  },
+  {
+    "type": "titletwoboxvaluemf",
+    "required": false,
+    "labelvalue": "{\"headlabelm\": \"\", \"labelhone\": \"Discharge\", \"labelhtwo\": \"Deaths\"}"
+  },
+  {
+    "type": "triple_mf_zero",
+    "required": false,
+    "placeholder": "Antenatal",
+    "valueH": "{\"input_present_one\": \"b\", \"input_present_two\": \"b\" , \"input_present_three\": \"b\"}"
+  },
+  {
+    "type": "triple_mf_zero",
+    "required": false,
+    "placeholder": "0-4 yrs",
+    "valueH": "{\"input_present_one\": \"b\", \"input_present_two\": \"b\" , \"input_present_three\": \"b\"}"
+  },
+  {
+    "type": "triple_mf_zero",
+    "required": false,
+    "placeholder": "VCT",
+    "valueH": "{\"input_present_one\": \"b\", \"input_present_two\": \"b\" , \"input_present_three\": \"b\"}"
+  },
+  {
+    "type": "triple_mf_zero",
+    "required": false,
+    "placeholder": "Donor",
+    "valueH": "{\"input_present_one\": \"b\", \"input_present_two\": \"b\" , \"input_present_three\": \"b\"}"
+  },
+  {
+    "type": "triple_mf_zero",
+    "required": false,
+    "placeholder": "STI",
+    "valueH": "{\"input_present_one\": \"b\", \"input_present_two\": \"b\" , \"input_present_three\": \"b\"}"
+  },
+  {
+    "type": "triple_mf_zero",
+    "required": false,
+    "placeholder": "TB",
+    "valueH": "{\"input_present_one\": \"b\", \"input_present_two\": \"b\" , \"input_present_three\": \"b\"}"
+  },
+  {
+    "type": "triple_mf_zero",
+    "required": false,
+    "placeholder": "Others",
+    "valueH": "{\"input_present_one\": \"b\", \"input_present_two\": \"b\" , \"input_present_three\": \"b\"}"
+  },
+  {
+    "type": "titlemalefemale",
+    "label": "No. of patients currently on HIV treatment",
+    "required": false,
+    "labelvalue": "{\"labelheading\": \"\", \"subone\": \"Male\", \"subtwo\": \"Female\"}"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "placeholder": "< 5 yrs>",
+    "valueH": "{\"input_present_one\": \"b\", \"input_present_two\": \"b\" , \"input_present_three\": \"b\"}"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "placeholder": "5 - 14 yrs",
+    "valueH": "{\"input_present_one\": \"b\", \"input_present_two\": \"b\" , \"input_present_three\": \"b\"}"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "placeholder": "15 - 24 yrs",
+    "valueH": "{\"input_present_one\": \"b\", \"input_present_two\": \"b\" , \"input_present_three\": \"b\"}"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "placeholder": "25 yrs",
+    "valueH": "{\"input_present_one\": \"b\", \"input_present_two\": \"b\" , \"input_present_three\": \"b\"}"
+  }
+]

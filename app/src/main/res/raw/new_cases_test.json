@@ -5,400 +5,196 @@
     "label": "OUTPATIENT - NEW CASES"
   },
   {
-    "type": "tabletitle",
+    "type": "titlemalefemale",
     "required": false,
-    "male": "MALE",
-    "female": "FEMALE"
+    "labelvalue": "{\"labelheading\": \"\", \"subone\": \"Male\", \"subtwo\": \"Female\"}"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Diphtheria",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Diphtheria"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Neonatal Tetanus",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Neonatal Tetanus"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Acute flaccid paralysis (AFP) ",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Acute flaccid paralysis (AFP) "
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Measles (suspected)",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Measles (suspected)"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Pertussis ",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Pertussis "
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Simple cough",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Simple cough"
   },
   {
-    "type": "numtest",
+    "type": "subtwozero",
     "required": false,
     "placeholder": "Pneumonia",
-    "placeholdervalue": "[\"< 1 yr\", \"1-4 yr\", \"5 yrs +\"]",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholdervalue": "[\"< 1 yr\", \"1-4 yr\", \"5 yrs +\"]"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Chr. Obst. Pulmon. Dis.",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Chr. Obst. Pulmon. Dis."
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Asthma",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Asthma"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Other Respiratory Diseases",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Other Respiratory Diseases"
   },
   {
-    "type": "number",
+    "type": "subtwozero",
     "required": false,
-    "placeholder": "Diarrhoea < 1 yr",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Diarrhoea",
+    "placeholdervalue": "[\"< 1 yr\", \"1-4 yr\", \"5 yrs +\"]"
   },
   {
-    "type": "number",
+    "type": "subtwozero",
     "required": false,
-    "placeholder": "Diarrhoea 1-4 yr",
-    "min": 0,
-    "max": 99,
-    "step": 1
-  },
-  {
-    "type": "number",
-    "required": false,
-    "placeholder": "Diarrhoea 5 yrs +",
-    "min": 0,
-    "max": 99,
-    "step": 1
-  },
-  {
-    "type": "number",
-    "required": false,
-    "label": "Malaria Clinical Diagnosis",
-    "placeholder": "0-4 yrs",
-    "min": 0,
-    "max": 99,
-    "step": 1
-  },
-  {
-    "type": "number",
-    "required": false,
-    "placeholder": "5-14 yrs",
-    "min": 0,
-    "max": 99,
-    "step": 1
-  },
-  {
-    "type": "number",
-    "required": false,
-    "placeholder": "15 yrs +",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Malaria Clinical Diagnosis",
+    "placeholdervalue": "[\"0-4 yrs\", \"5-14 yrs\", \"15 yrs +\"]"
   },
   {
     "type": "female",
     "required": false,
-    "placeholder": "Pregnant",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Pregnant"
   },
   {
-    "type": "number",
+    "type": "subtwozero",
     "required": false,
-    "label": "Malaria cases confirmed by RDT or Microscopy",
-    "placeholder": "0-4 yrs",
-    "min": 0,
-    "max": 99,
-    "step": 1
-  },
-  {
-    "type": "number",
-    "required": false,
-    "placeholder": "5-14 yrs",
-    "min": 0,
-    "max": 99,
-    "step": 1
-  },
-  {
-    "type": "number",
-    "required": false,
-    "placeholder": "15 yrs +",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Malaria cases confirmed by RDT or Microscopy",
+    "placeholdervalue": "[\"0-4 yrs\", \"5-14 yrs\", \"15 yrs +\"]"
   },
   {
     "type": "female",
     "required": false,
-    "placeholder": "Pregnant",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Pregnant"
   },
 
   {
     "type": "number",
     "required": false,
-    "placeholder": "Fever of unknown cause",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Fever of unknown cause"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Anaemia",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Anaemia"
+  },
+  {
+    "type": "subtwozero",
+    "required": false,
+    "placeholder": "Malnutrition",
+    "placeholdervalue": "[\"< 6 mths\", \"6 - 59 mths\", \"5 - 14 Yrs\"]"
+  },
+  {
+    "type": "subtwozero",
+    "required": false,
+    "placeholder": "Sexual Violence",
+    "placeholdervalue": "[\"0 - 4 yrs\", \"5 - 16 yrs\", \"17 yrs +\"]"
+  },
+  {
+    "type": "subtwozero",
+    "required": false,
+    "placeholder": "Physical Violence",
+    "placeholdervalue": "[\"0 - 4 yrs\", \"5 - 16 yrs\", \"17 yrs +\"]"
   },
   {
     "type": "number",
     "required": false,
-    "label": "Malnutrition",
-    "placeholder": "< 6 mths",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Motor V. Accident injuries"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "6 - 59 mths",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Other accidents & injuries"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "5 - 14 Yrs",
-    "min": 0,
-    "max": 99,
-    "step": 1
-  },
-  {
-    "type": "number",
-    "required": false,
-    "label": "Sexual Violence",
-    "placeholder": "0 - 4 yrs",
-    "min": 0,
-    "max": 99,
-    "step": 1
-  },
-  {
-    "type": "number",
-    "required": false,
-    "placeholder": "5 - 16 yrs",
-    "min": 0,
-    "max": 99,
-    "step": 1
-  },
-  {
-    "type": "number",
-    "required": false,
-    "placeholder": "17 yrs +",
-    "min": 0,
-    "max": 99,
-    "step": 1
-  },
-  {
-    "type": "number",
-    "required": false,
-    "label": "Physical Violence",
-    "placeholder": "0 - 4 yrs",
-    "min": 0,
-    "max": 99,
-    "step": 1
-  },
-  {
-    "type": "number",
-    "required": false,
-    "placeholder": "5 - 16 yrs",
-    "min": 0,
-    "max": 99,
-    "step": 1
-  },
-  {
-    "type": "number",
-    "required": false,
-    "placeholder": "17 yrs +",
-    "min": 0,
-    "max": 99,
-    "step": 1
-  },
-  {
-    "type": "number",
-    "required": false,
-    "placeholder": "Motor V. Accident injuries",
-    "min": 0,
-    "max": 99,
-    "step": 1
-  },
-  {
-    "type": "number",
-    "required": false,
-    "placeholder": "Other accidents & injuries",
-    "min": 0,
-    "max": 99,
-    "step": 1
-  },
-  {
-    "type": "number",
-    "required": false,
-    "placeholder": "Genital ulcers",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Genital ulcers"
   },
   {
     "type": "male",
     "required": false,
-    "placeholder": "Urethral discharge",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Urethral discharge"
   },
   {
     "type": "female",
     "required": false,
-    "placeholder": "Vaginal discharge",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Vaginal discharge"
   },
   {
     "type": "female",
     "required": false,
-    "placeholder": "Pelvic Inflam. Disease",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Pelvic Inflam. Disease"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Genital warts",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Genital warts"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Latent syphilis (blood test)",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Latent syphilis (blood test)"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Other STI",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Other STI"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Pulmonary TB Suspect",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Pulmonary TB Suspect"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Leprosy",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Leprosy"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Yaws",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Yaws"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Other skin disease",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Other skin disease"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Ear Infections",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Ear Infections"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "Eye Infections",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "Eye Infections"
   },
   {
     "type": "number",
     "required": false,
-    "placeholder": "All other new cases",
-    "min": 0,
-    "max": 99,
-    "step": 1
+    "placeholder": "All other new cases"
   }
 ]
