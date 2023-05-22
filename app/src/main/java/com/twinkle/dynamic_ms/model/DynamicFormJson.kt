@@ -6,6 +6,7 @@ class DynamicFormJson (
     val tallysheet_name: String,
     val label_json: Boolean,
     val json_op: String,
+    val depthArr: ArrayList<DepthArrayModel>,
     val color_code: String,
     val created_by: String,
 )

@@ -11,6 +11,8 @@ enum class WidgetItems(val label: String) {
     DATE("date"),
     CHECKBOX_GROUP("checkbox-group"),
     NUMBER("number"),
+    MALLABEL("mal_label"),
+    MALTEXT("mal_text"),
     LABELS("labels"),
     TEXTGROUP("text-group"),
     VIEWTEXT("viewText"),

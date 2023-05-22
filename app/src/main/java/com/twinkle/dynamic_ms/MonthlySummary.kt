@@ -5,16 +5,17 @@ import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.*
+import android.text.method.PasswordTransformationMethod
 import android.text.style.ForegroundColorSpan
 import android.text.style.RelativeSizeSpan
 import android.util.TypedValue
 import android.view.Gravity
 import android.view.View
 import android.view.ViewGroup
+import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.widget.LinearLayoutCompat
-import androidx.constraintlayout.widget.ConstraintLayout
 import com.google.gson.Gson
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
@@ -22,6 +23,7 @@ import com.google.gson.JsonParser
 import com.google.gson.reflect.TypeToken
 import com.twinkle.dynamic_ms.Utils.Companion.setMerginToviews
 import com.twinkle.dynamic_ms.databinding.ActivityMonthlySummaryBinding
+import com.twinkle.dynamic_ms.model.DepthArrayModel
 import com.twinkle.dynamic_ms.model.DynamicFormJson
 import com.twinkle.dynamic_ms.model.FormComponentItem
 import java.io.*
@@ -127,6 +129,7 @@ class MonthlySummary : AppCompatActivity() {
             it.forEach { component ->
                 when (component.type) {
                     WidgetItems.NUMBER.label -> createNumberEditText(component)
+                    WidgetItems.TEXTAREA.label -> createEditableTextWithLabel(component)
                     WidgetItems.TITLEMALEFEMALE.label -> createTableTitle(component)
                     WidgetItems.TITLETHREEBOXVALUE.label -> titleThreeBoxValue(component)
                     WidgetItems.TITLETWOBOXVALUEMF.label -> titleTwoBoxValueMF(component)
@@ -145,6 +148,180 @@ class MonthlySummary : AppCompatActivity() {
         }
 
         // save button
+
+    }
+
+    private fun createMalText(
+        component: FormComponentItem,
+        numberViewContainer: LinearLayout,
+        num: String, lay: String
+    ) {
+
+        //First - TextView container
+        val num = LinearLayout(this)
+        val lay = LinearLayout.LayoutParams(
+            150,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        num.setPadding(5, 5, 5, 5)
+        num.setBackgroundResource(R.drawable.black_box)
+        num.layoutParams = lay
+        if (num.toString() == "numContains0"){
+            lay.weight = 1.5f
+        }else{
+            lay.weight = 0.5f
+        }
+
+        //Second - container textView
+        val editTextParam = LinearLayout.LayoutParams(
+            100,
+            50
+        )
+        editTextParam.setMargins(10, 10, 10, 10)
+        val editText = TextView(this)
+        editText.layoutParams = editTextParam
+        editText.gravity = Gravity.CENTER
+        editText.setPadding(10, 10, 10, 10)
+        editText.inputType = InputType.TYPE_CLASS_NUMBER
+        editText.setBackgroundResource(R.drawable.boxcurved)
+        /*component.title?.let {
+            editText.hint = it
+        }*/
+        var edtTxtNumM = 0
+        editText.setText(edtTxtNumM.toString())
+
+        num.addView(editText)
+        numberViewContainer.addView(num)
+        num.gravity = Gravity.CENTER
+
+    }
+
+    private fun createMalLabel(
+        component: FormComponentItem,
+        numberViewContainer: LinearLayout,
+        num: String, lay: String
+    ) {
+
+        //First - TextView container
+        val num = LinearLayout(this)
+        val lay = LinearLayout.LayoutParams(
+            150,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        num.setPadding(5, 5, 5, 5)
+        num.setBackgroundResource(R.drawable.black_box)
+        num.layoutParams = lay
+        if (num.toString() == "numContains0"){
+            lay.weight = 1.5f
+        }else{
+            lay.weight = 0.5f
+        }
+
+        component.title.let {labelString ->
+            val textView = TextView(this)
+            textView.textSize = 15f
+            textView.gravity = Gravity.CENTER
+            textView.setTextColor(Color.BLACK)
+            textView.setPadding(5, 5, 5, 5)
+            textView.text = labelString?.let { createStringForViewLabel(false, it) }
+            num.addView(textView)
+        }
+
+        numberViewContainer.addView(num)
+        num.gravity = Gravity.CENTER
+
+    }
+
+    private fun isValueNull(viewComponentModel: FormComponentItem, view: TextView) {
+        viewComponentModel.value?.let {
+            view.text = it
+        }
+    }
+
+    private fun isSubTypeNull(viewComponentModel: FormComponentItem, editText: EditText) {
+        if (viewComponentModel.subtype != null) {
+            setInputTypeForEditText(editText, viewComponentModel)
+        }
+    }
+
+    private fun setInputTypeForEditText(
+        editText: EditText,
+        viewComponentModel: FormComponentItem
+    ) {
+        when (viewComponentModel.subtype) {
+            "password" -> editText.inputType = InputType.TYPE_TEXT_VARIATION_PASSWORD
+            "email" -> editText.inputType = InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS
+            "tel" -> editText.inputType = InputType.TYPE_CLASS_PHONE
+            "dateTimeLocal" -> editText.inputType = InputType.TYPE_CLASS_DATETIME
+            else -> editText.inputType = InputType.TYPE_CLASS_TEXT
+        }
+    }
+
+    private fun isPlaceHolderNull(
+        viewComponentModel: FormComponentItem,
+        editText: EditText
+    ) {
+        if (viewComponentModel.placeholder != null) editText.hint = viewComponentModel.placeholder
+    }
+
+    private fun createEditableTextWithLabel(component: FormComponentItem) {
+        isLabelNull(component)
+
+        val editText = EditText(this)
+        var rows = 1
+
+        Utils.setMerginToviews(
+            editText, 10,
+            LinearLayoutCompat.LayoutParams.MATCH_PARENT,
+            150
+        )
+        if (component.type.equals(WidgetItems.TEXTAREA.label)) editText.gravity = Gravity.NO_GRAVITY
+
+        editText.setPadding(5, 5, 5, 5)
+        editText.setBackgroundResource(R.drawable.edit_text_background)
+        isValueNull(component, editText)
+        isSubTypeNull(component, editText)
+        isPlaceHolderNull(component, editText)
+        component.maxlength?.let {
+            editText.filters = arrayOf<InputFilter>(InputFilter.LengthFilter(it.toInt()))
+        }
+
+        component.rows?.let {
+            rows = it.toInt()
+            editText.isSingleLine = false
+            val finalRow = rows
+            editText.setOnKeyListener { v, keyCode, event ->
+                (v as EditText).lineCount > finalRow
+            }
+            editText.addTextChangedListener(object : TextWatcher {
+                override fun beforeTextChanged(
+                    s: CharSequence, start: Int, count: Int, after: Int
+                ) {
+                }
+
+                override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
+                override fun afterTextChanged(s: Editable) {
+                    if (editText.lineCount > finalRow) {
+                        editText.setText(Utils.method(editText.text.toString()))
+                        editText.setSelection(editText.text.toString().length)
+                    }
+                }
+            })
+        }
+        //PASSWORD
+        component.subtype?.let { subType ->
+            if (subType == "password") {
+                editText.transformationMethod = PasswordTransformationMethod.getInstance()
+            } else if (subType == "num"){
+                editText.inputType = InputType.TYPE_CLASS_NUMBER
+            }
+        }
+        //editText.setLines(rows)
+        //numberViewContainer.addView(editText)
+        binding.miniAppFormContainer.addView(editText)
+       // formViewCollection.add(FormViewComponent(editText, component))
+        //Log.i("EditTextInputType", editText.inputType.toString() + "")
+
 
     }
 
@@ -1656,6 +1833,29 @@ class MonthlySummary : AppCompatActivity() {
 
     }
 
+    /*private fun isMalLabelNull(viewComponentModel: DepthArrayModel) {
+        createMalLabelForViews(viewComponentModel)
+    }
+
+    private fun createMalLabelForViews(viewComponentModel: DepthArrayModel) {
+        val label = TextView(this)
+        label.setTextColor(Color.BLACK)
+        label.setTypeface(null, Typeface.BOLD)
+        label.textSize = 20f
+        setMerginToviews(
+            label,
+            40,
+            LinearLayoutCompat.LayoutParams.WRAP_CONTENT,
+            LinearLayoutCompat.LayoutParams.WRAP_CONTENT
+        )
+        viewComponentModel.title.let { labelText ->
+
+            label.text = createStringForViewLabel(false, labelText)
+            binding.miniAppFormContainer.addView(label)
+
+        }
+
+    }*/
 
     private fun isLabelNull(viewComponentModel: FormComponentItem) {
         if (viewComponentModel.label != null) createLabelForViews(viewComponentModel)
@@ -2693,28 +2893,111 @@ class MonthlySummary : AppCompatActivity() {
                 tallyFormArrayList?.iterator()?.forEach {
                     if (it.reg_id == component.id){
                         binding.miniAppFormContainer.removeAllViews()
-                        //headingName.setText(it.tallysheet_name)
 
-                        /*if (it.tallysheet_name == "INPATIENTS"){
-                            tableTitleLay.visibility = View.VISIBLE
+                        if (it.reg_id == "99"){
+                            val text1 = it.depthArr
+                            text1.iterator().forEach {
+                                val txt1 = it.subTitleContent
+                                val rowArry = it.rowArr
+
+                                var numSTC = 0
+                                var laySTC = 0
+                                var numRA = 0
+                                var layRA = 0
+
+                                //===========================================================================
+                                val label = TextView(this)
+                                label.setTextColor(Color.BLACK)
+                                label.setTypeface(null, Typeface.BOLD)
+                                label.textSize = 20f
+                                setMerginToviews(
+                                    label,
+                                    40,
+                                    LinearLayoutCompat.LayoutParams.WRAP_CONTENT,
+                                    LinearLayoutCompat.LayoutParams.WRAP_CONTENT
+                                )
+                                it.title.let { labelText ->
+
+                                    label.text = createStringForViewLabel(false, labelText+"")
+                                    binding.miniAppFormContainer.addView(label)
+
+                                }
+
+                                //Parent layout
+                                val nVContainer = LinearLayout(this)
+                                nVContainer.orientation = LinearLayout.VERTICAL
+                                val lyParams = LinearLayout.LayoutParams(
+                                    LinearLayout.LayoutParams.MATCH_PARENT,
+                                    LinearLayout.LayoutParams.WRAP_CONTENT
+                                )
+                                lyParams.setMargins(20, 0, 20, 0)
+                                nVContainer.setBackgroundResource(R.drawable.black_box)
+                                nVContainer.layoutParams = lyParams
+
+
+
+                                txt1.iterator().forEach {
+                                    //Parent layout
+                                    val numberViewContainer = LinearLayout(this)
+                                    numberViewContainer.orientation = LinearLayout.HORIZONTAL
+                                    val layoutParams = LinearLayout.LayoutParams(
+                                        LinearLayout.LayoutParams.MATCH_PARENT,
+                                        LinearLayout.LayoutParams.WRAP_CONTENT
+                                    )
+                                    layoutParams.setMargins(20, 0, 20, 0)
+                                    numberViewContainer.setBackgroundResource(R.drawable.black_box)
+                                    numberViewContainer.layoutParams = layoutParams
+
+                                    //---------------------------------------------------------------------------------------
+                                    val subTitleArry = it.subTitleArr
+
+                                    populateMalForm(subTitleArry, numberViewContainer, "numContains${numSTC}", "lay${laySTC}")
+                                    numSTC++
+                                    laySTC++
+
+                                    //--------------------------------------------------------------------------------------------
+
+                                    numberViewContainer.gravity = Gravity.CENTER
+                                    nVContainer.addView(numberViewContainer)
+                                }
+
+                                //binding.miniAppFormContainer.addView(numberViewContainer)
+
+                                nVContainer.gravity = Gravity.CENTER
+                                binding.miniAppFormContainer.addView(nVContainer)
+
+                                rowArry.iterator().forEach {
+                                    //Parent layout
+                                    val numVContainer = LinearLayout(this)
+                                    numVContainer.orientation = LinearLayout.HORIZONTAL
+                                    val layPrams = LinearLayout.LayoutParams(
+                                        LinearLayout.LayoutParams.MATCH_PARENT,
+                                        LinearLayout.LayoutParams.WRAP_CONTENT
+                                    )
+                                    layPrams.setMargins(20, 0, 20, 0)
+                                    numVContainer.setBackgroundResource(R.drawable.black_box)
+                                    numVContainer.layoutParams = layPrams
+
+                                    //===============================================================================
+                                    val dataColRowsArry = it.dataColRows
+                                    populateMalForm(dataColRowsArry, numVContainer, "numContains${numRA}", "lay${layRA}")
+                                    numRA++
+                                    layRA++
+
+                                    //======================================================================================
+                                    numVContainer.gravity = Gravity.CENTER
+                                    binding.miniAppFormContainer.addView(numVContainer)
+                                }
+
+
+                            }
+
                         }else{
-                            tableTitleLay.visibility = View.GONE
-                        }*/
+                            val text1 = it.json_op
+                            populateForm(text1)
+                        }
 
-                        val text1 = it.json_op
 
-                        populateForm(text1)
-                        /*val bgcolor = Color.parseColor(it.color_code)*/
-                        /*binding.mainLayout.setBackgroundColor(bgcolor)
-                        binding.toolbar.setBackgroundColor(bgcolor)*/
-                        /*binding.mainLayout.setBackgroundColor(resources.getColor(R.color.light_green))
-                        binding.toolbar.setBackgroundResource(R.drawable.green_title_bg)*/
-                        /*binding.constraintLayout2.visibility = View.VISIBLE*/
-
-                        /*countingNumM = 0
-                        countingNumF = 0
-                        newCasesTvM.setText(countingNumM.toString())
-                        newCasesTvF.setText(countingNumF.toString())*/
                     }
                 }
 
@@ -2734,6 +3017,24 @@ class MonthlySummary : AppCompatActivity() {
 
     }
 
+    private fun populateMalForm(json: String, numberViewContainer: LinearLayout, num: String, lay: String) {
+
+        formComponent = Gson().fromJson(json, FormComponent::class.java)
+        binding.miniAppFormContainer.visibility = View.VISIBLE
+
+        //TODO:- GENERATE FORM LAYOUT
+        formComponent?.let {
+            it.forEach { component ->
+                when (component.type) {
+                    WidgetItems.MALLABEL.label -> createMalLabel(component, numberViewContainer, num, lay)
+                    WidgetItems.MALTEXT.label -> createMalText(component, numberViewContainer, num, lay)
+                }
+            }
+        }
+
+        // save button
+
+    }
 
 
 }

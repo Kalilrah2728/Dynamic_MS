@@ -53,7 +53,7 @@
     "tallysheet_name": "MALARIA",
     "label_json":true,
     "color_code": "#e1b5ac",
-    "json_op": "[\n  {\n    \"type\": \"header\",\n    \"subtype\": \"h1\",\n    \"label\": \"Malaria\"\n  },\n  {\n    \"type\": \"titlethreeboxvalue\",\n    \"required\": false,\n    \"label\": \"Microscopy\",\n    \"labelvalue\": \"{\\\"labelheading\\\": \\\"MALE\\\", \\\"subone\\\": \\\"0-4 yrs\\\", \\\"subtwo\\\": \\\"5-14 yrs\\\", \\\"subthree\\\": \\\"15 yrs\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Total Tested\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.falciparum\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.vivax\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.malariae\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.oval\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Mixed\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Negative\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"titlethreeboxvalue\",\n    \"required\": false,\n    \"labelvalue\": \"{\\\"labelheading\\\": \\\"Female\\\", \\\"subone\\\": \\\"0-4 yrs\\\", \\\"subtwo\\\": \\\"5-14 yrs\\\", \\\"subthree\\\": \\\"15 yrs\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Total Tested\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.falciparum\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.vivax\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.malariae\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.oval\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Mixed\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Negative\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"titlethreeboxvalue\",\n    \"required\": false,\n    \"label\": \"RAPID DIAGNOSTIC TEST\",\n    \"labelvalue\": \"{\\\"labelheading\\\": \\\"MALE\\\", \\\"subone\\\": \\\"0-4 yrs\\\", \\\"subtwo\\\": \\\"5-14 yrs\\\", \\\"subthree\\\": \\\"15 yrs\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Total Tested\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.falciparum\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Non PF\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Mixed\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Negative\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Failed\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"labelvalue\": \"{\\\"labelheading\\\": \\\"Female\\\", \\\"subone\\\": \\\"0-4 yrs\\\", \\\"subtwo\\\": \\\"5-14 yrs\\\", \\\"subthree\\\": \\\"15 yrs\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Total Tested\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.falciparum\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Non PF\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Mixed\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Negative\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Failed\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"titletwoboxvaluemf\",\n    \"required\": false,\n    \"labelvalue\": \"{\\\"headlabelm\\\": \\\"Diagnosis Confirmed by RDT or Microscopy\\\", \\\"labelhone\\\": \\\"Outpatients\\\", \\\"labelhtwo\\\": \\\"Inpatients\\\"}\"\n  },\n  {\n    \"type\": \"dualmalefemalezero\",\n    \"required\": false,\n    \"placeholder\": \"0-4 yrs\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"dualmalefemalezero\",\n    \"required\": false,\n    \"placeholder\": \"0-14 yrs\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"dualmalefemalezero\",\n    \"required\": false,\n    \"placeholder\": \"15 yrs+\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"dualmalefemalezero\",\n    \"required\": false,\n    \"placeholder\": \"Pregnant\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  }\n]"},
+    "json_op": "[\n  {\n    \"type\": \"header\",\n    \"subtype\": \"h1\",\n    \"label\": \"Malaria\"\n  },\n  {\n    \"type\": \"titlethreeboxvalue\",\n    \"required\": false,\n    \"label\": \"Microscopy\",\n    \"labelvalue\": \"{\\\"labelheading\\\": \\\"MALE\\\", \\\"subone\\\": \\\"0-4 yrs\\\", \\\"subtwo\\\": \\\"5-14 yrs\\\", \\\"subthree\\\": \\\"15 yrs\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Total Tested\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.falciparum\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.vivax\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.malariae\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.oval\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Mixed\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Negative\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"titlethreeboxvalue\",\n    \"required\": false,\n    \"labelvalue\": \"{\\\"labelheading\\\": \\\"Female\\\", \\\"subone\\\": \\\"0-4 yrs\\\", \\\"subtwo\\\": \\\"5-14 yrs\\\", \\\"subthree\\\": \\\"15 yrs\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Total Tested\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.falciparum\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.vivax\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.malariae\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.oval\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Mixed\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Negative\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"titlethreeboxvalue\",\n    \"required\": false,\n    \"label\": \"RAPID DIAGNOSTIC TEST\",\n    \"labelvalue\": \"{\\\"labelheading\\\": \\\"MALE\\\", \\\"subone\\\": \\\"0-4 yrs\\\", \\\"subtwo\\\": \\\"5-14 yrs\\\", \\\"subthree\\\": \\\"15 yrs\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Total Tested\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.falciparum\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Non PF\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Mixed\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Negative\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Failed\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"labelvalue\": \"{\\\"labelheading\\\": \\\"Female\\\", \\\"subone\\\": \\\"0-4 yrs\\\", \\\"subtwo\\\": \\\"5-14 yrs\\\", \\\"subthree\\\": \\\"15 yrs\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Total Tested\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"P.falciparum\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Non PF\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Mixed\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Negative\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"threevaluezero\",\n    \"required\": false,\n    \"placeholder\": \"Failed\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"titletwoboxvaluemf\",\n    \"required\": false,\n    \"labelvalue\": \"{\\\"headlabelm\\\": \\\"Diagnosis Confirmed by RDT or Microscopy\\\", \\\"labelhone\\\": \\\"Outpatients\\\", \\\"labelhtwo\\\": \\\"Inpatients\\\"}\"\n  },\n  {\n    \"type\": \"dualmalefemalezero\",\n    \"required\": false,\n    \"placeholder\": \"0-4 yrs\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"dualmalefemalezero\",\n    \"required\": false,\n    \"placeholder\": \"0-14 yrs\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"dualmalefemalezero\",\n    \"required\": false,\n    \"placeholder\": \"15 yrs+\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"dualmalefemalezero\",\n    \"required\": false,\n    \"placeholder\": \"Pregnant\",\n    \"valueH\": \"{\\\"discharge\\\": \\\"b\\\", \\\"deaths\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"textarea\",\n    \"required\": false,\n    \"label\": \"First Name\"\n  }\n]"},
   {
     "reg_id": "10",
     "tallysheet_name": "LEPROSY",
@@ -74,5 +74,185 @@
     "label_json":true,
     "color_code": "#e1b5ac",
     "json_op": "[\n  {\n    \"type\": \"header\",\n    \"subtype\": \"h1\",\n    \"label\": \"HIV SUMMARY\"\n  },\n  {\n    \"type\": \"titletwoboxvaluemf\",\n    \"required\": false,\n    \"labelvalue\": \"{\\\"headlabelm\\\": \\\"\\\", \\\"labelhone\\\": \\\"Discharge\\\", \\\"labelhtwo\\\": \\\"Deaths\\\"}\"\n  },\n  {\n    \"type\": \"triple_mf_zero\",\n    \"required\": false,\n    \"placeholder\": \"Antenatal\",\n    \"valueH\": \"{\\\"input_present_one\\\": \\\"b\\\", \\\"input_present_two\\\": \\\"b\\\" , \\\"input_present_three\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"triple_mf_zero\",\n    \"required\": false,\n    \"placeholder\": \"0-4 yrs\",\n    \"valueH\": \"{\\\"input_present_one\\\": \\\"b\\\", \\\"input_present_two\\\": \\\"b\\\" , \\\"input_present_three\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"triple_mf_zero\",\n    \"required\": false,\n    \"placeholder\": \"VCT\",\n    \"valueH\": \"{\\\"input_present_one\\\": \\\"b\\\", \\\"input_present_two\\\": \\\"b\\\" , \\\"input_present_three\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"triple_mf_zero\",\n    \"required\": false,\n    \"placeholder\": \"Donor\",\n    \"valueH\": \"{\\\"input_present_one\\\": \\\"b\\\", \\\"input_present_two\\\": \\\"b\\\" , \\\"input_present_three\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"triple_mf_zero\",\n    \"required\": false,\n    \"placeholder\": \"STI\",\n    \"valueH\": \"{\\\"input_present_one\\\": \\\"b\\\", \\\"input_present_two\\\": \\\"b\\\" , \\\"input_present_three\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"triple_mf_zero\",\n    \"required\": false,\n    \"placeholder\": \"TB\",\n    \"valueH\": \"{\\\"input_present_one\\\": \\\"b\\\", \\\"input_present_two\\\": \\\"b\\\" , \\\"input_present_three\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"triple_mf_zero\",\n    \"required\": false,\n    \"placeholder\": \"Others\",\n    \"valueH\": \"{\\\"input_present_one\\\": \\\"b\\\", \\\"input_present_two\\\": \\\"b\\\" , \\\"input_present_three\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"titlemalefemale\",\n    \"label\": \"No. of patients currently on HIV treatment\",\n    \"required\": false,\n    \"labelvalue\": \"{\\\"labelheading\\\": \\\"\\\", \\\"subone\\\": \\\"Male\\\", \\\"subtwo\\\": \\\"Female\\\"}\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"< 5 yrs>\",\n    \"valueH\": \"{\\\"input_present_one\\\": \\\"b\\\", \\\"input_present_two\\\": \\\"b\\\" , \\\"input_present_three\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"5 - 14 yrs\",\n    \"valueH\": \"{\\\"input_present_one\\\": \\\"b\\\", \\\"input_present_two\\\": \\\"b\\\" , \\\"input_present_three\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"15 - 24 yrs\",\n    \"valueH\": \"{\\\"input_present_one\\\": \\\"b\\\", \\\"input_present_two\\\": \\\"b\\\" , \\\"input_present_three\\\": \\\"b\\\"}\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"25 yrs\",\n    \"valueH\": \"{\\\"input_present_one\\\": \\\"b\\\", \\\"input_present_two\\\": \\\"b\\\" , \\\"input_present_three\\\": \\\"b\\\"}\"\n  }\n]"
+  },
+  {
+    "reg_id":"99",
+    "mainTitle":"MALARIA DIAGNOSIS",
+    "position":"centre",
+    "tableDepth":6,
+    "depthArr": [
+      {
+        "title":"MICROSCOPY",
+        "postition":"left",
+        "display":"y",
+        "subTitleDepth":1,
+        "subTitleContent":[
+          {
+            "subTitleContentDepth":4,
+            "subTitleArr":"[\n            {\n              \"title\":\"Male\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"0-4 yrs\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"5-14 yrs\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"15+ yrs\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            }\n          ]"
+
+          }
+        ],
+        "rowDepth":7,
+        "rowArr":[
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"MIC4\",\n              \"title\":\"Total Tested\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          },
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"MIC4\",\n              \"title\":\"P.falciparum\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          },
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"MIC4\",\n              \"title\":\"P.vivax\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          },
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"MIC4\",\n              \"title\":\"P.malariae\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          },
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"MIC4\",\n              \"title\":\"P.ovale\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          },
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"MIC4\",\n              \"title\":\"Mixed\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          },
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"MIC4\",\n              \"title\":\"Negative\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          }
+        ]
+
+
+      },
+      {
+        "title":"",
+        "postition":"left",
+        "display":"y",
+        "subTitleDepth":1,
+        "subTitleContent":[
+          {
+            "subTitleContentDepth":4,
+            "subTitleArr":"[\n            {\n              \"title\":\"Female\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"0-4 yrs\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"5-14 yrs\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"15+ yrs\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            }\n          ]"
+
+          }
+        ],
+        "rowDepth":7,
+        "rowArr":[
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"MIC4\",\n              \"title\":\"Total Tested\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC4\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          },
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"MIC0\",\n              \"title\":\"P.falciparum\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"MIC0\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC0\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC0\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          },
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"MIC1\",\n              \"title\":\"P.vivax\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"MIC1\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC1\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC1\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          },
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"MIC2\",\n              \"title\":\"P.malariae\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"MIC2\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC2\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC2\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          },
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"MIC6\",\n              \"title\":\"P.ovale\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"MIC6\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC6\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC6\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          },
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"MIC3\",\n              \"title\":\"Mixed\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"MIC3\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC3\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC3\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          },
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"MIC5\",\n              \"title\":\"Negative\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"MIC5\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC5\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"MIC5\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          }
+        ]
+
+
+      },
+      {
+        "title":"RAPID DIAGONASTIC TEST",
+        "postition":"left",
+        "display":"y",
+        "subTitleDepth":1,
+        "subTitleContent":[
+          {
+            "subTitleContentDepth":4,
+            "subTitleArr":"[\n            {\n              \"title\":\"Male\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"0-4 yrs\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"5-14 yrs\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"15+ yrs\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            }\n          ]"
+
+          }
+        ],
+        "rowDepth":7,
+        "rowArr":[
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"RDT4\",\n              \"title\":\"Total Tested\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"RDT4\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"RDT4\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"RDT4\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          }
+        ]
+
+
+      },
+      {
+        "title":"",
+        "postition":"left",
+        "display":"y",
+        "subTitleDepth":1,
+        "subTitleContent":[
+          {
+            "subTitleContentDepth":4,
+            "subTitleArr":"[\n            {\n              \"title\":\"Female\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"0-4 yrs\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"5-14 yrs\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"15+ yrs\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            }\n          ]"
+
+          }
+        ],
+        "rowDepth":7,
+        "rowArr":[
+          {
+            "dataColDepth":4,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"RDT4\",\n              \"fieldName\":\"Total Tested\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"RDT4\",\n              \"fieldName\":\"0-4 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"RDT4\",\n              \"fieldName\":\"5-14 yrs\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"RDT4\",\n              \"fieldName\":\"15+ yrs\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          }
+        ]
+
+
+      },
+
+      {
+        "title":"ACT given to malaria cases",
+        "postition":"left",
+        "display":"y",
+        "subTitleDepth":2,
+        "subTitleContent":[
+          {
+            "subTitleContentDepth":3,
+            "subTitleArr":"[\n            {\n              \"title\":\"Diagnosis by clinical assessment\",\n              \"rowspan\":2,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"Outpatients\",\n              \"rowspan\":0,\n              \"colspan\":2,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"Inpatients\",\n              \"rowspan\":0,\n              \"colspan\":2,\n              \"type\":\"mal_label\"\n            }\n          ]"
+
+          },
+          {
+            "subTitleContentDepth":5,
+            "subTitleArr":"[\n            {\n              \"title\":\"\",\n              \"rowspan\":0,\n              \"colspan\":2,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"Male\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"Female\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"Male\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"Female\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            }\n          ]"
+
+          }
+        ],
+        "rowDepth":4,
+        "rowArr":[
+          {
+            "dataColDepth":5,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"HF_MAL_ACT_001\",\n              \"title\":\"0-4 yrs\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"HF_MAL_ACT_001\",\n              \"fieldName\":\"male_count_op\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"HF_MAL_ACT_001\",\n              \"fieldName\":\"female_count_op\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"HF_MAL_ACT_001\",\n              \"fieldName\":\"male_count_ip\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"HF_MAL_ACT_001\",\n              \"fieldName\":\"female_count_ip\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          },
+          {
+            "dataColDepth":5,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"HF_MAL_ACT_002\",\n              \"title\":\"5-14 yrs\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"HF_MAL_ACT_002\",\n              \"fieldName\":\"male_count_op\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"HF_MAL_ACT_002\",\n              \"fieldName\":\"female_count_op\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"HF_MAL_ACT_002\",\n              \"fieldName\":\"male_count_ip\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"HF_MAL_ACT_002\",\n              \"fieldName\":\"female_count_ip\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          },
+          {
+            "dataColDepth":5,
+            "dataColRows":"[\n            {\n              \"fieldCode\":\"HF_MAL_ACT_003\",\n              \"title\":\"15+ yrs\",\n              \"type\":\"mal_label\"\n            },\n            {\n              \"fieldCode\":\"HF_MAL_ACT_003\",\n              \"fieldName\":\"male_count_op\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"HF_MAL_ACT_003\",\n              \"fieldName\":\"female_count_op\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"HF_MAL_ACT_003\",\n              \"fieldName\":\"male_count_ip\",\n              \"type\":\"mal_text\"\n            },\n            {\n              \"fieldCode\":\"HF_MAL_ACT_003\",\n              \"fieldName\":\"female_count_ip\",\n              \"type\":\"mal_text\"\n            }\n          ]"
+          }
+        ]
+
+
+      }
+    ]
   }
 ]

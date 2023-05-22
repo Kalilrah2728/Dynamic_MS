@@ -25,6 +25,8 @@ data class FormComponentItem(
     val subtype: String?,
     val toggle: Boolean?,
     val type: String?,
+    val title: String?,
+    val malTitle: String?,
     val id: String?,
     val female: String?,
     val male: String?,
