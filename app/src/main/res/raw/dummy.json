@@ -1,0 +1,23 @@
+[
+  {
+    "title":"Diagnosis by clinical assessment",
+    "rowspan":2,
+    "colspan":0,
+    "type":"mal_label",
+    "subTitleArr":"[\n  {\n    \"title\":\"\",\n    \"rowspan\":0,\n    \"colspan\":2,\n    \"type\":\"mal_label\"\n  }]"
+  },
+  {
+    "title":"Outpatients",
+    "rowspan":0,
+    "colspan":2,
+    "type":"mal_label",
+    "subTitleArr":"[\n            {\n              \"title\":\"Male\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"Female\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            }\n          ]"
+  },
+  {
+    "title":"Inpatients",
+    "rowspan":0,
+    "colspan":2,
+    "type":"mal_label",
+    "subTitleArr":"[\n            {\n              \"title\":\"Male\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            },\n            {\n              \"title\":\"Female\",\n              \"rowspan\":0,\n              \"colspan\":0,\n              \"type\":\"mal_label\"\n            }\n          ]"
+  }
+]
