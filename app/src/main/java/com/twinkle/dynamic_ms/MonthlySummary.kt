@@ -157,23 +157,25 @@ class MonthlySummary : AppCompatActivity() {
     private fun createMalText(
         component: FormComponentItem,
         numberViewContainer: LinearLayout,
-        num: String, lay: String
+        num: String, lay: String, luupSize: Int
     ) {
 
         //First - TextView container
         val num = LinearLayout(this)
         val lay = LinearLayout.LayoutParams(
-            150,
+            0,
             LinearLayout.LayoutParams.MATCH_PARENT
         )
         num.setPadding(5, 5, 5, 5)
         num.setBackgroundResource(R.drawable.black_box)
         num.layoutParams = lay
-        if (num.toString() == "numContains0"){
-            lay.weight = 1.5f
+        //lay.weight = luupSize * 0.3f
+        if (luupSize == 3 || luupSize == 4){
+            lay.weight = 1.0f
         }else{
             lay.weight = 0.5f
         }
+
 
         //Second - container textView
         val editTextParam = LinearLayout.LayoutParams(
@@ -202,23 +204,38 @@ class MonthlySummary : AppCompatActivity() {
     private fun createMalLabel(
         component: FormComponentItem,
         numberViewContainer: LinearLayout,
-        num: String, lay: String
+        num: String, lay: String, loopCount: Int, luupSize: Int
     ) {
 
         //First - TextView container
         val num = LinearLayout(this)
         val lay = LinearLayout.LayoutParams(
-            150,
+            0,
             LinearLayout.LayoutParams.MATCH_PARENT
         )
         num.setPadding(5, 5, 5, 5)
         num.setBackgroundResource(R.drawable.black_box)
         num.layoutParams = lay
-        if (num.toString() == "numContains0"){
-            lay.weight = 1.5f
+        /*if (loopCount == 0){
+
+            lay.weight = luupSize * 0.5f
         }else{
-            lay.weight = 0.5f
+            lay.weight = luupSize * 0.3f
+        }*/
+        if (luupSize == 3 || luupSize == 4){
+            if (loopCount == 0){
+                lay.weight = 1.5f
+            }else{
+                lay.weight = 1.0f
+            }
+        }else{
+            if (loopCount == 0){
+                lay.weight = 1.5f
+            }else{
+                lay.weight = 0.5f
+            }
         }
+
 
         if (component.title != null) {
             component.title.let {labelString ->
@@ -3065,12 +3082,16 @@ class MonthlySummary : AppCompatActivity() {
 
         //TODO:- GENERATE FORM LAYOUT
         formComponent?.let {
+            var loopCount = 0
+            val luupSize = it.size
             it.forEach { component ->
                 when (component.type) {
-                    WidgetItems.LABEL.label -> createMalLabel(component, numberViewContainer, num, lay) // Prints Table Title
-                    WidgetItems.TEXT.label -> createMalText(component, numberViewContainer, num, lay) // Prints 0
+
+                    WidgetItems.LABEL.label -> createMalLabel(component, numberViewContainer, num, lay, loopCount, luupSize) // Prints Table Title
+                    WidgetItems.TEXT.label -> createMalText(component, numberViewContainer, num, lay, luupSize) // Prints 0
 
                 }
+                loopCount++
             }
         }
 
