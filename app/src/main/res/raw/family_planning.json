@@ -1,0 +1,518 @@
+{
+  "id": 11,
+  "jsop": {
+    "id": 11,
+    "mainTitle": "FAMILY PLANNING",
+    "fontWeight": "Bold",
+    "position": "centre",
+    "tableDepth": 2,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 1,
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 3,
+            "subTitleArr": [
+              {
+                "title": "Family Planning By Centre",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "New Attend",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "Re-Attend",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 10,
+        "rowArr": [
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_ACC_001",
+                "fieldName": "Brst fd Pill (POP)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_ACC_001",
+                "fieldName": "HF_FP_ACC_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_FP_REA_001",
+                "fieldName": "HF_FP_REA_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_ACC_002",
+                "fieldName": "Comb.Pill (COP)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_ACC_002",
+                "fieldName": "HF_FP_ACC_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_FP_REA_002",
+                "fieldName": "HF_FP_REA_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_ACC_003",
+                "fieldName": "Injection",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_ACC_003",
+                "fieldName": "HF_FP_ACC_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_FP_REA_003",
+                "fieldName": "HF_FP_REA_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_ACC_004",
+                "fieldName": "Ovulation",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_ACC_004",
+                "fieldName": "HF_FP_ACC_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_FP_REA_004",
+                "fieldName": "HF_FP_REA_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_ACC_005",
+                "fieldName": "Condom",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_ACC_005",
+                "fieldName": "HF_FP_ACC_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_FP_REA_005",
+                "fieldName": "HF_FP_REA_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_ACC_006",
+                "fieldName": "Loop/IUD",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_ACC_006",
+                "fieldName": "HF_FP_ACC_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_FP_REA_006",
+                "fieldName": "HF_FP_REA_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_ACC_007",
+                "fieldName": "Implant",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_ACC_007",
+                "fieldName": "HF_FP_ACC_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_FP_REA_007",
+                "fieldName": "HF_FP_REA_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_PER_001",
+                "fieldName": "Permanent T/Ligation",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_PER_001",
+                "fieldName": "HF_FP_PER_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "type": "label"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_PER_002",
+                "fieldName": "Permanent Vasectomy",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_PER_002",
+                "fieldName": "HF_FP_PER_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "type": "label"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_PER_003",
+                "fieldName": "Permanent Referred",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_PER_003",
+                "fieldName": "HF_FP_PER_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "type": "label"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 1,
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 3,
+            "subTitleArr": [
+              {
+                "title": "Family Planning By AidPost",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "New Attend",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "Re-Attend",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 9,
+        "rowArr": [
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_ACC_001",
+                "fieldName": "Brst fd Pill (POP)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_ACC_001",
+                "fieldName": "AP_FP_ACC_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "AP_FP_REA_001",
+                "fieldName": "AP_FP_REA_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_ACC_002",
+                "fieldName": "Comb.Pill (COP)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_ACC_002",
+                "fieldName": "AP_FP_ACC_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "AP_FP_REA_002",
+                "fieldName": "AP_FP_REA_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_ACC_003",
+                "fieldName": "Injection",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_ACC_003",
+                "fieldName": "AP_FP_ACC_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "AP_FP_REA_003",
+                "fieldName": "AP_FP_REA_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_ACC_004",
+                "fieldName": "Ovulation",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_ACC_004",
+                "fieldName": "AP_FP_ACC_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "AP_FP_REA_004",
+                "fieldName": "AP_FP_REA_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_ACC_005",
+                "fieldName": "Condom",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_ACC_005",
+                "fieldName": "AP_FP_ACC_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "AP_FP_REA_005",
+                "fieldName": "AP_FP_REA_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_ACC_006",
+                "fieldName": "Loop/IUD",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_ACC_006",
+                "fieldName": "AP_FP_ACC_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "AP_FP_REA_006",
+                "fieldName": "AP_FP_REA_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_ACC_007",
+                "fieldName": "Implant",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_ACC_007",
+                "fieldName": "AP_FP_ACC_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "AP_FP_REA_007",
+                "fieldName": "AP_FP_REA_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_PER_001",
+                "fieldName": "Permanent Vasectomy",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_PER_001",
+                "fieldName": "AP_FP_PER_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "type": "label"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_PER_002",
+                "fieldName": "Permanent Referred",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_PER_002",
+                "fieldName": "AP_FP_PER_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "type": "label"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
