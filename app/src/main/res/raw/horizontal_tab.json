@@ -62,18 +62,23 @@
   {
     "type": "tab",
     "subtype": "h3",
-    "label": "IMMUNISATION BY HEALTH CENTRE",
+    "label": "IMMUNISATION HC",
     "id": "11"
   },
   {
     "type": "tab",
     "subtype": "h3",
+<<<<<<< HEAD
     "label": "HIV SUMMARY",
+=======
+    "label": "IMMUNISATION AP",
+>>>>>>> origin/main
     "id": "12"
   },
   {
     "type": "tab",
     "subtype": "h3",
+<<<<<<< HEAD
     "label": "MAL DIAG",
     "id": "99"
   },
@@ -106,6 +111,10 @@
     "subtype": "h3",
     "label": "Modify HIV summary",
     "id": "104"
+=======
+    "label": "WELL BABY CLINIC",
+    "id": "13"
+>>>>>>> origin/main
   }
 ]
 

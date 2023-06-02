@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "reg_id": "1",
     "tallysheet_name": "NewCase Outpatients",
     "label_json":true,
@@ -11,4 +12,46 @@
     "label_json":true,
     "color_code": "#e1b5ac",
     "json_op": "[\n  {\n    \"type\": \"header\",\n    \"subtype\": \"h1\",\n    \"label\": \"OUTPATIENT - REATTENDANCES\"\n  },\n  {\n    \"type\": \"titlemalefemale\",\n    \"required\": false,\n    \"labelvalue\": \"{\\\"labelheading\\\": \\\"\\\", \\\"subone\\\": \\\"Male\\\", \\\"subtwo\\\": \\\"Female\\\"}\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"Reattendances < 5 yrs\",\n    \"min\": 0,\n    \"max\": 99,\n    \"step\": 1\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"Other Reattendances\",\n    \"min\": 0,\n    \"max\": 99,\n    \"step\": 1\n  }\n]\n\n"}
+=======
+    "type": "header",
+    "subtype": "h1",
+    "label": "Well Baby Clinic",
+    "access": false
+  },
+  {
+    "type": "titletwoboxvaluemf",
+    "required": false,
+    "labelvalue": "{\"labelheadtype\": \"inoutlabel\", \"headlabelm\": \"Child Attendances\", \"labelhone\": \"New\", \"labelhtwo\": \"Reattend\"}",
+    "placeholder": "0-4 yrs",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "< 6 months",
+    "valueH": "{\"discharge\": \"b\",\"deaths\": \"b\" }"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "6 - 59 months",
+    "valueH": "{\"discharge\": \"b\",\"deaths\": \"b\" }"
+  },
+  {
+    "type": "tabletitle",
+    "required": false,
+    "male": "MALE",
+    "female": "FEMALE",
+    "item_name": "NUTRITION",
+    "className": "form-control",
+    "name": "number-1640082094782-0",
+    "access": false
+  },
+  {
+    "type": "numtest1",
+    "required": false,
+    "placeholder": "< 6 mths",
+    "placeholdervalue": "[\"< - 3 z score\", \"-3 to -2 z score\", \"> - 2 z score\"]"
+  }
+>>>>>>> origin/main
 ]

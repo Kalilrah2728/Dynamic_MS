@@ -1,0 +1,558 @@
+{
+  "id": 6,
+  "jsop": {
+    "id": 6,
+    "mainTitle": "HIV TESTING",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 2,
+    "depthArr": [
+      {
+        "title": "",
+        "postition": "left",
+        "display": "n",
+        "subTitleDepth": 2,
+        "fontWeight": "Normal",
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 4,
+            "subTitleArr": [
+              {
+                "title": "",
+                "rowspan": 2,
+                "colspan": 0,
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "TESTED",
+                "rowspan": 0,
+                "colspan": 2,
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "HIV+",
+                "rowspan": 0,
+                "colspan": 2,
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "Referred Treatment",
+                "rowspan": 0,
+                "colspan": 2,
+                "fontWeight": "Bold",
+                "type": "label"
+              }
+            ]
+          },
+          {
+            "subTitleContentDepth": 7,
+            "subTitleArr": [
+              {
+                "title": "",
+                "rowspan": 0,
+                "colspan": 2,
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "Male",
+                "rowspan": 0,
+                "colspan": 0,
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "Female",
+                "rowspan": 0,
+                "colspan": 0,
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "Male",
+                "rowspan": 0,
+                "colspan": 0,
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "Female",
+                "rowspan": 0,
+                "colspan": 0,
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "Male",
+                "rowspan": 0,
+                "colspan": 0,
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "Female",
+                "rowspan": 0,
+                "colspan": 0,
+                "fontWeight": "Bold",
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 7,
+        "rowArr": [
+          {
+            "dataColDepth": 7,
+            "dataColRows": [
+              {
+                "fieldCode": "MS_HIV_TES_001",
+                "fieldName": "Antenantal",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_001",
+                "fieldName": "MS_HIV_TES_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_001",
+                "fieldName": "MS_HIV_TES_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_001",
+                "fieldName": "MS_HIV_TES_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_001",
+                "fieldName": "MS_HIV_TES_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_001",
+                "fieldName": "MS_HIV_TES_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_001",
+                "fieldName": "MS_HIV_TES_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 7,
+            "dataColRows": [
+              {
+                "fieldCode": "MS_HIV_TES_002",
+                "fieldName": "0-4 yrs",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_002",
+                "fieldName": "MS_HIV_TES_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_002",
+                "fieldName": "MS_HIV_TES_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_002",
+                "fieldName": "MS_HIV_TES_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_002",
+                "fieldName": "MS_HIV_TES_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_002",
+                "fieldName": "MS_HIV_TES_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_002",
+                "fieldName": "MS_HIV_TES_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 7,
+            "dataColRows": [
+              {
+                "fieldCode": "MS_HIV_TES_003",
+                "fieldName": "VCT",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_003",
+                "fieldName": "MS_HIV_TES_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_003",
+                "fieldName": "MS_HIV_TES_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_003",
+                "fieldName": "MS_HIV_TES_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_003",
+                "fieldName": "MS_HIV_TES_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_003",
+                "fieldName": "MS_HIV_TES_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_003",
+                "fieldName": "MS_HIV_TES_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 7,
+            "dataColRows": [
+              {
+                "fieldCode": "MS_HIV_TES_004",
+                "fieldName": "Donor",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_004",
+                "fieldName": "MS_HIV_TES_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_004",
+                "fieldName": "MS_HIV_TES_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_004",
+                "fieldName": "MS_HIV_TES_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_004",
+                "fieldName": "MS_HIV_TES_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_004",
+                "fieldName": "MS_HIV_TES_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_004",
+                "fieldName": "MS_HIV_TES_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 7,
+            "dataColRows": [
+              {
+                "fieldCode": "MS_HIV_TES_005",
+                "fieldName": "STI",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_005",
+                "fieldName": "MS_HIV_TES_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_005",
+                "fieldName": "MS_HIV_TES_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_005",
+                "fieldName": "MS_HIV_TES_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_005",
+                "fieldName": "MS_HIV_TES_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_005",
+                "fieldName": "MS_HIV_TES_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_005",
+                "fieldName": "MS_HIV_TES_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 7,
+            "dataColRows": [
+              {
+                "fieldCode": "MS_HIV_TES_006",
+                "fieldName": "TB",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_006",
+                "fieldName": "MS_HIV_TES_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_006",
+                "fieldName": "MS_HIV_TES_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_006",
+                "fieldName": "MS_HIV_TES_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_006",
+                "fieldName": "MS_HIV_TES_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_006",
+                "fieldName": "MS_HIV_TES_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_006",
+                "fieldName": "MS_HIV_TES_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 7,
+            "dataColRows": [
+              {
+                "fieldCode": "MS_HIV_TES_007",
+                "fieldName": "Others",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_007",
+                "fieldName": "MS_HIV_TES_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_007",
+                "fieldName": "MS_HIV_TES_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_007",
+                "fieldName": "MS_HIV_TES_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_007",
+                "fieldName": "MS_HIV_TES_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_007",
+                "fieldName": "MS_HIV_TES_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_TES_007",
+                "fieldName": "MS_HIV_TES_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "No.of patrients currently on HIV treatment",
+        "postition": "left",
+        "fontWeight": "Bold",
+        "display": "y",
+        "subTitleDepth": 1,
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 3,
+            "subTitleArr": [
+              {
+                "title": "",
+                "rowspan": 0,
+                "colspan": 0,
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "Male",
+                "rowspan": 0,
+                "colspan": 0,
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "Female",
+                "rowspan": 0,
+                "colspan": 0,
+                "fontWeight": "Bold",
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 4,
+        "rowArr": [
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "MS_HIV_CTX_001",
+                "fieldName": "&lt;5 yrs",
+                "type": "label"
+              },
+              {
+                "fieldCode": "MS_HIV_CTX_001",
+                "fieldName": "MS_HIV_CTX_001",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_CTX_001",
+                "fieldName": "MS_HIV_CTX_001",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "MS_HIV_CTX_002",
+                "fieldName": "5-14 yrs",
+                "type": "label"
+              },
+              {
+                "fieldCode": "MS_HIV_CTX_002",
+                "fieldName": "MS_HIV_CTX_002",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_CTX_002",
+                "fieldName": "MS_HIV_CTX_002",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "MS_HIV_CTX_003",
+                "fieldName": "15-24 yrs",
+                "type": "label"
+              },
+              {
+                "fieldCode": "MS_HIV_CTX_003",
+                "fieldName": "MS_HIV_CTX_003",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_CTX_003",
+                "fieldName": "MS_HIV_CTX_003",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "MS_HIV_CTX_004",
+                "fieldName": "25 yrs+",
+                "type": "label"
+              },
+              {
+                "fieldCode": "MS_HIV_CTX_004",
+                "fieldName": "MS_HIV_CTX_004",
+                "type": "text"
+              },
+              {
+                "fieldCode": "MS_HIV_CTX_004",
+                "fieldName": "MS_HIV_CTX_004",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
