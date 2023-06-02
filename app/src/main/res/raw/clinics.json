@@ -1,0 +1,112 @@
+{
+  "id": 9,
+  "jsop": {
+    "id": 9,
+    "mainTitle": "CLINICS",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 1,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 1,
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 3,
+            "subTitleArr": [
+              {
+                "title": "Number of outreach clinics",
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "Planned",
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "Held",
+                "fontWeight": "Bold",
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 3,
+        "rowArr": [
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_MS_CL_001",
+                "fieldName": "Static clinics",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_MS_CL_001",
+                "fontWeight": "Normal",
+                "fieldName": "HF_MS_CL_001",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_MS_CL_001",
+                "fontWeight": "Normal",
+                "fieldName": "HF_MS_CL_001",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_MS_CL_002",
+                "fieldName": "Day mobile clinics",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_MS_CL_002",
+                "fieldName": "HF_MS_CL_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_MS_CL_002",
+                "fieldName": "HF_MS_CL_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_MS_CL_003",
+                "fieldName": "Overnight clinics / patrols",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_MS_CL_003",
+                "fieldName": "HF_MS_CL_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_MS_CL_003",
+                "fieldName": "HF_MS_CL_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

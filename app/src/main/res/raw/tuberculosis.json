@@ -1,0 +1,55 @@
+{
+  "id": 8,
+  "jsop": {
+    "id": 8,
+    "mainTitle": "TUBERCULOSIS",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 1,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 0,
+        "rowDepth": 2,
+        "rowArr": [
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_TB_no_new_tb_patients",
+                "fieldName": "No. of new TB patients of all types detected in the month",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_TB_no_new_tb_patients",
+                "fontWeight": "Normal",
+                "fieldName": "HF_TB_no_new_tb_patients",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_TB_no_re_tx_tb_patients",
+                "fieldName": "No. of retreatment TB patients of all types detected in the month",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_TB_no_re_tx_tb_patients",
+                "fieldName": "HF_TB_no_re_tx_tb_patients",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
