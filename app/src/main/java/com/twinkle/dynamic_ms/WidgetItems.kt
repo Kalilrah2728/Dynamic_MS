@@ -33,6 +33,5 @@ enum class WidgetItems(val label: String) {
     SUBFOURZERO("subfourzero"),
     NUMTEST1("numtest1"),
     THREEVALUEZERO("threevaluezero"),
-    MALYRSBASE("malyrsbase"),
-    TITLETWOBOXVALUEMF("titletwoboxvaluemf")
+    MALYRSBASE("malyrsbase")
 }
