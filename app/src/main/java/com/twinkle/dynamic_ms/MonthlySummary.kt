@@ -2,7 +2,7 @@ package com.twinkle.dynamic_ms
 
 import android.graphics.Color
 import android.graphics.Typeface
-import androidx.appcompat.app.AppCompatActivity
+import android.os.Build
 import android.os.Bundle
 import android.text.*
 import android.text.method.PasswordTransformationMethod
@@ -15,6 +15,9 @@ import android.view.ViewGroup
 import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.TextView
+import android.widget.Toast
+import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.LinearLayoutCompat
 import com.google.gson.Gson
 import com.google.gson.JsonArray
@@ -23,10 +26,11 @@ import com.google.gson.JsonParser
 import com.google.gson.reflect.TypeToken
 import com.twinkle.dynamic_ms.Utils.Companion.setMerginToviews
 import com.twinkle.dynamic_ms.databinding.ActivityMonthlySummaryBinding
-import com.twinkle.dynamic_ms.model.DepthArrayModel
 import com.twinkle.dynamic_ms.model.DynamicFormJson
 import com.twinkle.dynamic_ms.model.FormComponentItem
+import org.json.JSONArray
 import java.io.*
+
 
 class MonthlySummary : AppCompatActivity() {
     var formComponent: FormComponent? = null
@@ -92,7 +96,6 @@ class MonthlySummary : AppCompatActivity() {
                 colorJsonString = it.color_code*/
             }
         }
-
 
         json?.let {
             populateFormenu(it)
@@ -217,14 +220,34 @@ class MonthlySummary : AppCompatActivity() {
             lay.weight = 0.5f
         }
 
-        component.title.let {labelString ->
-            val textView = TextView(this)
-            textView.textSize = 15f
-            textView.gravity = Gravity.CENTER
-            textView.setTextColor(Color.BLACK)
-            textView.setPadding(5, 5, 5, 5)
-            textView.text = labelString?.let { createStringForViewLabel(false, it) }
-            num.addView(textView)
+        if (component.title != null) {
+            component.title.let {labelString ->
+                val textView = TextView(this)
+                textView.textSize = 15f
+                textView.gravity = Gravity.CENTER
+                textView.setTextColor(Color.BLACK)
+                textView.setPadding(5, 5, 5, 5)
+                textView.text = labelString?.let { createStringForViewLabel(false, it+"") }
+                try {
+                    if (component.fontWeight.toString().toLowerCase() == "bold"){
+                        textView.setTypeface(null, Typeface.BOLD);
+                    }
+                }catch (e: Exception){
+                    println("fontWeightBold=====NULL")
+                }
+
+                num.addView(textView)
+            }
+        }else {
+            component.fieldName.let {labelString ->
+                val textView = TextView(this)
+                textView.textSize = 15f
+                textView.gravity = Gravity.CENTER
+                textView.setTextColor(Color.BLACK)
+                textView.setPadding(5, 5, 5, 5)
+                textView.text = labelString?.let { createStringForViewLabel(false, it+"") }
+                num.addView(textView)
+            }
         }
 
         numberViewContainer.addView(num)
@@ -2874,6 +2897,7 @@ class MonthlySummary : AppCompatActivity() {
     }
 
 
+
     private fun createTab(component: FormComponentItem): TextView {
 
         val txt = TextView(this)
@@ -2894,7 +2918,7 @@ class MonthlySummary : AppCompatActivity() {
                     if (it.reg_id == component.id){
                         binding.miniAppFormContainer.removeAllViews()
 
-                        if (it.reg_id == "99"){
+                        if ( it.reg_id == "99" || it.reg_id == "100" || it.reg_id == "101" || it.reg_id == "102" || it.reg_id == "103" || it.reg_id == "104" ){
                             val text1 = it.depthArr
                             text1.iterator().forEach {
                                 val txt1 = it.subTitleContent
@@ -2923,7 +2947,7 @@ class MonthlySummary : AppCompatActivity() {
 
                                 }
 
-                                //Parent layout
+                                /*//Parent layout
                                 val nVContainer = LinearLayout(this)
                                 nVContainer.orientation = LinearLayout.VERTICAL
                                 val lyParams = LinearLayout.LayoutParams(
@@ -2932,9 +2956,10 @@ class MonthlySummary : AppCompatActivity() {
                                 )
                                 lyParams.setMargins(20, 0, 20, 0)
                                 nVContainer.setBackgroundResource(R.drawable.black_box)
-                                nVContainer.layoutParams = lyParams
+                                nVContainer.layoutParams = lyParams*/
 
-
+                                val gson = Gson()
+                                val arrayData = gson.toJson(it.subTitleContent)
 
                                 txt1.iterator().forEach {
                                     //Parent layout
@@ -2949,22 +2974,25 @@ class MonthlySummary : AppCompatActivity() {
                                     numberViewContainer.layoutParams = layoutParams
 
                                     //---------------------------------------------------------------------------------------
-                                    val subTitleArry = it.subTitleArr
+                                    //val subTitleArry = it.subTitleArr.toString()
+                                    val gson1 = Gson()
+                                    val arrayData2 = gson1.toJson(it.subTitleArr)
 
-                                    populateMalForm(subTitleArry, numberViewContainer, "numContains${numSTC}", "lay${laySTC}")
+                                    populateMalForm(arrayData2, numberViewContainer, "numContains${numSTC}", "lay${laySTC}")
                                     numSTC++
                                     laySTC++
 
                                     //--------------------------------------------------------------------------------------------
 
                                     numberViewContainer.gravity = Gravity.CENTER
-                                    nVContainer.addView(numberViewContainer)
+                                   // nVContainer.addView(numberViewContainer)
+                                    binding.miniAppFormContainer.addView(numberViewContainer)
                                 }
 
-                                //binding.miniAppFormContainer.addView(numberViewContainer)
 
-                                nVContainer.gravity = Gravity.CENTER
-                                binding.miniAppFormContainer.addView(nVContainer)
+
+                                /*nVContainer.gravity = Gravity.CENTER
+                                binding.miniAppFormContainer.addView(nVContainer)*/
 
                                 rowArry.iterator().forEach {
                                     //Parent layout
@@ -2979,8 +3007,12 @@ class MonthlySummary : AppCompatActivity() {
                                     numVContainer.layoutParams = layPrams
 
                                     //===============================================================================
-                                    val dataColRowsArry = it.dataColRows
-                                    populateMalForm(dataColRowsArry, numVContainer, "numContains${numRA}", "lay${layRA}")
+                                    val dataColRowsArry = it.dataColRows.toString()
+
+                                    val gson3 = Gson()
+                                    val arrayData3 = gson3.toJson(it.dataColRows)
+
+                                    populateMalForm(arrayData3, numVContainer, "numContains${numRA}", "lay${layRA}")
                                     numRA++
                                     layRA++
 
@@ -3026,8 +3058,8 @@ class MonthlySummary : AppCompatActivity() {
         formComponent?.let {
             it.forEach { component ->
                 when (component.type) {
-                    WidgetItems.MALLABEL.label -> createMalLabel(component, numberViewContainer, num, lay)
-                    WidgetItems.MALTEXT.label -> createMalText(component, numberViewContainer, num, lay)
+                    WidgetItems.LABEL.label -> createMalLabel(component, numberViewContainer, num, lay) // Prints Table Title
+                    WidgetItems.TEXT.label -> createMalText(component, numberViewContainer, num, lay) // Prints 0
                 }
             }
         }

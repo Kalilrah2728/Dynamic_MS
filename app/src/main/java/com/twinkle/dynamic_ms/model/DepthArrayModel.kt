@@ -5,7 +5,7 @@ class DepthArrayModel (
     val postition: String,
     val display: String,
     val subTitleDepth: Int,
-    val subTitleContent: ArrayList<SubTitleContentModel>,
+    val subTitleContent: Array<SubTitleContentModel>,
     val rowDepth: Int,
-    val rowArr: ArrayList<RowArrModel>,
+    val rowArr: Array<RowArrModel>,
 )

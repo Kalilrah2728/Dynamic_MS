@@ -2,5 +2,5 @@ package com.twinkle.dynamic_ms.model
 
 class RowArrModel (
     val dataColDepth: Int,
-    val dataColRows	: String
+    val dataColRows	: ArrayList<DataColRowsModel>
         )

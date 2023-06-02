@@ -14,6 +14,7 @@ enum class WidgetItems(val label: String) {
     MALLABEL("mal_label"),
     MALTEXT("mal_text"),
     LABELS("labels"),
+    LABEL("label"),
     TEXTGROUP("text-group"),
     VIEWTEXT("viewText"),
     EDITTEXT("editText"),

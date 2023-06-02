@@ -210,5 +210,10 @@
     "required": false,
     "placeholder": "Pregnant",
     "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "textarea",
+    "required": false,
+    "label": "First Name"
   }
 ]

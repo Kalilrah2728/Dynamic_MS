@@ -76,6 +76,36 @@
     "subtype": "h3",
     "label": "MAL DIAG",
     "id": "99"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify New Cases",
+    "id": "100"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify Reattends",
+    "id": "101"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify Inpatients",
+    "id": "102"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify Leprosy",
+    "id": "103"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify HIV summary",
+    "id": "104"
   }
 ]
 

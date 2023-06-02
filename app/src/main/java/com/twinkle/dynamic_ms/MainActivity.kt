@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
+import com.twinkle.dynamic_ms.model.HealthCenterRecord
 import java.io.*
 
 class MainActivity : AppCompatActivity() {
@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val mntlySumBtn = findViewById(R.id.mntly_sum_btn) as Button
+        val healthRecordBtn = findViewById(R.id.health_record_btn) as Button
 
 
         val `is` = resources.openRawResource(R.raw.horizontal_tab)
@@ -42,6 +43,16 @@ class MainActivity : AppCompatActivity() {
 
         mntlySumBtn.setOnClickListener {
             intent = Intent(this@MainActivity, MonthlySummary::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NO_ANIMATION
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+            intent.action = Intent.ACTION_VIEW
+            intent.putExtra("tabValue", jsonString)
+            startActivity(intent)
+        }
+
+
+        healthRecordBtn.setOnClickListener {
+            intent = Intent(this@MainActivity, HealthCenterRecord::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_NO_ANIMATION
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
             intent.action = Intent.ACTION_VIEW

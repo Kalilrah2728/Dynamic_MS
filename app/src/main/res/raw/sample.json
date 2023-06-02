@@ -1,9 +1,14 @@
-{
-  "type": "numtest",
-  "required": false,
-  "placeholder": "Pneumonia",
-  "placeholdervalue": "[\"< 1 yr\", \"1-4 yr\", \"5 yrs +\"]",
-  "min": 0,
-  "max": 99,
-  "step": 1
-}
+[
+  {
+    "reg_id": "1",
+    "tallysheet_name": "NewCase Outpatients",
+    "label_json":true,
+    "color_code": "#e1b5ac",
+    "json_op": "[\n  {\n    \"type\": \"header\",\n    \"subtype\": \"h1\",\n    \"label\": \"OUTPATIENT - NEW CASES\"\n  },\n  {\n    \"type\": \"titlemalefemale\",\n    \"required\": false,\n    \"labelvalue\": \"{\\\"labelheading\\\": \\\"\\\", \\\"subone\\\": \\\"Male\\\", \\\"subtwo\\\": \\\"Female\\\"}\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"Diphtheria\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"Neonatal Tetanus\"\n  }\n]"},
+  {
+    "reg_id": "2",
+    "tallysheet_name": "REATTENDANCES",
+    "label_json":true,
+    "color_code": "#e1b5ac",
+    "json_op": "[\n  {\n    \"type\": \"header\",\n    \"subtype\": \"h1\",\n    \"label\": \"OUTPATIENT - REATTENDANCES\"\n  },\n  {\n    \"type\": \"titlemalefemale\",\n    \"required\": false,\n    \"labelvalue\": \"{\\\"labelheading\\\": \\\"\\\", \\\"subone\\\": \\\"Male\\\", \\\"subtwo\\\": \\\"Female\\\"}\"\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"Reattendances < 5 yrs\",\n    \"min\": 0,\n    \"max\": 99,\n    \"step\": 1\n  },\n  {\n    \"type\": \"number\",\n    \"required\": false,\n    \"placeholder\": \"Other Reattendances\",\n    \"min\": 0,\n    \"max\": 99,\n    \"step\": 1\n  }\n]\n\n"}
+]

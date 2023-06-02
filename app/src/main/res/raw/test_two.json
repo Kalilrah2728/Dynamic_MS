@@ -1,0 +1,1055 @@
+{
+  "reg_id": "99",
+  "mainTitle": "MALARIA DIAGNOSIS",
+  "fontWeight": "Bold",
+  "position": "centre",
+  "tableDepth": 6,
+  "depthArr": [
+    {
+      "title": "MICROSCOPY",
+      "fontWeight": "Bold",
+      "postition": "left",
+      "display": "y",
+      "subTitleDepth": 1,
+      "subTitleContent": [
+        {
+          "subTitleContentDepth": 4,
+          "subTitleArr": [
+            {
+              "title": "Male",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "0-4 yrs",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "5-14 yrs",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "15+ yrs",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            }
+          ]
+        }
+      ],
+      "rowDepth": 7,
+      "rowArr": [
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "MIC4",
+              "fieldName": "Total Tested",
+              "fontWeight": "Normal",
+              "type": "label"
+            },
+            {
+              "fieldCode": "MIC4",
+              "fieldName": "0-4 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC4",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC4",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "MIC0",
+              "fieldName": "P.falciparum",
+              "fontWeight": "Normal",
+              "type": "label"
+            },
+            {
+              "fieldCode": "MIC0",
+              "fieldName": "0-4 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC0",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC0",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "MIC1",
+              "fieldName": "P.vivax",
+              "fontWeight": "Normal",
+              "type": "label"
+            },
+            {
+              "fieldCode": "MIC1",
+              "fieldName": "0-4 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC1",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC1",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "MIC2",
+              "fieldName": "P.malariae",
+              "fontWeight": "Normal",
+              "type": "label"
+            },
+            {
+              "fieldCode": "MIC2",
+              "fieldName": "0-4 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC2",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC2",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "MIC6",
+              "fieldName": "P.ovale",
+              "fontWeight": "Normal",
+              "type": "label"
+            },
+            {
+              "fieldCode": "MIC6",
+              "fieldName": "0-4 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC6",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC6",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "MIC3",
+              "fieldName": "Mixed",
+              "fontWeight": "Normal",
+              "type": "label"
+            },
+            {
+              "fieldCode": "MIC3",
+              "fieldName": "0-4 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC3",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC3",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "MIC5",
+              "fieldName": "Negative",
+              "fontWeight": "Normal",
+              "type": "label"
+            },
+            {
+              "fieldCode": "MIC5",
+              "fieldName": "0-4 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC5",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC5",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "",
+      "postition": "left",
+      "display": "y",
+      "subTitleDepth": 1,
+      "subTitleContent": [
+        {
+          "subTitleContentDepth": 4,
+          "subTitleArr": [
+            {
+              "title": "Female",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "0-4 yrs",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "5-14 yrs",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "15+ yrs",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            }
+          ]
+        }
+      ],
+      "rowDepth": 7,
+      "rowArr": [
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "MIC4",
+              "fieldName": "Total Tested",
+              "fontWeight": "Normal",
+              "type": "label"
+            },
+            {
+              "fieldCode": "MIC4",
+              "fieldName": "0-4 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC4",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC4",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "MIC0",
+              "fieldName": "P.falciparum",
+              "fontWeight": "Normal",
+              "type": "label"
+            },
+            {
+              "fieldCode": "MIC0",
+              "fieldName": "0-4 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC0",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC0",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "MIC1",
+              "fieldName": "P.vivax",
+              "fontWeight": "Normal",
+              "type": "label"
+            },
+            {
+              "fieldCode": "MIC1",
+              "fieldName": "0-4 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC1",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC1",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "MIC2",
+              "fieldName": "P.malariae",
+              "fontWeight": "Normal",
+              "type": "label"
+            },
+            {
+              "fieldCode": "MIC2",
+              "fieldName": "0-4 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC2",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC2",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "MIC6",
+              "fieldName": "P.ovale",
+              "fontWeight": "Normal",
+              "type": "label"
+            },
+            {
+              "fieldCode": "MIC6",
+              "fieldName": "0-4 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC6",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC6",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "MIC3",
+              "fieldName": "Mixed",
+              "fontWeight": "Normal",
+              "type": "label"
+            },
+            {
+              "fieldCode": "MIC3",
+              "fieldName": "0-4 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC3",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC3",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "MIC5",
+              "fieldName": "Negative",
+              "fontWeight": "Normal",
+              "type": "label"
+            },
+            {
+              "fieldCode": "MIC5",
+              "fieldName": "0-4 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC5",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "MIC5",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "RAPID DIAGONASTIC TEST",
+      "fontWeight": "Bold",
+      "postition": "left",
+      "display": "y",
+      "subTitleDepth": 1,
+      "subTitleContent": [
+        {
+          "subTitleContentDepth": 4,
+          "subTitleArr": [
+            {
+              "title": "Male",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "0-4 yrs",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "5-14 yrs",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "15+ yrs",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            }
+          ]
+        }
+      ],
+      "rowDepth": 7,
+      "rowArr": [
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "RDT4",
+              "fontWeight": "Normal",
+              "fieldName": "Total Tested",
+              "type": "label"
+            },
+            {
+              "fieldCode": "RDT4",
+              "fieldName": "0-4 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "RDT4",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "RDT4",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "",
+      "postition": "left",
+      "display": "y",
+      "subTitleDepth": 1,
+      "subTitleContent": [
+        {
+          "subTitleContentDepth": 4,
+          "subTitleArr": [
+            {
+              "title": "Female",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "0-4 yrs",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "5-14 yrs",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "15+ yrs",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            }
+          ]
+        }
+      ],
+      "rowDepth": 7,
+      "rowArr": [
+        {
+          "dataColDepth": 4,
+          "dataColRows": [
+            {
+              "fieldCode": "RDT4",
+              "fontWeight": "Normal",
+              "fieldName": "Total Tested",
+              "type": "label"
+            },
+            {
+              "fieldCode": "RDT4",
+              "fontWeight": "Normal",
+              "fieldName": "0-4 yrs",
+              "type": "text"
+            },
+            {
+              "fieldCode": "RDT4",
+              "fieldName": "5-14 yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            },
+            {
+              "fieldCode": "RDT4",
+              "fieldName": "15+ yrs",
+              "fontWeight": "Normal",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ACT given to malaria cases",
+      "fontWeight": "Bold",
+      "postition": "left",
+      "display": "y",
+      "subTitleDepth": 2,
+      "subTitleContent": [
+        {
+          "subTitleContentDepth": 3,
+          "subTitleArr": [
+            {
+              "title": "Diagnosis by clinical assessment",
+              "fontWeight": "Bold",
+              "rowspan": 2,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "Outpatients",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 2,
+              "type": "label"
+            },
+            {
+              "title": "Inpatients",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 2,
+              "type": "label"
+            }
+          ]
+        },
+        {
+          "subTitleContentDepth": 5,
+          "subTitleArr": [
+            {
+              "title": "",
+              "rowspan": 0,
+              "colspan": 2,
+              "type": "label"
+            },
+            {
+              "title": "Male",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "Female",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "Male",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "Female",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 0,
+              "type": "label"
+            }
+          ]
+        }
+      ],
+      "rowDepth": 4,
+      "rowArr": [
+        {
+          "dataColDepth": 5,
+          "dataColRows": [
+            {
+              "fieldCode": "HF_MAL_ACT_001",
+              "fontWeight": "Normal",
+              "fieldName": "0-4 yrs",
+              "type": "label"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_001",
+              "fontWeight": "Normal",
+              "fieldName": "male_count_op",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_001",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_op",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_001",
+              "fontWeight": "Normal",
+              "fieldName": "male_count_ip",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_001",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_ip",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 5,
+          "dataColRows": [
+            {
+              "fieldCode": "HF_MAL_ACT_002",
+              "fontWeight": "Normal",
+              "fieldName": "5-14 yrs",
+              "type": "label"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_002",
+              "fontWeight": "Normal",
+              "fieldName": "male_count_op",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_002",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_op",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_002",
+              "fontWeight": "Normal",
+              "fieldName": "male_count_ip",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_002",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_ip",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 5,
+          "dataColRows": [
+            {
+              "fieldCode": "HF_MAL_ACT_003",
+              "fontWeight": "Normal",
+              "fieldName": "15+ yrs",
+              "type": "label"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_003",
+              "fontWeight": "Normal",
+              "fieldName": "male_count_op",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_003",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_op",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_003",
+              "fontWeight": "Normal",
+              "fieldName": "male_count_ip",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_003",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_ip",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 5,
+          "dataColRows": [
+            {
+              "fieldCode": "HF_MAL_ACT_004",
+              "fontWeight": "Normal",
+              "fieldName": "Pregnant",
+              "type": "label"
+            },
+            {
+              "fieldCode": "",
+              "fieldName": "",
+              "type": "label"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_004",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_op",
+              "type": "text"
+            },
+            {
+              "fieldCode": "",
+              "fieldName": "",
+              "type": "label"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_004",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_ip",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "",
+      "postition": "left",
+      "display": "y",
+      "subTitleDepth": 2,
+      "subTitleContent": [
+        {
+          "subTitleContentDepth": 3,
+          "subTitleArr": [
+            {
+              "title": "Diagnosis confirmed by RDT or Microscopy",
+              "fontWeight": "Bold",
+              "rowspan": 2,
+              "colspan": 0,
+              "type": "label"
+            },
+            {
+              "title": "Outpatients - Male",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 2,
+              "type": "label"
+            },
+            {
+              "title": "Outpatients - Female",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 2,
+              "type": "label"
+            },
+            {
+              "title": "Inpatients - Male",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 2,
+              "type": "label"
+            },
+            {
+              "title": "Inpatients - Female",
+              "fontWeight": "Bold",
+              "rowspan": 0,
+              "colspan": 2,
+              "type": "label"
+            }
+          ]
+        }
+      ],
+      "rowDepth": 4,
+      "rowArr": [
+        {
+          "dataColDepth": 5,
+          "dataColRows": [
+            {
+              "fieldCode": "HF_MAL_ACT_001",
+              "fontWeight": "Normal",
+              "fieldName": "0-4 yrs",
+              "type": "label"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_001",
+              "fontWeight": "Normal",
+              "fieldName": "male_count_op",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_001",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_op",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_001",
+              "fontWeight": "Normal",
+              "fieldName": "male_count_ip",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_001",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_ip",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 5,
+          "dataColRows": [
+            {
+              "fieldCode": "HF_MAL_ACT_002",
+              "fontWeight": "Normal",
+              "fieldName": "5-14 yrs",
+              "type": "label"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_002",
+              "fontWeight": "Normal",
+              "fieldName": "male_count_op",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_002",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_op",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_002",
+              "fontWeight": "Normal",
+              "fieldName": "male_count_ip",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_002",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_ip",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 5,
+          "dataColRows": [
+            {
+              "fieldCode": "HF_MAL_ACT_003",
+              "fontWeight": "Normal",
+              "fieldName": "15+ yrs",
+              "type": "label"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_003",
+              "fontWeight": "Normal",
+              "fieldName": "male_count_op",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_003",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_op",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_003",
+              "fontWeight": "Normal",
+              "fieldName": "male_count_ip",
+              "type": "text"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_003",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_ip",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "dataColDepth": 5,
+          "dataColRows": [
+            {
+              "fieldCode": "HF_MAL_ACT_004",
+              "fontWeight": "Normal",
+              "fieldName": "Pregnant",
+              "type": "label"
+            },
+            {
+              "fieldCode": "",
+              "fieldName": "",
+              "type": "label"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_004",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_op",
+              "type": "text"
+            },
+            {
+              "fieldCode": "",
+              "fieldName": "",
+              "type": "label"
+            },
+            {
+              "fieldCode": "HF_MAL_ACT_004",
+              "fontWeight": "Normal",
+              "fieldName": "female_count_ip",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
