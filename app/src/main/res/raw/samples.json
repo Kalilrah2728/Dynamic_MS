@@ -73,32 +73,7 @@
           },
           {
             "dataColDepth": 3,
-            "dataColRows": [
-              {
-                "fieldCode": "HF_OP_NC_044",
-                "fieldName": "Neonatal Tetanus",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_044",
-                "fieldName": "HF_OP_NC_044",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_044",
-                "fieldName": "HF_OP_NC_044",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              }
-            ]
+            "dataColRows": "[\n              {\n                \"fieldCode\": \"HF_OP_NC_044\",\n                \"fieldName\": \"Neonatal Tetanus\",\n                \"rowspan\": 0,\n                \"colspan\": 0,\n                \"fontWeight\": \"Normal\",\n                \"type\": \"label\"\n              },\n              {\n                \"fieldCode\": \"HF_OP_NC_044\",\n                \"fieldName\": \"HF_OP_NC_044\",\n                \"rowspan\": 0,\n                \"colspan\": 0,\n                \"fontWeight\": \"Normal\",\n                \"type\": \"text\"\n              },\n              {\n                \"fieldCode\": \"HF_OP_NC_044\",\n                \"fieldName\": \"HF_OP_NC_044\",\n                \"rowspan\": 0,\n                \"colspan\": 0,\n                \"fontWeight\": \"Normal\",\n                \"type\": \"text\"\n              }\n            ]"
           },
           {
             "dataColDepth": 3,

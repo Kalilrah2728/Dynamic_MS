@@ -1,0 +1,1828 @@
+[
+  {
+    "id": 3,
+    "jsop": {
+      "id": 3,
+      "mainTitle": "INPATIENTS - DISCHARGES & DEATHS",
+      "fontWeight": "Bold",
+      "position": "centre",
+      "tableDepth": 1,
+      "depthArr": [
+        {
+          "title": "",
+          "postition": "left",
+          "display": "n",
+          "subTitleDepth": 2,
+          "subTitleContent": [
+            {
+              "subTitleContentDepth": 3,
+              "subTitleArr": [
+                {
+                  "title": "INPATIENTS",
+                  "fontWeight": "Bold",
+                  "rowspan": 2,
+                  "colspan": 0,
+                  "type": "label"
+                },
+                {
+                  "title": "Discharges",
+                  "fontWeight": "Bold",
+                  "rowspan": 0,
+                  "colspan": 2,
+                  "type": "label"
+                },
+                {
+                  "title": "Deaths",
+                  "fontWeight": "Bold",
+                  "rowspan": 0,
+                  "colspan": 2,
+                  "type": "label"
+                }
+              ]
+            },
+            {
+              "subTitleContentDepth": 5,
+              "subTitleArr": [
+                {
+                  "title": "",
+                  "rowspan": 0,
+                  "colspan": 2,
+                  "type": "label"
+                },
+                {
+                  "title": "Male",
+                  "fontWeight": "Bold",
+                  "rowspan": 0,
+                  "colspan": 0,
+                  "type": "label"
+                },
+                {
+                  "title": "Female",
+                  "fontWeight": "Bold",
+                  "rowspan": 0,
+                  "colspan": 0,
+                  "type": "label"
+                },
+                {
+                  "title": "Male",
+                  "fontWeight": "Bold",
+                  "rowspan": 0,
+                  "colspan": 0,
+                  "type": "label"
+                },
+                {
+                  "title": "Female",
+                  "fontWeight": "Bold",
+                  "rowspan": 0,
+                  "colspan": 0,
+                  "type": "label"
+                }
+              ]
+            }
+          ],
+          "rowDepth": 4,
+          "rowArr": [
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP1",
+                  "fieldName": "Diphtheria",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP1",
+                  "fieldName": "INP1",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP1",
+                  "fieldName": "INP1",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP1",
+                  "fieldName": "INP1",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP1",
+                  "fieldName": "INP1",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP2",
+                  "fieldName": "Neonatal Tetanus",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP2",
+                  "fieldName": "INP2",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP2",
+                  "fieldName": "INP2",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP2",
+                  "fieldName": "INP2",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP2",
+                  "fieldName": "INP2",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP3",
+                  "fieldName": "Acute flaccid paralysis",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP3",
+                  "fieldName": "INP3",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP3",
+                  "fieldName": "INP3",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP3",
+                  "fieldName": "INP3",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP3",
+                  "fieldName": "INP3",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP4",
+                  "fieldName": "Measles (suspected)",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP4",
+                  "fieldName": "INP4",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP4",
+                  "fieldName": "INP4",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP4",
+                  "fieldName": "INP4",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP4",
+                  "fieldName": "INP4",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP5",
+                  "fieldName": "Pertussis",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP5",
+                  "fieldName": "INP5",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP5",
+                  "fieldName": "INP5",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP5",
+                  "fieldName": "INP5",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP5",
+                  "fieldName": "INP5",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP6",
+                  "fieldName": "Neonatal Sepsis",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP6",
+                  "fieldName": "INP6",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP6",
+                  "fieldName": "INP6",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP6",
+                  "fieldName": "INP6",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP6",
+                  "fieldName": "INP6",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP7",
+                  "fieldName": "Pneumonia < 1 yr",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP7",
+                  "fieldName": "INP7",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP7",
+                  "fieldName": "INP7",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP7",
+                  "fieldName": "INP7",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP7",
+                  "fieldName": "INP7",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP8",
+                  "fieldName": "Pneumonia 1-4 yrs",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP8",
+                  "fieldName": "INP8",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP8",
+                  "fieldName": "INP8",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP8",
+                  "fieldName": "INP8",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP8",
+                  "fieldName": "INP8",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP9",
+                  "fieldName": "Pneumonia 5 yrs+",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP9",
+                  "fieldName": "INP9",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP9",
+                  "fieldName": "INP9",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP9",
+                  "fieldName": "INP9",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP9",
+                  "fieldName": "INP9",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP10",
+                  "fieldName": "Chr. Obst. Pulmon. Dis.",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP10",
+                  "fieldName": "INP10",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP10",
+                  "fieldName": "INP10",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP10",
+                  "fieldName": "INP10",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP10",
+                  "fieldName": "INP10",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP11",
+                  "fieldName": "Asthma",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP11",
+                  "fieldName": "INP11",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP11",
+                  "fieldName": "INP11",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP11",
+                  "fieldName": "INP11",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP11",
+                  "fieldName": "INP11",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP12",
+                  "fieldName": "Other Respiratory Diseases",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP12",
+                  "fieldName": "INP12",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP12",
+                  "fieldName": "INP12",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP12",
+                  "fieldName": "INP12",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP12",
+                  "fieldName": "INP12",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP13",
+                  "fieldName": "Diarrhoea < 1 yr",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP13",
+                  "fieldName": "INP13",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP13",
+                  "fieldName": "INP13",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP13",
+                  "fieldName": "INP13",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP13",
+                  "fieldName": "INP13",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP14",
+                  "fieldName": "Diarrhoea 1-4 yrs",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP14",
+                  "fieldName": "INP14",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP14",
+                  "fieldName": "INP14",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP14",
+                  "fieldName": "INP14",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP14",
+                  "fieldName": "INP14",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP15",
+                  "fieldName": "Diarrhoea 5 yrs+",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP15",
+                  "fieldName": "INP15",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP15",
+                  "fieldName": "INP15",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP15",
+                  "fieldName": "INP15",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP15",
+                  "fieldName": "INP15",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP16",
+                  "fieldName": "Malaria Clinical Diagnosis 0-4 yrs",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP16",
+                  "fieldName": "INP16",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP16",
+                  "fieldName": "INP16",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP16",
+                  "fieldName": "INP16",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP16",
+                  "fieldName": "INP16",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP17",
+                  "fieldName": "Malaria Clinical Diagnosis 5-14 yrs",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP17",
+                  "fieldName": "INP17",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP17",
+                  "fieldName": "INP17",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP17",
+                  "fieldName": "INP17",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP17",
+                  "fieldName": "INP17",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP18",
+                  "fieldName": "Malaria Clinical Diagnosis 15 yrs+",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP18",
+                  "fieldName": "INP18",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP18",
+                  "fieldName": "INP18",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP18",
+                  "fieldName": "INP18",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP18",
+                  "fieldName": "INP18",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP19",
+                  "fieldName": "Malaria Clinical Diagnosis Pregnant",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "",
+                  "fieldName": "",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP19",
+                  "fieldName": "INP19",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "",
+                  "fieldName": "",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP19",
+                  "fieldName": "INP19",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP20",
+                  "fieldName": "Malaria cases confirmed by RDT or Microscopy 0-4 yrs",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP20",
+                  "fieldName": "INP20",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP20",
+                  "fieldName": "INP20",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP20",
+                  "fieldName": "INP20",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP20",
+                  "fieldName": "INP20",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP21",
+                  "fieldName": "Malaria cases confirmed by RDT or Microscopy 5-14 yrs",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP21",
+                  "fieldName": "INP21",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP21",
+                  "fieldName": "INP21",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP21",
+                  "fieldName": "INP21",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP21",
+                  "fieldName": "INP21",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP22",
+                  "fieldName": "Malaria cases confirmed by RDT or Microscopy 15 yrs +",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP22",
+                  "fieldName": "INP22",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP22",
+                  "fieldName": "INP22",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP22",
+                  "fieldName": "INP22",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP22",
+                  "fieldName": "INP22",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP23",
+                  "fieldName": "Malaria cases confirmed by RDT or Microscopy Pregnant",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "",
+                  "fieldName": "",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP23",
+                  "fieldName": "INP23",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "",
+                  "fieldName": "",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP23",
+                  "fieldName": "INP23",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP24",
+                  "fieldName": "Anaemia",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP24",
+                  "fieldName": "INP24",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP24",
+                  "fieldName": "INP24",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP24",
+                  "fieldName": "INP24",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP24",
+                  "fieldName": "INP24",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP50",
+                  "fieldName": "Malnutrition < 6 mths",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP50",
+                  "fieldName": "INP50",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP50",
+                  "fieldName": "INP50",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP50",
+                  "fieldName": "INP50",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP50",
+                  "fieldName": "INP50",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP51",
+                  "fieldName": "Malnutrition 6-59 mths",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP51",
+                  "fieldName": "INP51",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP51",
+                  "fieldName": "INP51",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP51",
+                  "fieldName": "INP51",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP51",
+                  "fieldName": "INP51",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP52",
+                  "fieldName": "Malnutrition 5-14 yrs",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP52",
+                  "fieldName": "INP52",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP52",
+                  "fieldName": "INP52",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP52",
+                  "fieldName": "INP52",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP52",
+                  "fieldName": "INP52",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP49",
+                  "fieldName": "Motor V.Accident injuries",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP49",
+                  "fieldName": "INP49",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP49",
+                  "fieldName": "INP49",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP49",
+                  "fieldName": "INP49",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP49",
+                  "fieldName": "INP49",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP27",
+                  "fieldName": "Other accidents & injuries",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP27",
+                  "fieldName": "INP27",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP27",
+                  "fieldName": "INP27",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP27",
+                  "fieldName": "INP27",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP27",
+                  "fieldName": "INP27",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP28",
+                  "fieldName": "Typhoid",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP28",
+                  "fieldName": "INP28",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP28",
+                  "fieldName": "INP28",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP28",
+                  "fieldName": "INP28",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP28",
+                  "fieldName": "INP28",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP29",
+                  "fieldName": "TB",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP29",
+                  "fieldName": "INP29",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP29",
+                  "fieldName": "INP29",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP29",
+                  "fieldName": "INP29",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP29",
+                  "fieldName": "INP29",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP30",
+                  "fieldName": "Leprosy",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP30",
+                  "fieldName": "INP30",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP30",
+                  "fieldName": "INP30",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP30",
+                  "fieldName": "INP30",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP30",
+                  "fieldName": "INP30",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP31",
+                  "fieldName": "Meningitis < 1 yr",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP31",
+                  "fieldName": "INP31",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP31",
+                  "fieldName": "INP31",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP31",
+                  "fieldName": "INP31",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP31",
+                  "fieldName": "INP31",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP32",
+                  "fieldName": "Meningitis 1-4 yrs",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP32",
+                  "fieldName": "INP32",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP32",
+                  "fieldName": "INP32",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP32",
+                  "fieldName": "INP32",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP32",
+                  "fieldName": "INP32",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP33",
+                  "fieldName": "Meningitis 5 yrs+",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP33",
+                  "fieldName": "INP33",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP33",
+                  "fieldName": "INP33",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP33",
+                  "fieldName": "INP33",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP33",
+                  "fieldName": "INP33",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP34",
+                  "fieldName": "Snake bite",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP34",
+                  "fieldName": "INP34",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP34",
+                  "fieldName": "INP34",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP34",
+                  "fieldName": "INP34",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP34",
+                  "fieldName": "INP34",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP35",
+                  "fieldName": "Skin disease",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP35",
+                  "fieldName": "INP35",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP35",
+                  "fieldName": "INP35",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP35",
+                  "fieldName": "INP35",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP35",
+                  "fieldName": "INP35",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP36",
+                  "fieldName": "HIV / AIDS < 5 yrs",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP36",
+                  "fieldName": "INP36",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP36",
+                  "fieldName": "INP36",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP36",
+                  "fieldName": "INP36",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP36",
+                  "fieldName": "INP36",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP37",
+                  "fieldName": "HIV / AIDS 5-14 yrs",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP37",
+                  "fieldName": "INP37",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP37",
+                  "fieldName": "INP37",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP37",
+                  "fieldName": "INP37",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP37",
+                  "fieldName": "INP37",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP38",
+                  "fieldName": "HIV / AIDS 15-24 yrs",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP38",
+                  "fieldName": "INP38",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP38",
+                  "fieldName": "INP38",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP38",
+                  "fieldName": "INP38",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP38",
+                  "fieldName": "INP38",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP39",
+                  "fieldName": "HIV / AIDS 25 yrs+",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP39",
+                  "fieldName": "INP39",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP39",
+                  "fieldName": "INP39",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP39",
+                  "fieldName": "INP39",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP39",
+                  "fieldName": "INP39",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP40",
+                  "fieldName": "Ischaemic heart disease",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP40",
+                  "fieldName": "INP40",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP40",
+                  "fieldName": "INP40",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP40",
+                  "fieldName": "INP40",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP40",
+                  "fieldName": "INP40",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP41",
+                  "fieldName": "Cancer",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP41",
+                  "fieldName": "INP41",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP41",
+                  "fieldName": "INP41",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP41",
+                  "fieldName": "INP41",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP41",
+                  "fieldName": "INP41",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP42",
+                  "fieldName": "Hypertension",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP42",
+                  "fieldName": "INP42",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP42",
+                  "fieldName": "INP42",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP42",
+                  "fieldName": "INP42",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP42",
+                  "fieldName": "INP42",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP43",
+                  "fieldName": "Diabetes",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP43",
+                  "fieldName": "INP43",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP43",
+                  "fieldName": "INP43",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP43",
+                  "fieldName": "INP43",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP43",
+                  "fieldName": "INP43",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP44",
+                  "fieldName": "Other discharges / deaths",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP44",
+                  "fieldName": "INP44",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP44",
+                  "fieldName": "INP44",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP44",
+                  "fieldName": "INP44",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP44",
+                  "fieldName": "INP44",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP47",
+                  "fieldName": "Total discharges",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP47",
+                  "fieldName": "INP47",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP47",
+                  "fieldName": "INP47",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "",
+                  "fieldName": "",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "",
+                  "fieldName": "",
+                  "type": "label"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP48",
+                  "fieldName": "Total deaths",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP48",
+                  "fieldName": "INP48",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP48",
+                  "fieldName": "INP48",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "",
+                  "fieldName": "",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "",
+                  "fieldName": "",
+                  "type": "label"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP45",
+                  "fieldName": "Patients absconded",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP45",
+                  "fieldName": "INP45",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP45",
+                  "fieldName": "INP45",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "",
+                  "fieldName": "",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "",
+                  "fieldName": "",
+                  "type": "label"
+                }
+              ]
+            },
+            {
+              "dataColDepth": 5,
+              "dataColRows": [
+                {
+                  "fieldCode": "INP46",
+                  "fieldName": "Patients transferred out",
+                  "fontWeight": "Normal",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "INP46",
+                  "fieldName": "INP46",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "INP46",
+                  "fieldName": "INP46",
+                  "fontWeight": "Normal",
+                  "type": "text"
+                },
+                {
+                  "fieldCode": "",
+                  "fieldName": "",
+                  "type": "label"
+                },
+                {
+                  "fieldCode": "",
+                  "fieldName": "",
+                  "type": "label"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

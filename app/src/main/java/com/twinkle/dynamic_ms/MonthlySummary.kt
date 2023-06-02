@@ -137,12 +137,236 @@ class MonthlySummary : AppCompatActivity() {
                     WidgetItems.MALOUTINBASE.label -> createMalOutInBase(component)
                     WidgetItems.NUMTEST.label -> createNumTest(component)
                     WidgetItems.NUMTEST1.label -> createNumTest1(component)
+                    WidgetItems.TITLETWOBOXVALUEMF.label -> titleTwoBoxValueMF(component)
                 }
             }
         }
 
         // save button
 
+    }
+
+    private fun titleTwoBoxValueMF(component: FormComponentItem) {
+        val resp: JsonObject = JsonParser().parse(component.labelvalue).asJsonObject
+        val headLabelmain = resp.get("headlabelm").asString
+        val labelHeadOne = resp.get("labelhone").asString
+        val labelHeadTwo = resp.get("labelhtwo").asString
+
+        isLabelNull(component)
+
+        //Parent layout
+        val numberViewContainer = LinearLayout(this)
+        numberViewContainer.orientation = LinearLayout.HORIZONTAL
+        val layoutParams = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        layoutParams.setMargins(20, 30, 20, 5)
+        numberViewContainer.setBackgroundResource(R.drawable.black_box)
+        numberViewContainer.layoutParams = layoutParams
+
+
+        //First - TextView container
+        val numberViewContainer4 = LinearLayout(this)
+        val layoutParams4 = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        numberViewContainer4.setPadding(5, 5, 5, 5)
+        numberViewContainer4.layoutParams = layoutParams4
+        layoutParams4.weight = 1.5f
+
+        val txtVgender= TextView(this)
+        txtVgender.textSize = 15f
+        txtVgender.gravity = Gravity.CENTER
+        txtVgender.setTextColor(Color.BLACK)
+        txtVgender.typeface = Typeface.DEFAULT_BOLD
+        txtVgender.setPadding(5, 5, 5, 5)
+        txtVgender.text = createStringForViewLabel(false, headLabelmain)
+        numberViewContainer4.addView(txtVgender)
+
+
+        //Second - container
+        val numberViewContainer1 = LinearLayout(this)
+        numberViewContainer1.orientation = LinearLayout.VERTICAL
+        val layoutParams1 = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        numberViewContainer1.setBackgroundResource(R.drawable.black_box)
+        numberViewContainer1.layoutParams = layoutParams1
+        layoutParams1.weight = 1.0f
+
+
+        //Second - container - First Layout (Out Patient)
+        val malOutPatientContainer = LinearLayout(this)
+        malOutPatientContainer.orientation = LinearLayout.HORIZONTAL
+        val malOutPatientLay = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        malOutPatientContainer.gravity = Gravity.CENTER
+        malOutPatientContainer.setPadding(5, 5, 5, 5)
+        malOutPatientContainer.setBackgroundResource(R.drawable.black_box)
+        malOutPatientContainer.layoutParams = malOutPatientLay
+
+        val malOutPatientHtxt = TextView(this)
+        malOutPatientHtxt.textSize = 15f
+        malOutPatientHtxt.gravity = Gravity.CENTER
+        malOutPatientHtxt.setTextColor(Color.BLACK)
+        malOutPatientHtxt.typeface = Typeface.DEFAULT_BOLD
+        malOutPatientHtxt.setPadding(5, 5, 5, 5)
+        malOutPatientHtxt.text = createStringForViewLabel(false, labelHeadOne)
+        malOutPatientContainer.addView(malOutPatientHtxt)
+
+        //Second - container - Second Layout (Gender mention)
+        val malOutPatientGender = LinearLayout(this)
+        malOutPatientGender.orientation = LinearLayout.HORIZONTAL
+        val malOutPatientGenderLay = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        malOutPatientGender.setBackgroundResource(R.drawable.black_box)
+        malOutPatientGender.layoutParams = malOutPatientGenderLay
+
+        val maleContainer = LinearLayout(this)
+        val maleContainerLay = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        maleContainer.gravity = Gravity.CENTER
+        maleContainer.setBackgroundResource(R.drawable.black_box)
+        maleContainer.layoutParams = maleContainerLay
+        maleContainerLay.weight = 1f
+
+        val malOutPatientGm = TextView(this)
+        malOutPatientGm.textSize = 15f
+        malOutPatientGm.gravity = Gravity.CENTER
+        malOutPatientGm.setTextColor(Color.BLACK)
+        malOutPatientGm.typeface = Typeface.DEFAULT_BOLD
+        malOutPatientGm.setPadding(5, 5, 5, 5)
+        malOutPatientGm.text = createStringForViewLabel(false, "MALE")
+        maleContainer.addView(malOutPatientGm)
+
+        val femaleContainer = LinearLayout(this)
+        val femaleContainerLay = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        femaleContainer.gravity = Gravity.CENTER
+        femaleContainer.setBackgroundResource(R.drawable.black_box)
+        femaleContainer.layoutParams = femaleContainerLay
+        femaleContainerLay.weight = 1f
+
+        val malOutPatientGf = TextView(this)
+        malOutPatientGf.textSize = 15f
+        malOutPatientGf.gravity = Gravity.CENTER
+        malOutPatientGf.setTextColor(Color.BLACK)
+        malOutPatientGf.typeface = Typeface.DEFAULT_BOLD
+        malOutPatientGf.setPadding(5, 5, 5, 5)
+        malOutPatientGf.text = createStringForViewLabel(false, "FEMALE")
+        femaleContainer.addView(malOutPatientGf)
+
+        malOutPatientGender.addView(maleContainer)
+        malOutPatientGender.addView(femaleContainer)
+
+        numberViewContainer1.addView(malOutPatientContainer)
+        numberViewContainer1.addView(malOutPatientGender)
+
+        //Third - container
+        val numberViewContainer2 = LinearLayout(this)
+        numberViewContainer2.orientation = LinearLayout.VERTICAL
+        val layoutParams2 = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        numberViewContainer2.setBackgroundResource(R.drawable.black_box)
+        numberViewContainer2.layoutParams = layoutParams2
+        layoutParams2.weight = 1.0f
+
+
+        //third - container - First Layout (In Patient)
+        val malInPatientContainer = LinearLayout(this)
+        malInPatientContainer.orientation = LinearLayout.HORIZONTAL
+        val malInPatientLay = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        malInPatientContainer.gravity = Gravity.CENTER
+        malInPatientContainer.setPadding(5,5,5, 5)
+        malInPatientContainer.setBackgroundResource(R.drawable.black_box)
+        malInPatientContainer.layoutParams = malInPatientLay
+
+        val malInPatientHtxt = TextView(this)
+        malInPatientHtxt.textSize = 15f
+        malInPatientHtxt.gravity = Gravity.CENTER
+        malInPatientHtxt.setTextColor(Color.BLACK)
+        malInPatientHtxt.typeface = Typeface.DEFAULT_BOLD
+        malInPatientHtxt.setPadding(5, 5, 5, 5)
+        malInPatientHtxt.text = createStringForViewLabel(false, labelHeadTwo)
+        malInPatientContainer.addView(malInPatientHtxt)
+
+        //Third - container - Second Layout (Gender mention)
+        val malInPatientGender = LinearLayout(this)
+        malInPatientGender.orientation = LinearLayout.HORIZONTAL
+        val malInPatientGenderLay = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        malInPatientGender.setBackgroundResource(R.drawable.black_box)
+        malInPatientGender.layoutParams = malInPatientGenderLay
+
+        val maleContainerThird = LinearLayout(this)
+        val maleContainerThirdLay = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        maleContainerThird.gravity = Gravity.CENTER
+        maleContainerThird.setBackgroundResource(R.drawable.black_box)
+        maleContainerThird.layoutParams = maleContainerThirdLay
+        maleContainerThirdLay.weight = 1f
+        val malInPatientGm = TextView(this)
+        malInPatientGm.textSize = 15f
+        malInPatientGm.gravity = Gravity.CENTER
+        malInPatientGm.setTextColor(Color.BLACK)
+        malInPatientGm.typeface = Typeface.DEFAULT_BOLD
+        malInPatientGm.setPadding(5, 5, 5, 5)
+        malInPatientGm.text = createStringForViewLabel(false, "MALE")
+        maleContainerThird.addView(malInPatientGm)
+
+        val femaleContainerThird = LinearLayout(this)
+        val femaleContainerThirdLay = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        femaleContainerThird.gravity = Gravity.CENTER
+        femaleContainerThird.setBackgroundResource(R.drawable.black_box)
+        femaleContainerThird.layoutParams = femaleContainerThirdLay
+        femaleContainerThirdLay.weight = 1f
+        val malInPatientGf = TextView(this)
+        malInPatientGf.textSize = 15f
+        malInPatientGf.gravity = Gravity.CENTER
+        malInPatientGf.setTextColor(Color.BLACK)
+        malInPatientGf.typeface = Typeface.DEFAULT_BOLD
+        malInPatientGf.setPadding(5, 5, 5, 5)
+        malInPatientGf.text = createStringForViewLabel(false, "FEMALE")
+        femaleContainerThird.addView(malInPatientGf)
+
+        malInPatientGender.addView(maleContainerThird)
+        malInPatientGender.addView(femaleContainerThird)
+
+        numberViewContainer2.addView(malInPatientContainer)
+        numberViewContainer2.addView(malInPatientGender)
+
+        numberViewContainer.addView(numberViewContainer4)
+        numberViewContainer.addView(numberViewContainer1)
+        numberViewContainer.addView(numberViewContainer2)
+
+        numberViewContainer1.gravity = Gravity.CENTER
+        numberViewContainer2.gravity = Gravity.CENTER
+        numberViewContainer4.gravity = Gravity.CENTER
+
+        binding.miniAppFormContainer.addView(numberViewContainer)
     }
 
     private fun createNumTest1(component: FormComponentItem) {
@@ -1702,7 +1926,16 @@ class MonthlySummary : AppCompatActivity() {
         numberViewContainer4.setPadding(5, 5, 5, 5)
         numberViewContainer4.layoutParams = layoutParams4
         layoutParams4.weight = 1.5f
-
+        component.item_name.let { labelString ->
+            val textView = TextView(this)
+            textView.textSize = 15f
+            textView.gravity = Gravity.CENTER
+            textView.setTextColor(Color.BLACK)
+            textView.typeface = Typeface.DEFAULT_BOLD
+            textView.setPadding(5, 5, 5, 5)
+            textView.text = createStringForViewLabel(false, labelString.toString())
+            numberViewContainer4.addView(textView)
+        }
 
         //Second - container
         val numberViewContainer1 = LinearLayout(this)
@@ -1967,7 +2200,7 @@ class MonthlySummary : AppCompatActivity() {
                         //headingName.setText(it.tallysheet_name)
 
                         if (it.tallysheet_name == "INPATIENTS"){
-                            tableTitleLay.visibility = View.VISIBLE
+                            tableTitleLay.visibility = View.GONE
                         }else{
                             tableTitleLay.visibility = View.GONE
                         }

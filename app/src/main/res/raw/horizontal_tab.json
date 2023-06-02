@@ -62,8 +62,20 @@
   {
     "type": "tab",
     "subtype": "h3",
-    "label": "IMMUNISATION BY HEALTH CENTRE",
+    "label": "IMMUNISATION HC",
     "id": "11"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "IMMUNISATION AP",
+    "id": "12"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "WELL BABY CLINIC",
+    "id": "13"
   }
 ]
 

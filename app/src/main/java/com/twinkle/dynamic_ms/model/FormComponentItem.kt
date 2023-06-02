@@ -30,6 +30,7 @@ data class FormComponentItem(
     val male: String?,
     val values: List<Value>?,
     val tab: String?,
+    val item_name: String?,
     val isNew: Boolean?,
     val valueH: String?
 )

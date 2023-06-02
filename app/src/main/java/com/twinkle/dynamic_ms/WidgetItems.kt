@@ -25,5 +25,6 @@ enum class WidgetItems(val label: String) {
     MALOUTINBASE("maloutinbase"),
     NUMTEST("numtest"),
     NUMTEST1("numtest1"),
-    MALYRSBASE("malyrsbase")
+    MALYRSBASE("malyrsbase"),
+    TITLETWOBOXVALUEMF("titletwoboxvaluemf")
 }

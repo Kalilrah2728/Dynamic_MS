@@ -1,0 +1,293 @@
+{
+  "id": 5,
+  "jsop": {
+    "id": 5,
+    "mainTitle": "LEPROSY",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 2,
+    "depthArr": [
+      {
+        "title": "",
+        "postition": "left",
+        "display": "n",
+        "subTitleDepth": 1,
+        "fontWeight": "Normal",
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 3,
+            "subTitleArr": [
+              {
+                "title": "",
+                "rowspan": 0,
+                "colspan": 0,
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "PB",
+                "rowspan": 0,
+                "colspan": 0,
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "MB",
+                "rowspan": 0,
+                "colspan": 0,
+                "fontWeight": "Bold",
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 4,
+        "rowArr": [
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "LP1",
+                "fieldName": "Total new cases",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "LP1",
+                "fieldName": "LP1",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "LP1",
+                "fieldName": "LP1",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "LP2",
+                "fieldName": "Child &lt; 15 yrs new case",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "LP2",
+                "fieldName": "LP2",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "LP2",
+                "fieldName": "LP2",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "LP3",
+                "fieldName": "Disability Gr. 2 new case",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "LP3",
+                "fieldName": "LP3",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "LP3",
+                "fieldName": "LP3",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "LP4",
+                "fieldName": "Female new cases",
+                "type": "label"
+              },
+              {
+                "fieldCode": "LP4",
+                "fieldName": "LP4",
+                "type": "text"
+              },
+              {
+                "fieldCode": "LP4",
+                "fieldName": "LP4",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Finishing treatment this month",
+        "postition": "left",
+        "display": "y",
+        "subTitleDepth": 1,
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 0,
+            "subTitleArr": []
+          }
+        ],
+        "rowDepth": 7,
+        "rowArr": [
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "LP5",
+                "fieldName": "Treatment Completed",
+                "type": "label"
+              },
+              {
+                "fieldCode": "LP5",
+                "fieldName": "LP5",
+                "type": "text"
+              },
+              {
+                "fieldCode": "LP5",
+                "fieldName": "LP5",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "LP6",
+                "fieldName": "Lost (includes default)",
+                "type": "label"
+              },
+              {
+                "fieldCode": "LP6",
+                "fieldName": "LP6",
+                "type": "text"
+              },
+              {
+                "fieldCode": "LP6",
+                "fieldName": "LP6",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "LP7",
+                "fieldName": "Died",
+                "type": "label"
+              },
+              {
+                "fieldCode": "LP7",
+                "fieldName": "LP7",
+                "type": "text"
+              },
+              {
+                "fieldCode": "LP7",
+                "fieldName": "LP7",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "LP8",
+                "fieldName": "Relapse",
+                "type": "label"
+              },
+              {
+                "fieldCode": "LP8",
+                "fieldName": "LP8",
+                "type": "text"
+              },
+              {
+                "fieldCode": "LP8",
+                "fieldName": "LP8",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "LP9",
+                "fieldName": "Transferred out",
+                "type": "label"
+              },
+              {
+                "fieldCode": "LP9",
+                "fieldName": "LP9",
+                "type": "text"
+              },
+              {
+                "fieldCode": "LP9",
+                "fieldName": "LP9",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "LP10",
+                "fieldName": "Total",
+                "type": "label"
+              },
+              {
+                "fieldCode": "LP10",
+                "fieldName": "LP10",
+                "type": "text"
+              },
+              {
+                "fieldCode": "LP10",
+                "fieldName": "LP10",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "LP11",
+                "fieldName": "Total registered cases",
+                "type": "label"
+              },
+              {
+                "fieldCode": "LP11",
+                "fieldName": "LP11",
+                "type": "text"
+              },
+              {
+                "fieldCode": "LP11",
+                "fieldName": "LP11",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

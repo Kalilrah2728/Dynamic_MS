@@ -1,9 +1,43 @@
-{
-  "type": "numtest",
-  "required": false,
-  "placeholder": "Pneumonia",
-  "placeholdervalue": "[\"< 1 yr\", \"1-4 yr\", \"5 yrs +\"]",
-  "min": 0,
-  "max": 99,
-  "step": 1
-}
+[
+  {
+    "type": "header",
+    "subtype": "h1",
+    "label": "Well Baby Clinic",
+    "access": false
+  },
+  {
+    "type": "titletwoboxvaluemf",
+    "required": false,
+    "labelvalue": "{\"labelheadtype\": \"inoutlabel\", \"headlabelm\": \"Child Attendances\", \"labelhone\": \"New\", \"labelhtwo\": \"Reattend\"}",
+    "placeholder": "0-4 yrs",
+    "valueH": "{\"discharge\": \"b\", \"deaths\": \"b\"}"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "< 6 months",
+    "valueH": "{\"discharge\": \"b\",\"deaths\": \"b\" }"
+  },
+  {
+    "type": "numinpatient",
+    "required": false,
+    "placeholder": "6 - 59 months",
+    "valueH": "{\"discharge\": \"b\",\"deaths\": \"b\" }"
+  },
+  {
+    "type": "tabletitle",
+    "required": false,
+    "male": "MALE",
+    "female": "FEMALE",
+    "item_name": "NUTRITION",
+    "className": "form-control",
+    "name": "number-1640082094782-0",
+    "access": false
+  },
+  {
+    "type": "numtest1",
+    "required": false,
+    "placeholder": "< 6 mths",
+    "placeholdervalue": "[\"< - 3 z score\", \"-3 to -2 z score\", \"> - 2 z score\"]"
+  }
+]
