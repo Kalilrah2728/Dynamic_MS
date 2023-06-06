@@ -1,0 +1,446 @@
+{
+  "id": 15,
+  "jsop": {
+    "id": 15,
+    "mainTitle": "IMMUNISATION BY AIDPOST (including clinics & outreach)",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 1,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 0,
+        "rowDepth": 25,
+        "rowArr": [
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_001",
+                "fieldName": "BCG within 24hrs of birth",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_001",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_001",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_002",
+                "fieldName": "BCG < 1 Week",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_002",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_002",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_003",
+                "fieldName": "BCG > 1 Week",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_003",
+                "fieldName": "AP_OP_IM_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_004",
+                "fieldName": "Hepatitis B Within 24hrs of birth",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_004",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_004",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_005",
+                "fieldName": "Hepatitis B > 24hrs",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_005",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_005",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_006",
+                "fieldName": "DTP / Hib (Hep B) (Pentavalent) 1st dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_006",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_006",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_007",
+                "fieldName": "DTP / Hib (Hep B) (Pentavalent) 2nd dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_007",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_007",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_008",
+                "fieldName": "DTP / Hib (Hep B) (Pentavalent) 3rd dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_008",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_008",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_009",
+                "fieldName": "DTP / Hib (Hep B) (Pentavalent) > 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_009",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_009",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_010",
+                "fieldName": "bOPV (Sabin) 1st dose < 1 yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_010",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_010",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_011",
+                "fieldName": "bOPV (Sabin) 2nd dose < 1 yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_011",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_011",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_012",
+                "fieldName": "bOPV (Sabin) 3rd dose < 1 yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_012",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_012",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_013",
+                "fieldName": "bOPV (Sabin) > 1 yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_013",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_013",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_024",
+                "fieldName": "IPV 3 - 11 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_024",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_024",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_020",
+                "fieldName": "PCV 13 1st dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_020",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_020",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_021",
+                "fieldName": "PCV 13 2nd dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_021",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_021",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_022",
+                "fieldName": "PCV 13 3rd dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_022",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_022",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_023",
+                "fieldName": "PCV 13 > 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_023",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_023",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_014",
+                "fieldName": "Measles Rubella 6 - 8 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_014",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_014",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_027",
+                "fieldName": "Measles Rubella 9 - 17 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_027",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_027",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_025",
+                "fieldName": "Measles Rubella 18 - 23 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_025",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_025",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_026",
+                "fieldName": "Measles Rubella > 24 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_026",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_026",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_028",
+                "fieldName": "Vitamin A 6 - 11 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_028",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_028",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_029",
+                "fieldName": "Vitamin A 12 - 59 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_029",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_029",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_030",
+                "fieldName": "Albendazole 12 - 59 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_030",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_030",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

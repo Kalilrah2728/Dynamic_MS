@@ -106,6 +106,78 @@
     "subtype": "h3",
     "label": "Modify HIV summary",
     "id": "104"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify TUBERCULOSIS",
+    "id": "105"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify CLINICS",
+    "id": "106"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify SCHOOL HEALTH",
+    "id": "107"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify FAMILY PLANNING",
+    "id": "108"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify Antenatal Care",
+    "id": "109"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify Deliveries",
+    "id": "110"
+  },{
+  "type": "tab",
+  "subtype": "h3",
+  "label": "Modify Immunisation HC",
+  "id": "111"
+},
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify Immunisation AP",
+    "id": "112"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify Well Baby Clinic",
+    "id": "113"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify Aidpost Register",
+    "id": "114"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify Shortages",
+    "id": "115"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify Supervision",
+    "id": "116"
   }
+
 ]
 

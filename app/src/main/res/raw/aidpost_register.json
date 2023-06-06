@@ -1,0 +1,281 @@
+{
+  "id": 18,
+  "jsop": {
+    "id": 18,
+    "mainTitle": "AIDPOST REGISTER",
+    "fontWeight": "Bold",
+    "position": "centre",
+    "tableDepth": 1,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 0,
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 3,
+            "subTitleArr": [
+              {
+                "title": "NAME",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "STATUS",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "VISITED",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 2,
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 8,
+        "rowArr": [
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Dapari",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Kikinonda",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Hurata",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Togaho",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Martyrs Clinic",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Dapa",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Divinokovari",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Singi / Puri",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

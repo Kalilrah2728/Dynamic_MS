@@ -5460,5 +5460,3722 @@
         ]
       }
     ]
+  },
+  {
+    "reg_id": "105",
+    "mainTitle": "TUBERCULOSIS",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 1,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 0,
+        "rowDepth": 2,
+        "rowArr": [
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_TB_no_new_tb_patients",
+                "fieldName": "No. of new TB patients of all types detected in the month",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_TB_no_new_tb_patients",
+                "fontWeight": "Normal",
+                "fieldName": "HF_TB_no_new_tb_patients",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_TB_no_re_tx_tb_patients",
+                "fieldName": "No. of retreatment TB patients of all types detected in the month",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_TB_no_re_tx_tb_patients",
+                "fieldName": "HF_TB_no_re_tx_tb_patients",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "reg_id": "106",
+    "mainTitle": "CLINICS",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 1,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 1,
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 3,
+            "subTitleArr": [
+              {
+                "title": "Number of outreach clinics",
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "Planned",
+                "fontWeight": "Bold",
+                "type": "label"
+              },
+              {
+                "title": "Held",
+                "fontWeight": "Bold",
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 3,
+        "rowArr": [
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_MS_CL_001",
+                "fieldName": "Static clinics",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_MS_CL_001",
+                "fontWeight": "Normal",
+                "fieldName": "HF_MS_CL_001",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_MS_CL_001",
+                "fontWeight": "Normal",
+                "fieldName": "HF_MS_CL_001",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_MS_CL_002",
+                "fieldName": "Day mobile clinics",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_MS_CL_002",
+                "fieldName": "HF_MS_CL_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_MS_CL_002",
+                "fieldName": "HF_MS_CL_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_MS_CL_003",
+                "fieldName": "Overnight clinics / patrols",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_MS_CL_003",
+                "fieldName": "HF_MS_CL_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_MS_CL_003",
+                "fieldName": "HF_MS_CL_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "reg_id": "107",
+    "mainTitle": "SCHOOL HEALTH",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 2,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 0,
+        "rowDepth": 3,
+        "rowArr": [
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_MS_SH_001",
+                "fieldName": "Total no. of schools",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_MS_SH_001",
+                "fontWeight": "Normal",
+                "fieldName": "HF_MS_SH_001",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_MS_SH_002",
+                "fieldName": "Schools visited",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_MS_SH_002",
+                "fieldName": "HF_MS_SH_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_MS_SH_003",
+                "fieldName": "Schools planned",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_MS_SH_003",
+                "fieldName": "HF_MS_SH_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "",
+        "position": "left",
+        "display": "y",
+        "subTitleDepth": 1,
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 3,
+            "subTitleArr": [
+              {
+                "title": "",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "Male",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "Female",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 8,
+        "rowArr": [
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_SH_IM_004",
+                "fieldName": "School Entry MR Vaccine",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_SH_IM_004",
+                "fieldName": "HF_SH_IM_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_SH_IM_004",
+                "fieldName": "HF_SH_IM_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_SH_IM_001",
+                "fieldName": "School Entry T.Toxoid",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_SH_IM_001",
+                "fieldName": "HF_SH_IM_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_SH_IM_001",
+                "fieldName": "HF_SH_IM_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_SH_IM_005",
+                "fieldName": "School Entry Vitamin A",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_SH_IM_005",
+                "fieldName": "HF_SH_IM_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_SH_IM_005",
+                "fieldName": "HF_SH_IM_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_SH_IM_006",
+                "fieldName": "School Entry Deworming",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_SH_IM_006",
+                "fieldName": "HF_SH_IM_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_SH_IM_006",
+                "fieldName": "HF_SH_IM_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_SH_IM_007",
+                "fieldName": "School Leaving MR Vaccine",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_SH_IM_007",
+                "fieldName": "HF_SH_IM_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_SH_IM_007",
+                "fieldName": "HF_SH_IM_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_SH_IM_002",
+                "fieldName": "School Leaving T.Toxoid",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_SH_IM_002",
+                "fieldName": "HF_SH_IM_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_SH_IM_002",
+                "fieldName": "HF_SH_IM_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_SH_IM_008",
+                "fieldName": "School Leaving Vitamin A",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_SH_IM_008",
+                "fieldName": "HF_SH_IM_008",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_SH_IM_008",
+                "fieldName": "HF_SH_IM_008",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_SH_IM_009",
+                "fieldName": "School Leaving Deworming",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_SH_IM_009",
+                "fieldName": "HF_SH_IM_009",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_SH_IM_009",
+                "fieldName": "HF_SH_IM_009",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "reg_id": "108",
+    "mainTitle": "FAMILY PLANNING",
+    "fontWeight": "Bold",
+    "position": "centre",
+    "tableDepth": 2,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 1,
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 3,
+            "subTitleArr": [
+              {
+                "title": "Family Planning By Centre",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "New Attend",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "Re-Attend",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 10,
+        "rowArr": [
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_ACC_001",
+                "fieldName": "Brst fd Pill (POP)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_ACC_001",
+                "fieldName": "HF_FP_ACC_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_FP_REA_001",
+                "fieldName": "HF_FP_REA_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_ACC_002",
+                "fieldName": "Comb.Pill (COP)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_ACC_002",
+                "fieldName": "HF_FP_ACC_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_FP_REA_002",
+                "fieldName": "HF_FP_REA_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_ACC_003",
+                "fieldName": "Injection",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_ACC_003",
+                "fieldName": "HF_FP_ACC_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_FP_REA_003",
+                "fieldName": "HF_FP_REA_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_ACC_004",
+                "fieldName": "Ovulation",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_ACC_004",
+                "fieldName": "HF_FP_ACC_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_FP_REA_004",
+                "fieldName": "HF_FP_REA_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_ACC_005",
+                "fieldName": "Condom",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_ACC_005",
+                "fieldName": "HF_FP_ACC_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_FP_REA_005",
+                "fieldName": "HF_FP_REA_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_ACC_006",
+                "fieldName": "Loop/IUD",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_ACC_006",
+                "fieldName": "HF_FP_ACC_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_FP_REA_006",
+                "fieldName": "HF_FP_REA_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_ACC_007",
+                "fieldName": "Implant",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_ACC_007",
+                "fieldName": "HF_FP_ACC_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_FP_REA_007",
+                "fieldName": "HF_FP_REA_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_PER_001",
+                "fieldName": "Permanent T/Ligation",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_PER_001",
+                "fieldName": "HF_FP_PER_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "type": "label"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_PER_002",
+                "fieldName": "Permanent Vasectomy",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_PER_002",
+                "fieldName": "HF_FP_PER_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "type": "label"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_FP_PER_003",
+                "fieldName": "Permanent Referred",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_FP_PER_003",
+                "fieldName": "HF_FP_PER_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "type": "label"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 1,
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 3,
+            "subTitleArr": [
+              {
+                "title": "Family Planning By AidPost",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "New Attend",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "Re-Attend",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 9,
+        "rowArr": [
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_ACC_001",
+                "fieldName": "Brst fd Pill (POP)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_ACC_001",
+                "fieldName": "AP_FP_ACC_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "AP_FP_REA_001",
+                "fieldName": "AP_FP_REA_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_ACC_002",
+                "fieldName": "Comb.Pill (COP)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_ACC_002",
+                "fieldName": "AP_FP_ACC_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "AP_FP_REA_002",
+                "fieldName": "AP_FP_REA_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_ACC_003",
+                "fieldName": "Injection",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_ACC_003",
+                "fieldName": "AP_FP_ACC_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "AP_FP_REA_003",
+                "fieldName": "AP_FP_REA_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_ACC_004",
+                "fieldName": "Ovulation",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_ACC_004",
+                "fieldName": "AP_FP_ACC_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "AP_FP_REA_004",
+                "fieldName": "AP_FP_REA_004",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_ACC_005",
+                "fieldName": "Condom",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_ACC_005",
+                "fieldName": "AP_FP_ACC_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "AP_FP_REA_005",
+                "fieldName": "AP_FP_REA_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_ACC_006",
+                "fieldName": "Loop/IUD",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_ACC_006",
+                "fieldName": "AP_FP_ACC_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "AP_FP_REA_006",
+                "fieldName": "AP_FP_REA_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_ACC_007",
+                "fieldName": "Implant",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_ACC_007",
+                "fieldName": "AP_FP_ACC_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "AP_FP_REA_007",
+                "fieldName": "AP_FP_REA_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_PER_001",
+                "fieldName": "Permanent Vasectomy",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_PER_001",
+                "fieldName": "AP_FP_PER_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "type": "label"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_FP_PER_002",
+                "fieldName": "Permanent Referred",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_FP_PER_002",
+                "fieldName": "AP_FP_PER_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "type": "label"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "reg_id": "109",
+    "mainTitle": "ANTENATAL CARE",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 2,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 0,
+        "rowDepth": 5,
+        "rowArr": [
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_ANT_ATT_001",
+                "fieldName": "1st Visit",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_ANT_ATT_001",
+                "fontWeight": "Normal",
+                "fieldName": "HF_ANT_ATT_001",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_ANT_ATT_002",
+                "fieldName": "4th Visit",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_ANT_ATT_002",
+                "fontWeight": "Normal",
+                "fieldName": "HF_ANT_ATT_002",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_ANT_ATT_003",
+                "fieldName": "Others",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_ANT_ATT_003",
+                "fieldName": "HF_ANT_ATT_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_ANT_ATT_004",
+                "fieldName": "Mothers screen for Syphilis - Tested",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_ANT_ATT_004",
+                "fontWeight": "Normal",
+                "fieldName": "HF_ANT_ATT_004",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_ANT_ATT_005",
+                "fieldName": "Mothers screen for Syphilis - Treated",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_ANT_ATT_005",
+                "fontWeight": "Normal",
+                "fieldName": "HF_ANT_ATT_005",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 0,
+        "rowDepth": 3,
+        "rowArr": [
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_ANT_IM_001",
+                "fieldName": "1st dose Tet.Toxoid",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_ANT_IM_001",
+                "fieldName": "HF_ANT_IM_001",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_ANT_IM_002",
+                "fieldName": "2nd dose Tet.Toxoid",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_ANT_IM_002",
+                "fieldName": "HF_ANT_IM_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_ANT_IM_003",
+                "fieldName": "Booster",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_ANT_IM_003",
+                "fieldName": "HF_ANT_IM_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "reg_id": "110",
+    "mainTitle": "DELIVERIES",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 1,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 0,
+        "rowDepth": 16,
+        "rowArr": [
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_001",
+                "fieldName": "Deliveries in health facility (live &amp; still birth)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_001",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_001",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_011",
+                "fieldName": "Teenage pregnancy ( &lt; 20 years)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_011",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_011",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_002",
+                "fieldName": "Deliveries with complications",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_002",
+                "fieldName": "HF_DELI_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_012",
+                "fieldName": "Resuscitated by bag and mask",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_012",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_012",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_003",
+                "fieldName": "Transferred to hospital (risk or complications)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_003",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_003",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_004",
+                "fieldName": "Birth weight &lt; 2500 grams",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_004",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_004",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_005",
+                "fieldName": "Still births",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_005",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_005",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_013",
+                "fieldName": "Initiated breastfeeding within first 1hr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_013",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_013",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_014",
+                "fieldName": "Skin to skin immediately after delivery",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_014",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_014",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_015",
+                "fieldName": "Kangaroo Mother Care",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_015",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_015",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_016",
+                "fieldName": "Bebi Kol Kilok",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_016",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_016",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_006",
+                "fieldName": "Maternal deaths (in facility)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_006",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_006",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_007",
+                "fieldName": "Maternal deaths (not in facility)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_007",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_007",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_008",
+                "fieldName": "Born before arrival (BBA)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_008",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_008",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_009",
+                "fieldName": "Village births attended",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_009",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_009",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_010",
+                "fieldName": "Village births with complications (excluding deaths)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_010",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_010",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "reg_id": "111",
+    "mainTitle": "IMMUNISATION BY HEALTH CENTRE (including clinics & outreach)",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 1,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 0,
+        "rowDepth": 25,
+        "rowArr": [
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_001",
+                "fieldName": "BCG within 24hrs of birth",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_001",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_001",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_002",
+                "fieldName": "BCG < 1 Week",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_002",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_002",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_003",
+                "fieldName": "BCG > 1 Week",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_003",
+                "fieldName": "HF_CH_IM_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_004",
+                "fieldName": "Hepatitis B Within 24hrs of birth",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_004",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_004",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_005",
+                "fieldName": "Hepatitis B > 24hrs",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_005",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_005",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_006",
+                "fieldName": "DTP / Hib (Hep B) (Pentavalent) 1st dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_006",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_006",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_007",
+                "fieldName": "DTP / Hib (Hep B) (Pentavalent) 2nd dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_007",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_007",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_008",
+                "fieldName": "DTP / Hib (Hep B) (Pentavalent) 3rd dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_008",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_008",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_009",
+                "fieldName": "DTP / Hib (Hep B) (Pentavalent) > 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_009",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_009",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_010",
+                "fieldName": "bOPV (Sabin) 1st dose < 1 yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_010",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_010",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_011",
+                "fieldName": "bOPV (Sabin) 2nd dose < 1 yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_011",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_011",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_012",
+                "fieldName": "bOPV (Sabin) 3rd dose < 1 yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_012",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_012",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_013",
+                "fieldName": "bOPV (Sabin) > 1 yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_013",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_013",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_024",
+                "fieldName": "IPV 3 - 11 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_024",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_024",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_020",
+                "fieldName": "PCV 13 1st dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_020",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_020",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_021",
+                "fieldName": "PCV 13 2nd dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_021",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_021",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_022",
+                "fieldName": "PCV 13 3rd dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_022",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_022",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_023",
+                "fieldName": "PCV 13 > 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_023",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_023",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_014",
+                "fieldName": "Measles Rubella 6 - 8 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_014",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_014",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_027",
+                "fieldName": "Measles Rubella 9 - 17 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_027",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_027",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_025",
+                "fieldName": "Measles Rubella 18 - 23 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_025",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_025",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_026",
+                "fieldName": "Measles Rubella > 24 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_026",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_026",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_028",
+                "fieldName": "Vitamin A 6 - 11 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_028",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_028",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_029",
+                "fieldName": "Vitamin A 12 - 59 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_029",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_029",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_IM_030",
+                "fieldName": "Albendazole 12 - 59 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_IM_030",
+                "fontWeight": "Normal",
+                "fieldName": "HF_CH_IM_030",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "reg_id": "112",
+    "mainTitle": "IMMUNISATION BY AIDPOST (including clinics & outreach)",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 1,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 0,
+        "rowDepth": 25,
+        "rowArr": [
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_001",
+                "fieldName": "BCG within 24hrs of birth",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_001",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_001",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_002",
+                "fieldName": "BCG < 1 Week",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_002",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_002",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_003",
+                "fieldName": "BCG > 1 Week",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_003",
+                "fieldName": "AP_OP_IM_003",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_004",
+                "fieldName": "Hepatitis B Within 24hrs of birth",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_004",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_004",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_005",
+                "fieldName": "Hepatitis B > 24hrs",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_005",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_005",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_006",
+                "fieldName": "DTP / Hib (Hep B) (Pentavalent) 1st dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_006",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_006",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_007",
+                "fieldName": "DTP / Hib (Hep B) (Pentavalent) 2nd dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_007",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_007",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_008",
+                "fieldName": "DTP / Hib (Hep B) (Pentavalent) 3rd dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_008",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_008",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_009",
+                "fieldName": "DTP / Hib (Hep B) (Pentavalent) > 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_009",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_009",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_010",
+                "fieldName": "bOPV (Sabin) 1st dose < 1 yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_010",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_010",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_011",
+                "fieldName": "bOPV (Sabin) 2nd dose < 1 yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_011",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_011",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_012",
+                "fieldName": "bOPV (Sabin) 3rd dose < 1 yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_012",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_012",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_013",
+                "fieldName": "bOPV (Sabin) > 1 yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_013",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_013",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_024",
+                "fieldName": "IPV 3 - 11 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_024",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_024",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_020",
+                "fieldName": "PCV 13 1st dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_020",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_020",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_021",
+                "fieldName": "PCV 13 2nd dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_021",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_021",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_022",
+                "fieldName": "PCV 13 3rd dose < 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_022",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_022",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_023",
+                "fieldName": "PCV 13 > 1yr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_023",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_023",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_014",
+                "fieldName": "Measles Rubella 6 - 8 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_014",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_014",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_027",
+                "fieldName": "Measles Rubella 9 - 17 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_027",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_027",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_025",
+                "fieldName": "Measles Rubella 18 - 23 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_025",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_025",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_026",
+                "fieldName": "Measles Rubella > 24 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_026",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_026",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_028",
+                "fieldName": "Vitamin A 6 - 11 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_028",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_028",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_029",
+                "fieldName": "Vitamin A 12 - 59 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_029",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_029",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "AP_OP_IM_030",
+                "fieldName": "Albendazole 12 - 59 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "AP_OP_IM_030",
+                "fontWeight": "Normal",
+                "fieldName": "AP_OP_IM_030",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "reg_id": "113",
+    "mainTitle": "WELL BABY CLINIC",
+    "fontWeight": "Bold",
+    "position": "centre",
+    "tableDepth": 2,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 2,
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 3,
+            "subTitleArr": [
+              {
+                "title": "Child Attendances",
+                "fontWeight": "Bold",
+                "rowspan": 2,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "New",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 2,
+                "type": "label"
+              },
+              {
+                "title": "Reattend",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 2,
+                "type": "label"
+              }
+            ]
+          },
+          {
+            "subTitleContentDepth": 5,
+            "subTitleArr": [
+              {
+                "title": "",
+                "rowspan": 0,
+                "colspan": 2,
+                "type": "label"
+              },
+              {
+                "title": "Male",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "Female",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "Male",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "Female",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 2,
+        "rowArr": [
+          {
+            "dataColDepth": 5,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_CA_005",
+                "fieldName": "< 6 mths",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_CA_005",
+                "fieldName": "HF_CH_CA_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_CH_CA_005",
+                "fieldName": "HF_CH_CA_005",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_CH_CA_007",
+                "fieldName": "HF_CH_CA_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_CH_CA_007",
+                "fieldName": "HF_CH_CA_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 5,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_CA_006",
+                "fieldName": "6 - 59 months",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_CA_006",
+                "fieldName": "HF_CH_CA_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_CH_CA_006",
+                "fieldName": "HF_CH_CA_006",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_CH_CA_008",
+                "fieldName": "HF_CH_CA_008",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_CH_CA_008",
+                "fieldName": "HF_CH_CA_008",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 0,
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 3,
+            "subTitleArr": [
+              {
+                "title": "NUTRITION",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "Male",
+                "rowspan": 0,
+                "fontWeight": "Bold",
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "Female",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 9,
+        "rowArr": [
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_NU_007",
+                "fieldName": "< 6 <-3 z score",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_NU_007",
+                "fieldName": "HF_CH_NU_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_CH_NU_007",
+                "fieldName": "HF_CH_NU_007",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_NU_008",
+                "fieldName": "< 6 -3 to -2 z score",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_NU_008",
+                "fieldName": "HF_CH_NU_008",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_CH_NU_008",
+                "fieldName": "HF_CH_NU_008",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_NU_009",
+                "fieldName": "< 6 >-2 z score",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_NU_009",
+                "fieldName": "HF_CH_NU_009",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_CH_NU_009",
+                "fieldName": "HF_CH_NU_009",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_NU_010",
+                "fieldName": "6 - 59 mths <-3 z score",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_NU_010",
+                "fieldName": "HF_CH_NU_010",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_CH_NU_010",
+                "fieldName": "HF_CH_NU_010",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_NU_011",
+                "fieldName": "6 - 59 mths -3 to -2 z score",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_NU_011",
+                "fieldName": "HF_CH_NU_011",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_CH_NU_011",
+                "fieldName": "HF_CH_NU_011",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_NU_012",
+                "fieldName": "6 - 59 mths > -2 z score",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_NU_012",
+                "fieldName": "HF_CH_NU_012",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_CH_NU_012",
+                "fieldName": "HF_CH_NU_012",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_NU_013",
+                "fieldName": "6 - 59 mths MUAC Red",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_NU_013",
+                "fieldName": "HF_CH_NU_013",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_CH_NU_013",
+                "fieldName": "HF_CH_NU_013",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_NU_014",
+                "fieldName": "6 - 59 mths MUAC Yellow",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_NU_014",
+                "fieldName": "HF_CH_NU_014",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_CH_NU_014",
+                "fieldName": "HF_CH_NU_014",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_CH_NU_015",
+                "fieldName": "6 - 59 mths MUAC Green",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_CH_NU_015",
+                "fieldName": "HF_CH_NU_015",
+                "fontWeight": "Normal",
+                "type": "text"
+              },
+              {
+                "fieldCode": "HF_CH_NU_015",
+                "fieldName": "HF_CH_NU_015",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "reg_id": "114",
+    "mainTitle": "AIDPOST REGISTER",
+    "fontWeight": "Bold",
+    "position": "centre",
+    "tableDepth": 1,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 0,
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 3,
+            "subTitleArr": [
+              {
+                "title": "NAME",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "STATUS",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              },
+              {
+                "title": "VISITED",
+                "fontWeight": "Bold",
+                "rowspan": 0,
+                "colspan": 2,
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 8,
+        "rowArr": [
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Dapari",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "Yes",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "No",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Kikinonda",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "Yes",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "No",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Hurata",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "Yes",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "No",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Togaho",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "Yes",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "No",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Martyrs Clinic",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "Yes",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "No",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Dapa",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "Yes",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "No",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Divinokovari",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "Yes",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "No",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fieldName": "Singi / Puri",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "dropdown"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "Yes",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "No",
+                "fontWeight": "Normal",
+                "type": "radiobutton"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "reg_id": "115",
+    "mainTitle": "SHORTAGE IN THE MONTH",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 1,
+    "depthArr": [
+      {
+        "title": "Check any item with nil stock for at least a week",
+        "fontWeight": "Normal",
+        "position": "centre",
+        "display": "y",
+        "subTitleDepth": 0,
+        "rowDepth": 12,
+        "rowArr": [
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_0__med_cat_name",
+                "fieldName": "FP",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_0__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "fieldName": "NilStock_med_category_list_0__medicine_list_0__nil_stock",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_0__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "fieldName": "NilStock_med_category_list_0__medicine_list_1__nil_stock",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_0__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "fieldName": "NilStock_med_category_list_0__medicine_list_2__nil_stock",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_1__med_cat_name",
+                "fieldName": "CDD",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_1__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_1__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_1__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_1__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 6,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_2__med_cat_name",
+                "fieldName": "Antibiotics",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_2__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_2__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_2__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_2__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_2__medicine_list_2__nil_stock",
+                "fieldName": "NilStock_med_category_list_2__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_2__medicine_list_3__nil_stock",
+                "fieldName": "NilStock_med_category_list_2__medicine_list_3__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_2__medicine_list_4__nil_stock",
+                "fieldName": "NilStock_med_category_list_2__medicine_list_4__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 5,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_3__med_cat_name",
+                "fieldName": "Maternal Health",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_3__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_3__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_3__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_3__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_3__medicine_list_2__nil_stock",
+                "fieldName": "NilStock_med_category_list_3__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_3__medicine_list_3__nil_stock",
+                "fieldName": "NilStock_med_category_list_3__medicine_list_3__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 8,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_4__med_cat_name",
+                "fieldName": "TB",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_4__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_4__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_4__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_4__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_4__medicine_list_2__nil_stock",
+                "fieldName": "NilStock_med_category_list_4__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_4__medicine_list_3__nil_stock",
+                "fieldName": "NilStock_med_category_list_4__medicine_list_3__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_4__medicine_list_4__nil_stock",
+                "fieldName": "NilStock_med_category_list_4__medicine_list_4__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_4__medicine_list_5__nil_stock",
+                "fieldName": "NilStock_med_category_list_4__medicine_list_5__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_4__medicine_list_6__nil_stock",
+                "fieldName": "NilStock_med_category_list_4__medicine_list_6__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 10,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_5__med_cat_name",
+                "fieldName": "Malaria",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_2__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_3__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_3__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_6__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_6__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_7__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_7__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_8__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_8__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_9__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_9__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_10__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_10__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_11__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_11__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 10,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock.med_category_list[6].med_cat_name",
+                "fieldName": "Vaccine",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_2__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_3__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_3__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_4__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_4__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_5__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_5__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_6__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_6__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_7__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_7__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_8__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_8__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 8,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_7__med_cat_name",
+                "fieldName": "General",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_7__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_7__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_7__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_7__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_7__medicine_list_2__nil_stock",
+                "fieldName": "NilStock_med_category_list_7__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_7__medicine_list_3__nil_stock",
+                "fieldName": "NilStock_med_category_list_7__medicine_list_3__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_7__medicine_list_4__nil_stock",
+                "fieldName": "NilStock_med_category_list_7__medicine_list_4__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_7__medicine_list_5__nil_stock",
+                "fieldName": "NilStock_med_category_list_7__medicine_list_5__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_7__medicine_list_6__nil_stock",
+                "fieldName": "NilStock_med_category_list_7__medicine_list_6__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 7,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_8__med_cat_name",
+                "fieldName": "Information System",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_8__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_8__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_8__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_8__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_8__medicine_list_2__nil_stock",
+                "fieldName": "NilStock_med_category_list_8__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_8__medicine_list_3__nil_stock",
+                "fieldName": "NilStock_med_category_list_8__medicine_list_3__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_8__medicine_list_4__nil_stock",
+                "fieldName": "NilStock_med_category_list_8__medicine_list_4__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_8__medicine_list_5__nil_stock",
+                "fieldName": "NilStock_med_category_list_8__medicine_list_5__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_9__med_cat_name",
+                "fieldName": "HIV / AIDS",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_9__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_9__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_9__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_9__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_10__med_cat_name",
+                "fieldName": "Family health",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_10__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_10__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_10__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_10__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_other",
+                "fieldName": "Other Items (stock-out)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_other",
+                "fieldName": "NilStock_other",
+                "fontWeight": "Normal",
+                "type": "textarea"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "reg_id": "116",
+    "mainTitle": "SUPERVISION",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 2,
+    "depthArr": [
+      {
+        "title": "Record the number of supervisory visits you have received this month",
+        "fontWeight": "Normal",
+        "position": "centre",
+        "display": "y",
+        "subTitleDepth": 0,
+        "rowDepth": 7,
+        "rowArr": [
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_doctor",
+                "fieldName": "Doctor",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_doctor",
+                "fontWeight": "Normal",
+                "fieldName": "Supervision_doctor",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_pho",
+                "fieldName": "PHO",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_pho",
+                "fieldName": "Supervision_pho",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_pdco",
+                "fieldName": "PDCO",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_pdco",
+                "fieldName": "Supervision_pdco",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_maternal",
+                "fieldName": "Maternal / Child health",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_maternal",
+                "fieldName": "Supervision_maternal",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_chrch_health_sec",
+                "fieldName": "Church health secretary",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_chrch_health_sec",
+                "fieldName": "Supervision_chrch_health_sec",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_other",
+                "fieldName": "Others",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_other",
+                "fieldName": "Supervision_other",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_sup_area",
+                "fieldName": "Area of Supervision",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_sup_area",
+                "fieldName": "Supervision_sup_area",
+                "fontWeight": "Normal",
+                "type": "textarea"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "GENERAL",
+        "fontWeight": "Bold",
+        "position": "centre",
+        "display": "y",
+        "subTitleDepth": 1,
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 1,
+            "subTitleArr": [
+              {
+                "title": "Comments from HC (Use the space below for any other points you wish to raise with your DHO or PHO)",
+                "fontWeight": "Normal",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 5,
+        "rowArr": [
+          {
+            "dataColDepth": 1,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_general",
+                "fontWeight": "Normal",
+                "fieldName": "Supervision_general",
+                "type": "textarea"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_office_incharge",
+                "fontWeight": "Normal",
+                "fieldName": "Officer in charge",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_office_incharge",
+                "fieldName": "Supervision_office_incharge",
+                "fontWeight": "Normal",
+                "type": "editText"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fontWeight": "Normal",
+                "fieldName": "OIC Password",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "editText"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_dt_rpt_compiled",
+                "fontWeight": "Normal",
+                "fieldName": "Date Report Complied",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_dt_rpt_compiled",
+                "fieldName": "Supervision_dt_rpt_compiled",
+                "fontWeight": "Normal",
+                "type": "editText"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_phone_no",
+                "fontWeight": "Normal",
+                "fieldName": "Phone No",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_phone_no",
+                "fieldName": "Supervision_phone_no",
+                "fontWeight": "Normal",
+                "type": "editText"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
+
 ]

@@ -1,0 +1,293 @@
+{
+  "id": 13,
+  "jsop": {
+    "id": 13,
+    "mainTitle": "DELIVERIES",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 1,
+    "depthArr": [
+      {
+        "title": "",
+        "position": "left",
+        "display": "n",
+        "subTitleDepth": 0,
+        "rowDepth": 16,
+        "rowArr": [
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_001",
+                "fieldName": "Deliveries in health facility (live &amp; still birth)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_001",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_001",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_011",
+                "fieldName": "Teenage pregnancy ( &lt; 20 years)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_011",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_011",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_002",
+                "fieldName": "Deliveries with complications",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_002",
+                "fieldName": "HF_DELI_002",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_012",
+                "fieldName": "Resuscitated by bag and mask",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_012",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_012",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_003",
+                "fieldName": "Transferred to hospital (risk or complications)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_003",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_003",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_004",
+                "fieldName": "Birth weight &lt; 2500 grams",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_004",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_004",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_005",
+                "fieldName": "Still births",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_005",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_005",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_013",
+                "fieldName": "Initiated breastfeeding within first 1hr",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_013",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_013",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_014",
+                "fieldName": "Skin to skin immediately after delivery",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_014",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_014",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_015",
+                "fieldName": "Kangaroo Mother Care",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_015",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_015",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_016",
+                "fieldName": "Bebi Kol Kilok",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_016",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_016",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_006",
+                "fieldName": "Maternal deaths (in facility)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_006",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_006",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_007",
+                "fieldName": "Maternal deaths (not in facility)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_007",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_007",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_008",
+                "fieldName": "Born before arrival (BBA)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_008",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_008",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_009",
+                "fieldName": "Village births attended",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_009",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_009",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "HF_DELI_010",
+                "fieldName": "Village births with complications (excluding deaths)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "HF_DELI_010",
+                "fontWeight": "Normal",
+                "fieldName": "HF_DELI_010",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

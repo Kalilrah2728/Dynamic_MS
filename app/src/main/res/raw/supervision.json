@@ -1,0 +1,244 @@
+{
+  "id": 19,
+  "jsop": {
+    "id": 19,
+    "mainTitle": "SUPERVISION",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 2,
+    "depthArr": [
+      {
+        "title": "Record the number of supervisory visits you have received this month",
+        "fontWeight": "Normal",
+        "position": "centre",
+        "display": "y",
+        "subTitleDepth": 0,
+        "rowDepth": 7,
+        "rowArr": [
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_doctor",
+                "fieldName": "Doctor",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_doctor",
+                "fontWeight": "Normal",
+                "fieldName": "Supervision_doctor",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_pho",
+                "fieldName": "PHO",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_pho",
+                "fieldName": "Supervision_pho",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_pdco",
+                "fieldName": "PDCO",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_pdco",
+                "fieldName": "Supervision_pdco",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_maternal",
+                "fieldName": "Maternal / Child health",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_maternal",
+                "fieldName": "Supervision_maternal",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_chrch_health_sec",
+                "fieldName": "Church health secretary",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_chrch_health_sec",
+                "fieldName": "Supervision_chrch_health_sec",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_other",
+                "fieldName": "Others",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_other",
+                "fieldName": "Supervision_other",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_sup_area",
+                "fieldName": "Area of Supervision",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_sup_area",
+                "fieldName": "Supervision_sup_area",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "GENERAL",
+        "fontWeight": "Bold",
+        "position": "centre",
+        "display": "y",
+        "subTitleDepth": 1,
+        "subTitleContent": [
+          {
+            "subTitleContentDepth": 1,
+            "subTitleArr": [
+              {
+                "title": "Comments from HC (Use the space below for any other points you wish to raise with your DHO or PHO)",
+                "fontWeight": "Normal",
+                "rowspan": 0,
+                "colspan": 0,
+                "type": "label"
+              }
+            ]
+          }
+        ],
+        "rowDepth": 5,
+        "rowArr": [
+          {
+            "dataColDepth": 1,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_general",
+                "fontWeight": "Normal",
+                "fieldName": "Supervision_general",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_office_incharge",
+                "fontWeight": "Normal",
+                "fieldName": "Officer in charge",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_office_incharge",
+                "fieldName": "Supervision_office_incharge",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "",
+                "fontWeight": "Normal",
+                "fieldName": "OIC Password",
+                "type": "label"
+              },
+              {
+                "fieldCode": "",
+                "fieldName": "",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_dt_rpt_compiled",
+                "fontWeight": "Normal",
+                "fieldName": "Date Report Complied",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_dt_rpt_compiled",
+                "fieldName": "Supervision_dt_rpt_compiled",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "Supervision_phone_no",
+                "fontWeight": "Normal",
+                "fieldName": "Phone No",
+                "type": "label"
+              },
+              {
+                "fieldCode": "Supervision_phone_no",
+                "fieldName": "Supervision_phone_no",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -3,6 +3,7 @@ package com.twinkle.dynamic_ms
 enum class WidgetItems(val label: String) {
     HEADER("header"),
     TEXT("text"),
+    CHECKBOX("checkbox"),
     TEXTAREA("textarea"),
     SELECT("select"),
     AUTOTEXT("autoText"),
@@ -15,6 +16,8 @@ enum class WidgetItems(val label: String) {
     MALTEXT("mal_text"),
     LABELS("labels"),
     LABEL("label"),
+    DROPDOWN("dropdown"),
+    RADIOBUTTON("radiobutton"),
     TEXTGROUP("text-group"),
     VIEWTEXT("viewText"),
     EDITTEXT("editText"),

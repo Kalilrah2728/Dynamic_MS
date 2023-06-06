@@ -1,0 +1,496 @@
+{
+  "id": 17,
+  "jsop": {
+    "id": 17,
+    "mainTitle": "SHORTAGE IN THE MONTH",
+    "position": "centre",
+    "fontWeight": "Bold",
+    "tableDepth": 1,
+    "depthArr": [
+      {
+        "title": "Check any item with nil stock for at least a week",
+        "fontWeight": "Normal",
+        "position": "centre",
+        "display": "y",
+        "subTitleDepth": 0,
+        "rowDepth": 12,
+        "rowArr": [
+          {
+            "dataColDepth": 4,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_0__med_cat_name",
+                "fieldName": "FP",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_0__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "fieldName": "NilStock_med_category_list_0__medicine_list_0__nil_stock",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_0__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "fieldName": "NilStock_med_category_list_0__medicine_list_1__nil_stock",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_0__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "fieldName": "NilStock_med_category_list_0__medicine_list_2__nil_stock",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_1__med_cat_name",
+                "fieldName": "CDD",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_1__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_1__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_1__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_1__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 6,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_2__med_cat_name",
+                "fieldName": "Antibiotics",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_2__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_2__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_2__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_2__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_2__medicine_list_2__nil_stock",
+                "fieldName": "NilStock_med_category_list_2__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_2__medicine_list_3__nil_stock",
+                "fieldName": "NilStock_med_category_list_2__medicine_list_3__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_2__medicine_list_4__nil_stock",
+                "fieldName": "NilStock_med_category_list_2__medicine_list_4__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 5,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_3__med_cat_name",
+                "fieldName": "Maternal Health",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_3__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_3__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_3__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_3__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_3__medicine_list_2__nil_stock",
+                "fieldName": "NilStock_med_category_list_3__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_3__medicine_list_3__nil_stock",
+                "fieldName": "NilStock_med_category_list_3__medicine_list_3__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 8,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_4__med_cat_name",
+                "fieldName": "TB",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_4__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_4__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_4__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_4__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_4__medicine_list_2__nil_stock",
+                "fieldName": "NilStock_med_category_list_4__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_4__medicine_list_3__nil_stock",
+                "fieldName": "NilStock_med_category_list_4__medicine_list_3__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_4__medicine_list_4__nil_stock",
+                "fieldName": "NilStock_med_category_list_4__medicine_list_4__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_4__medicine_list_5__nil_stock",
+                "fieldName": "NilStock_med_category_list_4__medicine_list_5__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_4__medicine_list_6__nil_stock",
+                "fieldName": "NilStock_med_category_list_4__medicine_list_6__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 10,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_5__med_cat_name",
+                "fieldName": "Malaria",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_2__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_3__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_3__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_6__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_6__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_7__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_7__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_8__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_8__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_9__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_9__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_10__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_10__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_5__medicine_list_11__nil_stock",
+                "fieldName": "NilStock_med_category_list_5__medicine_list_11__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 10,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock.med_category_list[6].med_cat_name",
+                "fieldName": "Vaccine",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_2__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_3__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_3__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_4__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_4__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_5__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_5__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_6__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_6__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_7__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_7__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_6__medicine_list_8__nil_stock",
+                "fieldName": "NilStock_med_category_list_6__medicine_list_8__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 8,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_7__med_cat_name",
+                "fieldName": "General",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_7__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_7__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_7__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_7__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_7__medicine_list_2__nil_stock",
+                "fieldName": "NilStock_med_category_list_7__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_7__medicine_list_3__nil_stock",
+                "fieldName": "NilStock_med_category_list_7__medicine_list_3__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_7__medicine_list_4__nil_stock",
+                "fieldName": "NilStock_med_category_list_7__medicine_list_4__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_7__medicine_list_5__nil_stock",
+                "fieldName": "NilStock_med_category_list_7__medicine_list_5__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_7__medicine_list_6__nil_stock",
+                "fieldName": "NilStock_med_category_list_7__medicine_list_6__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 7,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_8__med_cat_name",
+                "fieldName": "Information System",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_8__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_8__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_8__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_8__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_8__medicine_list_2__nil_stock",
+                "fieldName": "NilStock_med_category_list_8__medicine_list_2__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_8__medicine_list_3__nil_stock",
+                "fieldName": "NilStock_med_category_list_8__medicine_list_3__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_8__medicine_list_4__nil_stock",
+                "fieldName": "NilStock_med_category_list_8__medicine_list_4__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_8__medicine_list_5__nil_stock",
+                "fieldName": "NilStock_med_category_list_8__medicine_list_5__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_9__med_cat_name",
+                "fieldName": "HIV / AIDS",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_9__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_9__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_9__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_9__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 3,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_med_category_list_10__med_cat_name",
+                "fieldName": "Family health",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_10__medicine_list_0__nil_stock",
+                "fieldName": "NilStock_med_category_list_10__medicine_list_0__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              },
+              {
+                "fieldCode": "NilStock_med_category_list_10__medicine_list_1__nil_stock",
+                "fieldName": "NilStock_med_category_list_10__medicine_list_1__nil_stock",
+                "fontWeight": "Normal",
+                "type": "checkbox"
+              }
+            ]
+          },
+          {
+            "dataColDepth": 2,
+            "dataColRows": [
+              {
+                "fieldCode": "NilStock_other",
+                "fieldName": "Other Items (stock-out)",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
+              {
+                "fieldCode": "NilStock_other",
+                "fieldName": "NilStock_other",
+                "fontWeight": "Normal",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
