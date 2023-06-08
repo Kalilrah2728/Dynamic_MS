@@ -15,7 +15,6 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.EditText
 import android.widget.LinearLayout
-import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.Spinner
 import android.widget.TextView
@@ -233,6 +232,83 @@ class MonthlySummary : AppCompatActivity() {
 
             num.addView(editText)
             numberViewContainer.addView(num)
+            num.gravity = Gravity.CENTER
+        }
+
+
+    }
+
+    private fun createHIVText(
+        component: FormComponentItem,
+        numberViewContainer: LinearLayout,
+        num: String, lay: String, luupSize: Int, dataRowSize: Int, secoContainer: LinearLayout
+    ) {
+
+        //First - TextView container
+        val num = LinearLayout(this)
+        val lay = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        num.setPadding(5, 5, 5, 5)
+        num.setBackgroundResource(R.drawable.black_box)
+        num.layoutParams = lay
+        //lay.weight = luupSize * 0.3f
+        if (luupSize == 1){
+            lay.weight = 1.2f
+        }else{
+            lay.weight = 0.6f
+        }
+        /*if (luupSize == 3 || luupSize == 4){
+            lay.weight = 1.0f
+        }else{
+            lay.weight = 0.5f
+        }*/
+
+
+        if (dataRowSize > 5){
+            //Second - container textView
+            val editTextParam = LinearLayout.LayoutParams(
+                70,
+                50
+            )
+            editTextParam.setMargins(10, 10, 10, 10)
+            val editText = TextView(this)
+            editText.layoutParams = editTextParam
+            editText.gravity = Gravity.CENTER
+            editText.setPadding(10, 10, 10, 10)
+            editText.inputType = InputType.TYPE_CLASS_NUMBER
+            editText.setBackgroundResource(R.drawable.boxcurved)
+            /*component.title?.let {
+                editText.hint = it
+            }*/
+            var edtTxtNumM = 0
+            editText.setText(edtTxtNumM.toString())
+
+            num.addView(editText)
+            numberViewContainer.addView(num)
+            num.gravity = Gravity.CENTER
+        }else{
+            //Second - container textView
+            val editTextParam = LinearLayout.LayoutParams(
+                100,
+                50
+            )
+            editTextParam.setMargins(10, 10, 10, 10)
+            val editText = TextView(this)
+            editText.layoutParams = editTextParam
+            editText.gravity = Gravity.CENTER
+            editText.setPadding(10, 10, 10, 10)
+            editText.inputType = InputType.TYPE_CLASS_NUMBER
+            editText.setBackgroundResource(R.drawable.boxcurved)
+            /*component.title?.let {
+                editText.hint = it
+            }*/
+            var edtTxtNumM = 0
+            editText.setText(edtTxtNumM.toString())
+
+            num.addView(editText)
+            secoContainer.addView(num)
             num.gravity = Gravity.CENTER
         }
 
@@ -505,6 +581,89 @@ class MonthlySummary : AppCompatActivity() {
 
         numberViewContainer.addView(num)
         num.gravity = Gravity.CENTER
+
+    }
+
+    private fun createHIVLabel(
+        component: FormComponentItem,
+        numberViewContainer: LinearLayout,
+        num: String, lay: String, loopCount: Int, luupSize: Int, secoContainer: LinearLayout
+    ) {
+
+        //First - TextView container
+        val num = LinearLayout(this)
+        val lay = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        num.setPadding(5, 5, 5, 5)
+        num.setBackgroundResource(R.drawable.black_box)
+        num.layoutParams = lay
+
+        if (luupSize == 1){
+            if (loopCount == 0){
+                lay.weight = 1.5f
+            }else{
+                lay.weight = 1.2f
+            }
+        }else{
+            if (loopCount == 0){
+                lay.weight = 1.5f
+            }else{
+                lay.weight = 0.6f
+            }
+        }
+
+
+        if (component.title != null) {
+            component.title.let {labelString ->
+                val textView = TextView(this)
+                textView.textSize = 15f
+                textView.gravity = Gravity.CENTER
+                textView.setTextColor(Color.BLACK)
+                textView.setPadding(5, 5, 5, 5)
+                textView.text = labelString?.let { createStringForViewLabel(false, it+"") }
+                try {
+                    if (component.fontWeight.toString().toLowerCase() == "bold"){
+                        textView.setTypeface(null, Typeface.BOLD);
+                    }
+                }catch (e: Exception){
+                    println("fontWeightBold=====NULL")
+                }
+
+                if (loopCount == 0){
+                    num.addView(textView)
+                    numberViewContainer.addView(num)
+                    num.gravity = Gravity.CENTER
+                }else{
+                    num.addView(textView)
+                    secoContainer.addView(num)
+                    num.gravity = Gravity.CENTER
+                }
+
+            }
+        }else {
+            component.fieldName.let {labelString ->
+                val textView = TextView(this)
+                textView.textSize = 15f
+                textView.gravity = Gravity.CENTER
+                textView.setTextColor(Color.BLACK)
+                textView.setPadding(5, 5, 5, 5)
+                textView.text = labelString?.let { createStringForViewLabel(false, it+"") }
+
+                if (loopCount == 0){
+                    num.addView(textView)
+                    numberViewContainer.addView(num)
+                    num.gravity = Gravity.CENTER
+                }else{
+                    num.addView(textView)
+                    secoContainer.addView(num)
+                    num.gravity = Gravity.CENTER
+                }
+            }
+        }
+
+
 
     }
 
@@ -3592,7 +3751,151 @@ class MonthlySummary : AppCompatActivity() {
 
                             }
 
-                        }else{
+                        }
+                        else if (it.reg_id == "117"){
+                            val text1 = it.depthArr
+
+                            //Parent layout
+                            val parntContainer = LinearLayout(this)
+                            parntContainer.orientation = LinearLayout.HORIZONTAL
+                            val parntlayoutParams = LinearLayout.LayoutParams(
+                                LinearLayout.LayoutParams.MATCH_PARENT,
+                                LinearLayout.LayoutParams.MATCH_PARENT
+                            )
+                            parntlayoutParams.setMargins(0, 0, 0, 0)
+                            parntContainer.setBackgroundResource(R.drawable.black_box)
+                            parntContainer.layoutParams = parntlayoutParams
+
+
+                            text1.iterator().forEach {
+                                val txt1 = it.subTitleContent
+                                val rowArry = it.rowArr
+
+                                var numSTC = 0
+                                var laySTC = 0
+                                var numRA = 0
+                                var layRA = 0
+
+
+                                //===========================================================================
+                                val label = TextView(this)
+                                label.setTextColor(Color.BLACK)
+                                label.setTypeface(null, Typeface.BOLD)
+                                label.textSize = 20f
+                                setMerginToviews(
+                                    label,
+                                    40,
+                                    LinearLayoutCompat.LayoutParams.WRAP_CONTENT,
+                                    LinearLayoutCompat.LayoutParams.WRAP_CONTENT
+                                )
+                                it.title.let { labelText ->
+
+                                    label.text = createStringForViewLabel(false, labelText+"")
+                                    binding.miniAppFormContainer.addView(label)
+
+                                }
+
+
+                                if (txt1 != null){
+                                    var loopCountNum = 0
+                                    txt1.iterator().forEach {
+                                        //Parent layout
+                                        val primaryViewContainer = LinearLayout(this)
+                                        primaryViewContainer.orientation = LinearLayout.HORIZONTAL
+                                        val primaryLayoutParams = LinearLayout.LayoutParams(
+                                            LinearLayout.LayoutParams.MATCH_PARENT,
+                                            LinearLayout.LayoutParams.WRAP_CONTENT
+                                        )
+                                        primaryLayoutParams.weight = 0.5f
+                                        primaryLayoutParams.setMargins(20, 0, 20, 0)
+                                        primaryViewContainer.setBackgroundResource(R.drawable.black_box)
+                                        primaryViewContainer.layoutParams = primaryLayoutParams
+
+                                        //Parent layout
+                                        val secondaryContainer = LinearLayout(this)
+                                        secondaryContainer.orientation = LinearLayout.HORIZONTAL
+                                        val secondaryLayoutParams = LinearLayout.LayoutParams(
+                                            LinearLayout.LayoutParams.MATCH_PARENT,
+                                            LinearLayout.LayoutParams.WRAP_CONTENT
+                                        )
+                                        secondaryLayoutParams.weight = 1.5f
+                                        secondaryLayoutParams.setMargins(20, 0, 20, 0)
+                                        secondaryContainer.setBackgroundResource(R.drawable.black_box)
+                                        secondaryContainer.layoutParams = secondaryLayoutParams
+
+                                        //---------------------------------------------------------------------------------------
+                                        //val subTitleArry = it.subTitleArr.toString()
+                                        val gson1 = Gson()
+                                        val arrayData2 = gson1.toJson(it.subTitleArr)
+
+                                        populateHIVSurForm(arrayData2, primaryViewContainer, "numContains${numSTC}", "lay${laySTC}",loopCountNum, txt1.size, 0, secondaryContainer)
+                                        numSTC++
+                                        laySTC++
+                                        loopCountNum++
+
+                                        //--------------------------------------------------------------------------------------------
+
+                                        primaryViewContainer.gravity = Gravity.CENTER
+                                        parntContainer.addView(primaryViewContainer)
+                                        parntContainer.addView(secondaryContainer)
+                                        //binding.miniAppFormContainer.addView(numberViewContainer)
+                                    }
+                                }
+
+
+                                /*nVContainer.gravity = Gravity.CENTER
+                                binding.miniAppFormContainer.addView(nVContainer)*/
+
+                                rowArry.iterator().forEach {
+                                    //Parent layout
+                                    val priViewContainer = LinearLayout(this)
+                                    priViewContainer.orientation = LinearLayout.HORIZONTAL
+                                    val priLayoutParams = LinearLayout.LayoutParams(
+                                        LinearLayout.LayoutParams.MATCH_PARENT,
+                                        LinearLayout.LayoutParams.WRAP_CONTENT
+                                    )
+                                    priLayoutParams.weight = 0.5f
+                                    priLayoutParams.setMargins(20, 0, 20, 0)
+                                    priViewContainer.setBackgroundResource(R.drawable.black_box)
+                                    priViewContainer.layoutParams = priLayoutParams
+
+                                    //Parent layout
+                                    val secoContainer = LinearLayout(this)
+                                    secoContainer.orientation = LinearLayout.HORIZONTAL
+                                    val secoLayoutParams = LinearLayout.LayoutParams(
+                                        LinearLayout.LayoutParams.MATCH_PARENT,
+                                        LinearLayout.LayoutParams.WRAP_CONTENT
+                                    )
+                                    secoLayoutParams.weight = 1.5f
+                                    secoLayoutParams.setMargins(20, 0, 20, 0)
+                                    secoContainer.setBackgroundResource(R.drawable.black_box)
+                                    secoContainer.layoutParams = secoLayoutParams
+
+                                    //===============================================================================
+                                    val dataColRowsArry = it.dataColRows.toString()
+
+                                    val gson3 = Gson()
+                                    val arrayData3 = gson3.toJson(it.dataColRows)
+
+
+                                    populateHIVSurForm(arrayData3, priViewContainer, "numContains${numRA}", "lay${layRA}", 0, 0, it.dataColRows.size, secoContainer)
+                                    numRA++
+                                    layRA++
+
+                                    //======================================================================================
+                                    priViewContainer.gravity = Gravity.CENTER
+                                    parntContainer.addView(priViewContainer)
+                                    parntContainer.addView(secoContainer)
+                                    //binding.miniAppFormContainer.addView(numVContainer)
+                                }
+
+
+                            }
+
+                            binding.miniAppFormContainer.addView(parntContainer)
+
+                        }
+                        else{
                             val text1 = it.json_op
                             populateForm(text1)
                         }
@@ -3722,6 +4025,89 @@ class MonthlySummary : AppCompatActivity() {
                 numberViewContainer.addView(fourthContainer)
 
             }
+        }
+
+        // save button
+
+    }
+    private fun populateHIVSurForm(
+        json: String,
+        priViewContainer: LinearLayout,
+        num: String,
+        lay: String,
+        loopCountNum: Int,
+        txt1Size: Int,
+        dataRowSize: Int,
+        secoContainer: LinearLayout
+    ) {
+
+        checkBoxV = false
+        editTextAreaV = false
+        editableTextV = false
+
+        formComponent = Gson().fromJson(json, FormComponent::class.java)
+        binding.miniAppFormContainer.visibility = View.VISIBLE
+
+        //Second - Checkbox group container
+        val secondContainer = LinearLayout(this)
+        secondContainer.orientation = LinearLayout.VERTICAL
+        val secondLayoutParams = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        secondLayoutParams.weight = 4.5f
+        secondContainer.setPadding(5,5,5,5)
+        secondContainer.setBackgroundResource(R.drawable.black_box)
+        secondContainer.layoutParams = secondLayoutParams
+
+        //Third - Checkbox group container
+        val thirdContainer = LinearLayout(this)
+        thirdContainer.orientation = LinearLayout.VERTICAL
+        val thirdLayoutParams = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        thirdLayoutParams.weight = 4.5f
+        thirdContainer.setPadding(5,5,5,5)
+        thirdContainer.setBackgroundResource(R.drawable.black_box)
+        thirdContainer.layoutParams = thirdLayoutParams
+
+        //Fourth - Checkbox group container
+        val fourthContainer = LinearLayout(this)
+        fourthContainer.orientation = LinearLayout.VERTICAL
+        val fourthLayoutParams = LinearLayout.LayoutParams(
+            0,
+            LinearLayout.LayoutParams.MATCH_PARENT
+        )
+        fourthLayoutParams.weight = 4.0f
+        fourthContainer.setPadding(5,5,5,5)
+        //fourthContainer.setBackgroundResource(R.drawable.black_box)
+        fourthContainer.layoutParams = fourthLayoutParams
+        fourthContainer.gravity = Gravity.CENTER
+
+        //TODO:- GENERATE FORM LAYOUT
+        formComponent?.let {
+            var luupSize = 0
+            var loopCount = 0
+            //val luupSize = it.size
+
+            it.forEach { component ->
+
+                if (txt1Size == 2 && loopCountNum == 0 ){
+                    luupSize = 1
+                }else{
+                    luupSize = 0
+                }
+
+                when (component.type) {
+
+                    WidgetItems.LABEL.label -> createHIVLabel(component, priViewContainer, num, lay, loopCount, luupSize, secoContainer) // Prints Table Title
+                    WidgetItems.TEXT.label -> createHIVText(component, priViewContainer, num, lay, luupSize, dataRowSize, secoContainer) // Prints 0
+
+                }
+                loopCount++
+            }
+
         }
 
         // save button

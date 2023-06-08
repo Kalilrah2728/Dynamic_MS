@@ -177,6 +177,12 @@
     "subtype": "h3",
     "label": "Modify Supervision",
     "id": "116"
+  },
+  {
+    "type": "tab",
+    "subtype": "h3",
+    "label": "Modify HIV SURV-1",
+    "id": "117"
   }
 
 ]
