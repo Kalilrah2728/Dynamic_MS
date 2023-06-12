@@ -2,7 +2,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MonthlySummary">
@@ -37,7 +36,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:gravity="center"
-            android:text="NATIONAL HEALTH INFORMATION SYSTEM"
+            android:text="HEALTH CENTRE RECORDS"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -87,50 +86,29 @@
                 android:orientation="horizontal" />
         </HorizontalScrollView>
 
-
         <LinearLayout
-            android:id="@+id/title_container"
+            android:id="@+id/mini_app_form_container_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical" />
 
-            <TextView
-                android:id="@+id/title_textview"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:hint="Form Title"
-                android:textColor="@color/black"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/app_form_cont"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:fillViewport="true">
 
-            <ScrollView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
 
                 <LinearLayout
                     android:id="@+id/mini_app_form_container"
-                    android:layout_width="match_parent"
+                    android:layout_width="1dp"
                     android:layout_height="match_parent"
-                    android:orientation="vertical" />
-            </ScrollView>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/app_form_hiv_cont"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                    android:orientation="vertical">
+                </LinearLayout>
 
                 <HorizontalScrollView
                     android:layout_width="match_parent"
@@ -139,9 +117,11 @@
                     android:fillViewport="true">
 
                     <LinearLayout
+                        android:id="@+id/mini_app_form_container_2"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:orientation="vertical">
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -1155,20 +1135,28 @@
 
                         </LinearLayout>
 
-                        <LinearLayout
-                            android:id="@+id/mini_app_form_container_2"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical">
-                        </LinearLayout>
                     </LinearLayout>
 
-
-
                 </HorizontalScrollView>
-            </ScrollView>
-        </LinearLayout>
 
+            </LinearLayout>
+        </ScrollView>
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/mini_app_form_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" />
+            </ScrollView>
+        </LinearLayout>-->
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
