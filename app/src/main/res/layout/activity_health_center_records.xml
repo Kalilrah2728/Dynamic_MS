@@ -152,7 +152,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
 
             <ScrollView
                 android:layout_width="match_parent"
@@ -162,7 +164,8 @@
                     android:id="@+id/mini_app_form_container"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical" />
+                    android:orientation="vertical"
+                    />
             </ScrollView>
         </LinearLayout>
 

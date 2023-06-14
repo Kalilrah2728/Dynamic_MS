@@ -705,36 +705,19 @@
         "postition": "left",
         "display": "n",
         "subTitleDepth": 1,
-        "subTitleContent": [
+        "rowDepth": 5,
+        "rowArr": [
           {
-            "subTitleContentDepth": 3,
-            "subTitleArr": [
+            "dataColDepth": 3,
+            "dataColRows": [
               {
-                "title": "",
+                "fieldCode": "HF_OP_REAT_001",
+                "fieldName": "",
                 "fontWeight": "Normal",
-                "rowspan": 0,
-                "colspan": 2,
-                "type": "label"
-              },
-              {
-                "title": "Male",
-                "fontWeight": "Bold",
-                "rowspan": 0,
-                "colspan": 0,
-                "type": "label"
-              },
-              {
-                "title": "Female",
-                "fontWeight": "Bold",
-                "rowspan": 0,
-                "colspan": 0,
                 "type": "label"
               }
             ]
-          }
-        ],
-        "rowDepth": 4,
-        "rowArr": [
+          },
           {
             "dataColDepth": 3,
             "dataColRows": [
@@ -743,18 +726,6 @@
                 "fieldName": "Reattendances &lt; 5 yrs",
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_REAT_001",
-                "fontWeight": "Normal",
-                "fieldName": "HF_OP_REAT_001",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_REAT_001",
-                "fontWeight": "Normal",
-                "fieldName": "HF_OP_REAT_001",
-                "type": "text"
               }
             ]
           },
@@ -766,18 +737,6 @@
                 "fieldName": "Other Reattendances",
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_REAT_002",
-                "fieldName": "HF_OP_REAT_002",
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_REAT_002",
-                "fieldName": "HF_OP_REAT_002",
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -789,18 +748,6 @@
                 "fieldName": "Total reattendance",
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_REAT",
-                "fieldName": "HF_OP_REAT",
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_REAT",
-                "fieldName": "HF_OP_REAT",
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -812,18 +759,6 @@
                 "fieldName": "Total attendances",
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_AT",
-                "fieldName": "HF_OP_AT",
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_AT",
-                "fieldName": "HF_OP_AT",
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           }

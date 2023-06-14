@@ -13,6 +13,7 @@ import android.util.TypedValue
 import android.view.Gravity
 import android.view.View
 import android.view.ViewGroup
+import android.widget.HorizontalScrollView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -95,6 +96,25 @@ class HealthCenterRecords : AppCompatActivity() {
             if ( it.id == 1){
                 binding.titleTextview.text = it.mainTitle
                 val text1 = it.depthArr
+
+                val horizontalScrollView = HorizontalScrollView(this)
+                val horizontalParams = LinearLayout.LayoutParams(
+                    ViewGroup.LayoutParams.MATCH_PARENT,
+                    ViewGroup.LayoutParams.MATCH_PARENT
+                )
+                horizontalScrollView.layoutParams = horizontalParams
+
+
+                val parntVContainer = LinearLayout(this)
+                parntVContainer.orientation = LinearLayout.VERTICAL
+                val parntVlayParams = LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.WRAP_CONTENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+                )
+                parntVlayParams.setMargins(0, 0, 0, 0)
+                parntVContainer.setBackgroundResource(R.drawable.black_box)
+                parntVContainer.layoutParams = parntVlayParams
+
                 text1.iterator().forEach {
                     val txt1 = it.subTitleContent
                     val rowArry = it.rowArr
@@ -132,7 +152,7 @@ class HealthCenterRecords : AppCompatActivity() {
                                 LinearLayout.LayoutParams.MATCH_PARENT,
                                 LinearLayout.LayoutParams.WRAP_CONTENT
                             )
-                            layoutParams.setMargins(20, 0, 0, 0)
+                            layoutParams.setMargins(0, 0, 0, 0)
                             numberViewContainer.setBackgroundResource(R.drawable.black_box)
                             numberViewContainer.layoutParams = layoutParams
 
@@ -145,7 +165,9 @@ class HealthCenterRecords : AppCompatActivity() {
 
 
                             //numberViewContainer.gravity = Gravity.CENTER
-                            binding.miniAppFormContainer.addView(numberViewContainer)
+                            //binding.miniAppFormContainer.addView(numberViewContainer)
+                            parntVContainer.addView(numberViewContainer)
+
                         }
                     }
 
@@ -157,7 +179,7 @@ class HealthCenterRecords : AppCompatActivity() {
                             LinearLayout.LayoutParams.MATCH_PARENT,
                             LinearLayout.LayoutParams.WRAP_CONTENT
                         )
-                        layPrams.setMargins(20, 0, 0, 0)
+                        layPrams.setMargins(0, 0, 0, 0)
                         numVContainer.setBackgroundResource(R.drawable.black_box)
                         numVContainer.layoutParams = layPrams
 
@@ -171,12 +193,16 @@ class HealthCenterRecords : AppCompatActivity() {
 
                         //======================================================================================
                         //numVContainer.gravity = Gravity.CENTER
-                        binding.miniAppFormContainer.addView(numVContainer)
+                        //binding.miniAppFormContainer.addView(numVContainer)
+                        parntVContainer.addView(numVContainer)
+
                     }
 
 
                 }
 
+                horizontalScrollView.addView(parntVContainer)
+                binding.miniAppFormContainer.addView(horizontalScrollView)
             }
         }
 
@@ -225,6 +251,25 @@ class HealthCenterRecords : AppCompatActivity() {
                         binding.miniAppFormContainer.removeAllViews()
                         binding.titleTextview.text = it.mainTitle
 
+
+                        val horizontalScrollView = HorizontalScrollView(this)
+                            val horizontalParams = LinearLayout.LayoutParams(
+                                ViewGroup.LayoutParams.MATCH_PARENT,
+                                ViewGroup.LayoutParams.MATCH_PARENT
+                            )
+                            horizontalScrollView.layoutParams = horizontalParams
+
+
+                        val parntVContainer = LinearLayout(this)
+                        parntVContainer.orientation = LinearLayout.VERTICAL
+                        val parntVlayParams = LinearLayout.LayoutParams(
+                            LinearLayout.LayoutParams.WRAP_CONTENT,
+                            LinearLayout.LayoutParams.WRAP_CONTENT
+                        )
+                        parntVlayParams.setMargins(0, 0, 0, 0)
+                        parntVContainer.setBackgroundResource(R.drawable.black_box)
+                        parntVContainer.layoutParams = parntVlayParams
+
                         val text1 = it.depthArr
                         text1.iterator().forEach {
                             val txt1 = it.subTitleContent
@@ -263,7 +308,7 @@ class HealthCenterRecords : AppCompatActivity() {
                                         LinearLayout.LayoutParams.MATCH_PARENT,
                                         LinearLayout.LayoutParams.WRAP_CONTENT
                                     )
-                                    layoutParams.setMargins(20, 0, 0, 0)
+                                    layoutParams.setMargins(0, 0, 0, 0)
                                     numberViewContainer.setBackgroundResource(R.drawable.black_box)
                                     numberViewContainer.layoutParams = layoutParams
 
@@ -275,7 +320,8 @@ class HealthCenterRecords : AppCompatActivity() {
                                     loopCountNum++
 
                                     //numberViewContainer.gravity = Gravity.CENTER
-                                    binding.miniAppFormContainer.addView(numberViewContainer)
+                                    //binding.miniAppFormContainer.addView(numberViewContainer)
+                                    parntVContainer.addView(numberViewContainer)
                                 }
                             }
 
@@ -288,7 +334,7 @@ class HealthCenterRecords : AppCompatActivity() {
                                     LinearLayout.LayoutParams.MATCH_PARENT,
                                     LinearLayout.LayoutParams.WRAP_CONTENT
                                 )
-                                layPrams.setMargins(20, 0, 0, 0)
+                                layPrams.setMargins(0, 0, 0, 0)
                                 numVContainer.setBackgroundResource(R.drawable.black_box)
                                 numVContainer.layoutParams = layPrams
 
@@ -301,11 +347,15 @@ class HealthCenterRecords : AppCompatActivity() {
                                 layRA++
 
                                 //numVContainer.gravity = Gravity.CENTER
-                                binding.miniAppFormContainer.addView(numVContainer)
+                                //binding.miniAppFormContainer.addView(numVContainer)
+                                parntVContainer.addView(numVContainer)
                             }
 
 
                         }
+
+                        horizontalScrollView.addView(parntVContainer)
+                        binding.miniAppFormContainer.addView(horizontalScrollView)
 
                     }
                 }
@@ -497,28 +547,12 @@ class HealthCenterRecords : AppCompatActivity() {
         //First - TextView container
         val num = LinearLayout(this)
         val lay = LinearLayout.LayoutParams(
-            0,
+            300,
             LinearLayout.LayoutParams.MATCH_PARENT
         )
         num.setPadding(5, 5, 5, 5)
         num.setBackgroundResource(R.drawable.black_box)
         num.layoutParams = lay
-        lay.weight = 1.0f
-
-
-     /*   if (luupSize == 1){
-            if (loopCount == 0){
-                lay.weight = 1.5f
-            }else{
-                lay.weight = 1.2f
-            }
-        }else{
-            if (loopCount == 0){
-                lay.weight = 1.5f
-            }else{
-                lay.weight = 0.6f
-            }
-        }*/
 
         var valueDummy = ""
 
@@ -550,28 +584,30 @@ class HealthCenterRecords : AppCompatActivity() {
                 textView.setTextColor(Color.BLACK)
                 textView.setPadding(5, 5, 5, 5)
                 textView.text = labelString?.let {
-                    valueDummy = it.toString()
+                    valueDummy = it
                     createStringForViewLabel(false, it+"") }
                 num.addView(textView)
             }
         }
-
+        numberViewContainer.addView(num)
+        num.gravity = Gravity.CENTER
 
         if (valueDummy == ""){
 
-            //Second - Checkbox group container
+            monthStrngs.iterator().forEach {
+
             val secondContainer = LinearLayout(this)
             secondContainer.orientation = LinearLayout.HORIZONTAL
             val secondLayoutParams = LinearLayout.LayoutParams(
                 150,
                 LinearLayout.LayoutParams.MATCH_PARENT
             )
-            secondLayoutParams.weight = 1.0f
             secondContainer.setPadding(5,5,5,5)
             secondContainer.setBackgroundResource(R.drawable.black_box)
             secondContainer.layoutParams = secondLayoutParams
+                secondContainer.gravity = Gravity.CENTER
 
-            monthStrngs.iterator().forEach {
+
                 val textView = TextView(this)
                 textView.textSize = 15f
                 textView.gravity = Gravity.CENTER
@@ -579,28 +615,30 @@ class HealthCenterRecords : AppCompatActivity() {
                 textView.setPadding(5, 5, 5, 5)
                 textView.text = createStringForViewLabel(false, it+"")
                 secondContainer.addView(textView)
+                numberViewContainer.addView(secondContainer)
+
             }
 
-            numberViewContainer.addView(secondContainer)
-            //secondContainer.gravity = Gravity.CENTER
 
 
 
-        }else{
 
+        }
+        else{
+
+            for (i in 1..12){
             //Second - Checkbox group container
             val secondContainer = LinearLayout(this)
             secondContainer.orientation = LinearLayout.HORIZONTAL
             val secondLayoutParams = LinearLayout.LayoutParams(
-                0,
+                150,
                 LinearLayout.LayoutParams.MATCH_PARENT
             )
-            secondLayoutParams.weight = 1.0f
             secondContainer.setPadding(5,5,5,5)
             secondContainer.setBackgroundResource(R.drawable.black_box)
             secondContainer.layoutParams = secondLayoutParams
 
-            for (i in 1..12){
+
                 //Second - container textView
                 val editTextParam = LinearLayout.LayoutParams(
                     100,
@@ -613,19 +651,16 @@ class HealthCenterRecords : AppCompatActivity() {
                 editText.setPadding(10, 10, 10, 10)
                 editText.inputType = InputType.TYPE_CLASS_NUMBER
                 editText.setBackgroundResource(R.drawable.boxcurved)
-                /*component.title?.let {
-                    editText.hint = it
-                }*/
-                var edtTxtNumM = 0
-                editText.setText(edtTxtNumM.toString())
+                val edtTxtNumM = 0
+                editText.text = edtTxtNumM.toString()
 
                 secondContainer.addView(editText)
+                numberViewContainer.addView(secondContainer)
+                secondContainer.gravity = Gravity.CENTER
             }
 
-            numberViewContainer.addView(secondContainer)
-            secondContainer.gravity = Gravity.CENTER
-        }
 
+        }
 
     }
 }
