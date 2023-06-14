@@ -3,6 +3,7 @@ package com.twinkle.dynamic_ms
 import android.graphics.Color
 import android.graphics.Typeface
 import android.os.Bundle
+import android.text.InputType
 import android.text.Spannable
 import android.text.SpannableString
 import android.text.SpannableStringBuilder
@@ -143,7 +144,7 @@ class HealthCenterRecords : AppCompatActivity() {
                             loopCountNum++
 
 
-                            numberViewContainer.gravity = Gravity.CENTER
+                            //numberViewContainer.gravity = Gravity.CENTER
                             binding.miniAppFormContainer.addView(numberViewContainer)
                         }
                     }
@@ -169,7 +170,7 @@ class HealthCenterRecords : AppCompatActivity() {
                         layRA++
 
                         //======================================================================================
-                        numVContainer.gravity = Gravity.CENTER
+                        //numVContainer.gravity = Gravity.CENTER
                         binding.miniAppFormContainer.addView(numVContainer)
                     }
 
@@ -273,7 +274,7 @@ class HealthCenterRecords : AppCompatActivity() {
                                     laySTC++
                                     loopCountNum++
 
-                                    numberViewContainer.gravity = Gravity.CENTER
+                                    //numberViewContainer.gravity = Gravity.CENTER
                                     binding.miniAppFormContainer.addView(numberViewContainer)
                                 }
                             }
@@ -299,7 +300,7 @@ class HealthCenterRecords : AppCompatActivity() {
                                 numRA++
                                 layRA++
 
-                                numVContainer.gravity = Gravity.CENTER
+                                //numVContainer.gravity = Gravity.CENTER
                                 binding.miniAppFormContainer.addView(numVContainer)
                             }
 
@@ -491,6 +492,7 @@ class HealthCenterRecords : AppCompatActivity() {
         numberViewContainer: LinearLayout,
         num: String, lay: String, loopCount: Int, luupSize: Int
     ) {
+        val monthStrngs = arrayOf("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 
         //First - TextView container
         val num = LinearLayout(this)
@@ -501,8 +503,10 @@ class HealthCenterRecords : AppCompatActivity() {
         num.setPadding(5, 5, 5, 5)
         num.setBackgroundResource(R.drawable.black_box)
         num.layoutParams = lay
+        lay.weight = 1.0f
 
-        if (luupSize == 1){
+
+     /*   if (luupSize == 1){
             if (loopCount == 0){
                 lay.weight = 1.5f
             }else{
@@ -514,7 +518,9 @@ class HealthCenterRecords : AppCompatActivity() {
             }else{
                 lay.weight = 0.6f
             }
-        }
+        }*/
+
+        var valueDummy = ""
 
         if (component.title != null) {
             component.title.let {labelString ->
@@ -523,7 +529,9 @@ class HealthCenterRecords : AppCompatActivity() {
                 textView.gravity = Gravity.CENTER
                 textView.setTextColor(Color.BLACK)
                 textView.setPadding(5, 5, 5, 5)
-                textView.text = labelString?.let { createStringForViewLabel(false, it+"") }
+                textView.text = labelString?.let {
+                    valueDummy = it.toString()
+                    createStringForViewLabel(false, it+"") }
                 try {
                     if (component.fontWeight.toString().toLowerCase() == "bold"){
                         textView.setTypeface(null, Typeface.BOLD);
@@ -541,14 +549,83 @@ class HealthCenterRecords : AppCompatActivity() {
                 textView.gravity = Gravity.CENTER
                 textView.setTextColor(Color.BLACK)
                 textView.setPadding(5, 5, 5, 5)
-                textView.text = labelString?.let { createStringForViewLabel(false, it+"") }
+                textView.text = labelString?.let {
+                    valueDummy = it.toString()
+                    createStringForViewLabel(false, it+"") }
                 num.addView(textView)
             }
         }
 
 
-        numberViewContainer.addView(num)
-        num.gravity = Gravity.CENTER
+        if (valueDummy == ""){
+
+            //Second - Checkbox group container
+            val secondContainer = LinearLayout(this)
+            secondContainer.orientation = LinearLayout.HORIZONTAL
+            val secondLayoutParams = LinearLayout.LayoutParams(
+                150,
+                LinearLayout.LayoutParams.MATCH_PARENT
+            )
+            secondLayoutParams.weight = 1.0f
+            secondContainer.setPadding(5,5,5,5)
+            secondContainer.setBackgroundResource(R.drawable.black_box)
+            secondContainer.layoutParams = secondLayoutParams
+
+            monthStrngs.iterator().forEach {
+                val textView = TextView(this)
+                textView.textSize = 15f
+                textView.gravity = Gravity.CENTER
+                textView.setTextColor(Color.BLACK)
+                textView.setPadding(5, 5, 5, 5)
+                textView.text = createStringForViewLabel(false, it+"")
+                secondContainer.addView(textView)
+            }
+
+            numberViewContainer.addView(secondContainer)
+            //secondContainer.gravity = Gravity.CENTER
+
+
+
+        }else{
+
+            //Second - Checkbox group container
+            val secondContainer = LinearLayout(this)
+            secondContainer.orientation = LinearLayout.HORIZONTAL
+            val secondLayoutParams = LinearLayout.LayoutParams(
+                0,
+                LinearLayout.LayoutParams.MATCH_PARENT
+            )
+            secondLayoutParams.weight = 1.0f
+            secondContainer.setPadding(5,5,5,5)
+            secondContainer.setBackgroundResource(R.drawable.black_box)
+            secondContainer.layoutParams = secondLayoutParams
+
+            for (i in 1..12){
+                //Second - container textView
+                val editTextParam = LinearLayout.LayoutParams(
+                    100,
+                    50
+                )
+                editTextParam.setMargins(10, 10, 10, 10)
+                val editText = TextView(this)
+                editText.layoutParams = editTextParam
+                editText.gravity = Gravity.CENTER
+                editText.setPadding(10, 10, 10, 10)
+                editText.inputType = InputType.TYPE_CLASS_NUMBER
+                editText.setBackgroundResource(R.drawable.boxcurved)
+                /*component.title?.let {
+                    editText.hint = it
+                }*/
+                var edtTxtNumM = 0
+                editText.setText(edtTxtNumM.toString())
+
+                secondContainer.addView(editText)
+            }
+
+            numberViewContainer.addView(secondContainer)
+            secondContainer.gravity = Gravity.CENTER
+        }
+
 
     }
 }
