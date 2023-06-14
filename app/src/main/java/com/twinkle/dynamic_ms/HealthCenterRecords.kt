@@ -60,22 +60,6 @@ class HealthCenterRecords : AppCompatActivity() {
 
         val json = intent.getStringExtra("tabValue")
 
-        months[0] = findViewById<View>(R.id.month1) as TextView
-        months[1] = findViewById<View>(R.id.month2) as TextView
-        months[2] = findViewById<View>(R.id.month3) as TextView
-        months[3] = findViewById<View>(R.id.month4) as TextView
-        months[4] = findViewById<View>(R.id.month5) as TextView
-        months[5] = findViewById<View>(R.id.month6) as TextView
-        months[6] = findViewById<View>(R.id.month7) as TextView
-        months[7] = findViewById<View>(R.id.month8) as TextView
-        months[8] = findViewById<View>(R.id.month9) as TextView
-        months[9] = findViewById<View>(R.id.month10) as TextView
-        months[10] = findViewById<View>(R.id.month11) as TextView
-        months[11] = findViewById<View>(R.id.month12) as TextView
-
-        for (i in 0..11)
-            months[i]?.text = monthNames[i]
-
         val `is` = resources.openRawResource(R.raw.bhuvi_sample)
         val writer: Writer = StringWriter()
         val buffer = CharArray(1024)
@@ -561,6 +545,7 @@ class HealthCenterRecords : AppCompatActivity() {
                 num.addView(textView)
             }
         }
+
 
         numberViewContainer.addView(num)
         num.gravity = Gravity.CENTER

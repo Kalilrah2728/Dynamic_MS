@@ -36,22 +36,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_043",
-                "fieldName": "HF_OP_NC_043",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Bold",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_043",
-                "fieldName": "HF_OP_NC_043",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Bold",
-                "type": "text"
               }
             ]
           },
@@ -65,22 +49,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_044",
-                "fieldName": "HF_OP_NC_044",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_044",
-                "fieldName": "HF_OP_NC_044",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -94,22 +62,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_045",
-                "fieldName": "HF_OP_NC_045",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_045",
-                "fieldName": "HF_OP_NC_045",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -123,22 +75,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_001",
-                "fieldName": "HF_OP_NC_001",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_001",
-                "fieldName": "HF_OP_NC_001",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -152,22 +88,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_002",
-                "fieldName": "HF_OP_NC_002",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_002",
-                "fieldName": "HF_OP_NC_002",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -181,22 +101,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_003",
-                "fieldName": "HF_OP_NC_003",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_003",
-                "fieldName": "HF_OP_NC_003",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -210,22 +114,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_004",
-                "fieldName": "HF_OP_NC_004",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_004",
-                "fieldName": "HF_OP_NC_004",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -239,22 +127,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_005",
-                "fieldName": "HF_OP_NC_005",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_005",
-                "fieldName": "HF_OP_NC_005",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -268,22 +140,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_006",
-                "fieldName": "HF_OP_NC_006",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_006",
-                "fieldName": "HF_OP_NC_006",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -297,22 +153,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_007",
-                "fieldName": "HF_OP_NC_007",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_007",
-                "fieldName": "HF_OP_NC_007",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -326,22 +166,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_008",
-                "fieldName": "HF_OP_NC_008",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_008",
-                "fieldName": "HF_OP_NC_008",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -355,22 +179,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_009",
-                "fieldName": "HF_OP_NC_009",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_009",
-                "fieldName": "HF_OP_NC_009",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -384,22 +192,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_010",
-                "fieldName": "HF_OP_NC_010",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_010",
-                "fieldName": "HF_OP_NC_010",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -413,22 +205,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_011",
-                "fieldName": "HF_OP_NC_011",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_011",
-                "fieldName": "HF_OP_NC_011",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -442,22 +218,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_012",
-                "fieldName": "HF_OP_NC_012",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_012",
-                "fieldName": "HF_OP_NC_012",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -471,22 +231,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_013",
-                "fieldName": "HF_OP_NC_013",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_013",
-                "fieldName": "HF_OP_NC_013",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -500,22 +244,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_014",
-                "fieldName": "HF_OP_NC_014",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_014",
-                "fieldName": "HF_OP_NC_014",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -529,22 +257,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_015",
-                "fieldName": "HF_OP_NC_015",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_015",
-                "fieldName": "HF_OP_NC_015",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -558,22 +270,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_016",
-                "fieldName": "HF_OP_NC_016",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_016",
-                "fieldName": "HF_OP_NC_016",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -587,22 +283,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_017",
-                "fieldName": "HF_OP_NC_017",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_017",
-                "fieldName": "HF_OP_NC_017",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -616,22 +296,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_018",
-                "fieldName": "HF_OP_NC_018",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_018",
-                "fieldName": "HF_OP_NC_018",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -645,22 +309,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_019",
-                "fieldName": "HF_OP_NC_019",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_019",
-                "fieldName": "HF_OP_NC_019",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -674,22 +322,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_020",
-                "fieldName": "HF_OP_NC_020",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_020",
-                "fieldName": "HF_OP_NC_020",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -703,22 +335,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_021",
-                "fieldName": "HF_OP_NC_021",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_021",
-                "fieldName": "HF_OP_NC_021",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -732,22 +348,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_022",
-                "fieldName": "HF_OP_NC_022",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_022",
-                "fieldName": "HF_OP_NC_022",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -761,22 +361,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_046",
-                "fieldName": "HF_OP_NC_046",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_046",
-                "fieldName": "HF_OP_NC_046",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -790,22 +374,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_047",
-                "fieldName": "HF_OP_NC_047",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_047",
-                "fieldName": "HF_OP_NC_047",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -819,22 +387,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_048",
-                "fieldName": "HF_OP_NC_048",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_048",
-                "fieldName": "HF_OP_NC_048",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -848,22 +400,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_025",
-                "fieldName": "HF_OP_NC_025",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_025",
-                "fieldName": "HF_OP_NC_025",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -877,22 +413,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_026",
-                "fieldName": "HF_OP_NC_026",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_026",
-                "fieldName": "HF_OP_NC_026",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -906,22 +426,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_027",
-                "fieldName": "HF_OP_NC_027",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_027",
-                "fieldName": "HF_OP_NC_027",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -935,22 +439,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_049",
-                "fieldName": "HF_OP_NC_049",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_049",
-                "fieldName": "HF_OP_NC_049",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -964,22 +452,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_050",
-                "fieldName": "HF_OP_NC_050",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_050",
-                "fieldName": "HF_OP_NC_050",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -993,22 +465,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_051",
-                "fieldName": "HF_OP_NC_051",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_051",
-                "fieldName": "HF_OP_NC_051",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1022,22 +478,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_052",
-                "fieldName": "HF_OP_NC_052",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_052",
-                "fieldName": "HF_OP_NC_052",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1051,22 +491,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_028",
-                "fieldName": "HF_OP_NC_028",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_028",
-                "fieldName": "HF_OP_NC_028",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1080,22 +504,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_029",
-                "fieldName": "HF_OP_NC_029",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_029",
-                "fieldName": "HF_OP_NC_029",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1109,22 +517,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_029",
-                "fieldName": "HF_OP_NC_029",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_029",
-                "fieldName": "HF_OP_NC_029",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1138,22 +530,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_029",
-                "fieldName": "HF_OP_NC_029",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_029",
-                "fieldName": "HF_OP_NC_029",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1167,22 +543,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_029",
-                "fieldName": "HF_OP_NC_029",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_029",
-                "fieldName": "HF_OP_NC_029",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1196,22 +556,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_033",
-                "fieldName": "HF_OP_NC_033",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_033",
-                "fieldName": "HF_OP_NC_033",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1225,22 +569,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_034",
-                "fieldName": "HF_OP_NC_034",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_034",
-                "fieldName": "HF_OP_NC_034",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1254,22 +582,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_035",
-                "fieldName": "HF_OP_NC_035",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_035",
-                "fieldName": "HF_OP_NC_035",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1283,22 +595,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_036",
-                "fieldName": "HF_OP_NC_036",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_036",
-                "fieldName": "HF_OP_NC_036",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1312,22 +608,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_037",
-                "fieldName": "HF_OP_NC_037",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_037",
-                "fieldName": "HF_OP_NC_037",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1341,22 +621,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_038",
-                "fieldName": "HF_OP_NC_038",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_038",
-                "fieldName": "HF_OP_NC_038",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1370,22 +634,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_039",
-                "fieldName": "HF_OP_NC_039",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_039",
-                "fieldName": "HF_OP_NC_039",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1399,22 +647,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_040",
-                "fieldName": "HF_OP_NC_040",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_040",
-                "fieldName": "HF_OP_NC_040",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1428,22 +660,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_041",
-                "fieldName": "HF_OP_NC_041",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_041",
-                "fieldName": "HF_OP_NC_041",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1457,22 +673,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC_042",
-                "fieldName": "HF_OP_NC_042",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC_042",
-                "fieldName": "HF_OP_NC_042",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           },
@@ -1486,22 +686,6 @@
                 "colspan": 0,
                 "fontWeight": "Normal",
                 "type": "label"
-              },
-              {
-                "fieldCode": "HF_OP_NC",
-                "fieldName": "HF_OP_NC",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
-              },
-              {
-                "fieldCode": "HF_OP_NC",
-                "fieldName": "HF_OP_NC",
-                "rowspan": 0,
-                "colspan": 0,
-                "fontWeight": "Normal",
-                "type": "text"
               }
             ]
           }
