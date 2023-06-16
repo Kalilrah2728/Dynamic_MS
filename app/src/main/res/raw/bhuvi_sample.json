@@ -778,78 +778,17 @@
         "postition": "left",
         "display": "n",
         "subTitleDepth": 2,
-        "subTitleContent": [
-          {
-            "subTitleContentDepth": 3,
-            "subTitleArr": [
-              {
-                "title": "INPATIENTS",
-                "fontWeight": "Bold",
-                "rowspan": 2,
-                "colspan": 0,
-                "type": "label"
-              },
-              {
-                "title": "Discharges",
-                "fontWeight": "Bold",
-                "rowspan": 0,
-                "colspan": 2,
-                "type": "label"
-              },
-              {
-                "title": "Deaths",
-                "fontWeight": "Bold",
-                "rowspan": 0,
-                "colspan": 2,
-                "type": "label"
-              }
-            ]
-          },
-          {
-            "subTitleContentDepth": 5,
-            "subTitleArr": [
-              {
-                "title": "",
-                "rowspan": 0,
-                "colspan": 2,
-                "type": "label"
-              },
-              {
-                "title": "Male",
-                "fontWeight": "Bold",
-                "rowspan": 0,
-                "colspan": 0,
-                "type": "label"
-              },
-              {
-                "title": "Female",
-                "fontWeight": "Bold",
-                "rowspan": 0,
-                "colspan": 0,
-                "type": "label"
-              },
-              {
-                "title": "Male",
-                "fontWeight": "Bold",
-                "rowspan": 0,
-                "colspan": 0,
-                "type": "label"
-              },
-              {
-                "title": "Female",
-                "fontWeight": "Bold",
-                "rowspan": 0,
-                "colspan": 0,
-                "type": "label"
-              }
-            ]
-          }
-        ],
         "rowDepth": 4,
         "rowArr": [
           {
             "dataColDepth": 5,
             "dataColRows": [
+              {
+                "fieldCode": "INP1",
+                "fieldName": "Diphtheria",
+                "fontWeight": "Normal",
+                "type": "label"
+              },
               {
                 "fieldCode": "INP1",
                 "fieldName": "Diphtheria",

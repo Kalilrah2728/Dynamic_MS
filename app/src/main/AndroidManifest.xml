@@ -14,13 +14,14 @@
         android:theme="@style/Theme.Dynamic_MS"
         tools:targetApi="31">
         <activity
+            android:name=".AidPostActivity"
+            android:exported="false" />
+        <activity
             android:name=".model.HealthCenterRecord"
             android:exported="false" />
-
         <activity
             android:name=".HealthCenterRecords"
             android:exported="false" />
-
         <activity
             android:name=".MonthlySummary"
             android:exported="false">

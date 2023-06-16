@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val healthRecordBtn = findViewById(R.id.health_record_btn) as Button
 
 
-        val `is` = resources.openRawResource(R.raw.horizontal_tab_hc)
+        val `is` = resources.openRawResource(R.raw.horizontal_tab_aidpost)
         val writer: Writer = StringWriter()
         val buffer = CharArray(1024)
         try {
@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
 
 
         healthRecordBtn.setOnClickListener {
-            intent = Intent(this@MainActivity, HealthCenterRecords::class.java)
+            intent = Intent(this@MainActivity, AidPostActivity::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_NO_ANIMATION
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
             intent.action = Intent.ACTION_VIEW

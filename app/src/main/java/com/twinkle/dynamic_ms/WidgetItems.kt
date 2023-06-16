@@ -23,6 +23,8 @@ enum class WidgetItems(val label: String) {
     EDITTEXT("editText"),
     DATETEXT("dateText"),
     NUMBERONE("numberone"),
+    TABLETITLE("tabletitle"),
+    NUMBERHEALTH("numberhealth"),
     FEMALE("female"),
     MALE("male"),
     TAB("tab"),
