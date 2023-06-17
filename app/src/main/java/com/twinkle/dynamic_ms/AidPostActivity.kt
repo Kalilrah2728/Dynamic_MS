@@ -1078,7 +1078,7 @@ class AidPostActivity : AppCompatActivity() {
         negativeButton.gravity = Gravity.CENTER
         negativeButton.setTextColor(textColor)
         negativeButton.layoutParams = textParams
-        negativeButton.setBackgroundResource(R.drawable.minus_pink)
+        negativeButton.setBackgroundResource(R.drawable.minus_green)
 
 
         var edtTxtNumN = 0
@@ -1116,7 +1116,7 @@ class AidPostActivity : AppCompatActivity() {
         positiveButton.gravity = Gravity.CENTER
         positiveButton.setTextColor(textColor)
         positiveButton.layoutParams = textParams1
-        positiveButton.setBackgroundResource(R.drawable.plus_pink)
+        positiveButton.setBackgroundResource(R.drawable.plus_green)
 
 
         //ClickListener for positive button
@@ -1139,7 +1139,7 @@ class AidPostActivity : AppCompatActivity() {
         calculatorButton.text = ""
         calculatorButton.gravity = Gravity.END
         calculatorButton.layoutParams = textParams12
-        calculatorButton.setBackgroundResource(R.drawable.calc_pink)
+        calculatorButton.setBackgroundResource(R.drawable.calc_green)
         calculatorButton.setOnClickListener {
             Toast.makeText(this, "Pressed Calculator", Toast.LENGTH_SHORT).show()
         }
